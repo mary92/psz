@@ -1,0 +1,2004 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY owl2xml "http://www.w3.org/2006/12/owl2-xml#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY coffee "http://www.coffee.com/ontologies/coffee.owl#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.coffee.com/ontologies/coffee.owl#"
+     xml:base="http://www.coffee.com/ontologies/coffee.owl"
+     xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:coffee="http://www.coffee.com/ontologies/coffee.owl#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#">
+    <owl:Ontology rdf:about="">
+        <rdfs:comment
+            >A coffee ontology that describes various coffees based on their base ingredient.</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#hasBase -->
+
+    <owl:ObjectProperty rdf:about="#hasBase">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:range rdf:resource="#Base"/>
+        <rdfs:domain rdf:resource="#Coffee"/>
+        <rdfs:subPropertyOf rdf:resource="#hasIngredient"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#hasCountryOfOrigin -->
+
+    <owl:ObjectProperty rdf:about="#hasCountryOfOrigin">
+        <rdfs:domain rdf:resource="#Coffee"/>
+        <rdfs:range rdf:resource="#Country"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#hasExtras -->
+
+    <owl:ObjectProperty rdf:about="#hasExtras">
+        <rdf:type rdf:resource="&owl;InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="#Coffee"/>
+        <rdfs:range rdf:resource="#Extras"/>
+        <rdfs:subPropertyOf rdf:resource="#hasIngredient"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#hasIngredient -->
+
+    <owl:ObjectProperty rdf:about="#hasIngredient"/>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#hasTemperature -->
+
+    <owl:ObjectProperty rdf:about="#hasTemperature">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:domain rdf:resource="#Coffee"/>
+        <rdfs:range rdf:resource="#Temperature"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#AlmondLiqueuer -->
+
+    <owl:Class rdf:about="#AlmondLiqueuer">
+        <rdfs:subClassOf rdf:resource="#Liquor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Bannana -->
+
+    <owl:Class rdf:about="#Bannana">
+        <rdfs:subClassOf rdf:resource="#Fruits"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Base -->
+
+    <owl:Class rdf:about="#Base"/>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#BlackForestMocha -->
+
+    <owl:Class rdf:about="#BlackForestMocha">
+        <rdfs:subClassOf rdf:resource="#NamedCoffee"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasTemperature"/>
+                <owl:someValuesFrom rdf:resource="#Hot"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#Cherry"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasBase"/>
+                <owl:someValuesFrom rdf:resource="#Mocha"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#Chocolate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#CafeFredo -->
+
+    <owl:Class rdf:about="#CafeFredo">
+        <rdfs:subClassOf rdf:resource="#NamedCoffee"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#Vanilla"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasTemperature"/>
+                <owl:someValuesFrom rdf:resource="#Cold"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasBase"/>
+                <owl:someValuesFrom rdf:resource="#Espresso"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#CaffeLatte -->
+
+    <owl:Class rdf:about="#CaffeLatte">
+        <rdfs:subClassOf rdf:resource="#NamedCoffee"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasTemperature"/>
+                <owl:someValuesFrom rdf:resource="#Hot"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasBase"/>
+                <owl:someValuesFrom rdf:resource="#Espresso"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#HotMilk"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Cappuccino -->
+
+    <owl:Class rdf:about="#Cappuccino">
+        <rdfs:subClassOf rdf:resource="#NamedCoffee"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasTemperature"/>
+                <owl:someValuesFrom rdf:resource="#Hot"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#MilkFoam"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#ColdMilk"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasBase"/>
+                <owl:someValuesFrom rdf:resource="#Espresso"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Caramel -->
+
+    <owl:Class rdf:about="#Caramel">
+        <rdfs:subClassOf rdf:resource="#Miscellaneous"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#CaramelMocha -->
+
+    <owl:Class rdf:about="#CaramelMocha">
+        <rdfs:subClassOf rdf:resource="#NamedCoffee"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#Caramel"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasBase"/>
+                <owl:someValuesFrom rdf:resource="#Mocha"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasTemperature"/>
+                <owl:someValuesFrom rdf:resource="#Hot"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Cherry -->
+
+    <owl:Class rdf:about="#Cherry">
+        <rdfs:subClassOf rdf:resource="#Fruits"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#CherryBrandyMocha -->
+
+    <owl:Class rdf:about="#CherryBrandyMocha">
+        <rdfs:subClassOf rdf:resource="#NamedCoffee"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasTemperature"/>
+                <owl:someValuesFrom rdf:resource="#Hot"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasBase"/>
+                <owl:someValuesFrom rdf:resource="#Mocha"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#CherryLiqueuer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#CherryLiqueuer -->
+
+    <owl:Class rdf:about="#CherryLiqueuer">
+        <rdfs:subClassOf rdf:resource="#Liquor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Chocolate -->
+
+    <owl:Class rdf:about="#Chocolate">
+        <rdfs:subClassOf rdf:resource="#Miscellaneous"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#ChrushedIce -->
+
+    <owl:Class rdf:about="#ChrushedIce">
+        <rdfs:subClassOf rdf:resource="#Miscellaneous"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Coffee -->
+
+    <owl:Class rdf:about="#Coffee">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasBase"/>
+                <owl:someValuesFrom rdf:resource="#Base"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#ColCaramelCoffee -->
+
+    <owl:Class rdf:about="#ColCaramelCoffee">
+        <rdfs:subClassOf rdf:resource="#NamedCoffee"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#PlainCream"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasTemperature"/>
+                <owl:someValuesFrom rdf:resource="#Hot"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#Caramel"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasBase"/>
+                <owl:someValuesFrom rdf:resource="#Filter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasCountryOfOrigin"/>
+                <owl:hasValue rdf:resource="#Colombia"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#ColCreamCoffee -->
+
+    <owl:Class rdf:about="#ColCreamCoffee">
+        <rdfs:subClassOf rdf:resource="#NamedCoffee"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#PlainCream"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasBase"/>
+                <owl:someValuesFrom rdf:resource="#Filter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#WhippedCream"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasCountryOfOrigin"/>
+                <owl:hasValue rdf:resource="#Colombia"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasTemperature"/>
+                <owl:someValuesFrom rdf:resource="#Hot"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#ColFilterCoffee -->
+
+    <owl:Class rdf:about="#ColFilterCoffee">
+        <rdfs:subClassOf rdf:resource="#NamedCoffee"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasCountryOfOrigin"/>
+                <owl:hasValue rdf:resource="#Colombia"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasBase"/>
+                <owl:someValuesFrom rdf:resource="#Filter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasTemperature"/>
+                <owl:someValuesFrom rdf:resource="#Hot"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#ColIceCoffee -->
+
+    <owl:Class rdf:about="#ColIceCoffee">
+        <rdfs:subClassOf rdf:resource="#NamedCoffee"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasCountryOfOrigin"/>
+                <owl:hasValue rdf:resource="#Colombia"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasBase"/>
+                <owl:someValuesFrom rdf:resource="#Filter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#AlmondLiqueuer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasTemperature"/>
+                <owl:someValuesFrom rdf:resource="#Cold"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#IceCream"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#PlainCream"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#ColdMilk"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#ColIceFilter -->
+
+    <owl:Class rdf:about="#ColIceFilter">
+        <rdfs:subClassOf rdf:resource="#NamedCoffee"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#ColdMilk"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasBase"/>
+                <owl:someValuesFrom rdf:resource="#Filter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasCountryOfOrigin"/>
+                <owl:hasValue rdf:resource="#Colombia"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#ChrushedIce"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasTemperature"/>
+                <owl:someValuesFrom rdf:resource="#Cold"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#ColJamaicaIceCoffee -->
+
+    <owl:Class rdf:about="#ColJamaicaIceCoffee">
+        <rdfs:subClassOf rdf:resource="#NamedCoffee"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasCountryOfOrigin"/>
+                <owl:hasValue rdf:resource="#Colombia"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasBase"/>
+                <owl:someValuesFrom rdf:resource="#Filter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#Rum"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasTemperature"/>
+                <owl:someValuesFrom rdf:resource="#Cold"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#IceCream"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#PlainCream"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Cold -->
+
+    <owl:Class rdf:about="#Cold">
+        <rdfs:subClassOf rdf:resource="#Temperature"/>
+        <owl:disjointWith rdf:resource="#Hot"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#ColdCoffee -->
+
+    <owl:Class rdf:about="#ColdCoffee">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="#Coffee"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#hasTemperature"/>
+                        <owl:someValuesFrom rdf:resource="#Cold"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#ColdMilk -->
+
+    <owl:Class rdf:about="#ColdMilk">
+        <rdfs:subClassOf rdf:resource="#Milk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#ColombiaCoffee -->
+
+    <owl:Class rdf:about="#ColombiaCoffee">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="#Coffee"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#hasCountryOfOrigin"/>
+                        <owl:hasValue rdf:resource="#Colombia"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#ColombiaFilter -->
+
+    <owl:Class rdf:about="#ColombiaFilter">
+        <rdfs:subClassOf rdf:resource="#Filter"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#CondensedMilk -->
+
+    <owl:Class rdf:about="#CondensedMilk">
+        <rdfs:subClassOf rdf:resource="#Milk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Country -->
+
+    <owl:Class rdf:about="#Country">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="#Guatemala"/>
+                    <rdf:Description rdf:about="#Honduras"/>
+                    <rdf:Description rdf:about="#Colombia"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Cream -->
+
+    <owl:Class rdf:about="#Cream">
+        <rdfs:subClassOf rdf:resource="#Extras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#DailyShot -->
+
+    <owl:Class rdf:about="#DailyShot">
+        <rdfs:subClassOf rdf:resource="#NamedCoffee"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasBase"/>
+                <owl:someValuesFrom rdf:resource="#Espresso"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#CondensedMilk"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasTemperature"/>
+                <owl:someValuesFrom rdf:resource="#Hot"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Espresso -->
+
+    <owl:Class rdf:about="#Espresso">
+        <rdfs:subClassOf rdf:resource="#Base"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#EspressoCoffee -->
+
+    <owl:Class rdf:about="#EspressoCoffee">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="#Coffee"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#hasBase"/>
+                        <owl:someValuesFrom rdf:resource="#Espresso"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#EspressoConPanna -->
+
+    <owl:Class rdf:about="#EspressoConPanna">
+        <rdfs:subClassOf rdf:resource="#NamedCoffee"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasBase"/>
+                <owl:someValuesFrom rdf:resource="#Espresso"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasTemperature"/>
+                <owl:someValuesFrom rdf:resource="#Hot"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#PlainCream"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#EspressoDoppio -->
+
+    <owl:Class rdf:about="#EspressoDoppio">
+        <rdfs:subClassOf rdf:resource="#NamedCoffee"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasBase"/>
+                <owl:someValuesFrom rdf:resource="#Espresso"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasTemperature"/>
+                <owl:someValuesFrom rdf:resource="#Hot"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#EspressoMacchiato -->
+
+    <owl:Class rdf:about="#EspressoMacchiato">
+        <rdfs:subClassOf rdf:resource="#NamedCoffee"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasTemperature"/>
+                <owl:someValuesFrom rdf:resource="#Hot"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasBase"/>
+                <owl:someValuesFrom rdf:resource="#Espresso"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#MilkFoam"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#EspressoRomano -->
+
+    <owl:Class rdf:about="#EspressoRomano">
+        <rdfs:subClassOf rdf:resource="#NamedCoffee"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#LemonZest"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasBase"/>
+                <owl:someValuesFrom rdf:resource="#Espresso"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasTemperature"/>
+                <owl:someValuesFrom rdf:resource="#Hot"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Extras -->
+
+    <owl:Class rdf:about="#Extras"/>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Filter -->
+
+    <owl:Class rdf:about="#Filter">
+        <rdfs:subClassOf rdf:resource="#Base"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#FilterCoffee -->
+
+    <owl:Class rdf:about="#FilterCoffee">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="#Coffee"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#hasBase"/>
+                        <owl:someValuesFrom rdf:resource="#Filter"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#hasCountryOfOrigin"/>
+                        <owl:someValuesFrom rdf:resource="#Country"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Fruits -->
+
+    <owl:Class rdf:about="#Fruits">
+        <rdfs:subClassOf rdf:resource="#Extras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Ginger -->
+
+    <owl:Class rdf:about="#Ginger">
+        <rdfs:subClassOf rdf:resource="#Herbs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#GingerbreadLatte -->
+
+    <owl:Class rdf:about="#GingerbreadLatte">
+        <rdfs:subClassOf rdf:resource="#NamedCoffee"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasTemperature"/>
+                <owl:someValuesFrom rdf:resource="#Hot"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#ColdMilk"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#PlainCream"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasBase"/>
+                <owl:someValuesFrom rdf:resource="#Espresso"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#Ginger"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#GuaCaramelCoffee -->
+
+    <owl:Class rdf:about="#GuaCaramelCoffee">
+        <rdfs:subClassOf rdf:resource="#NamedCoffee"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasBase"/>
+                <owl:someValuesFrom rdf:resource="#Filter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasTemperature"/>
+                <owl:someValuesFrom rdf:resource="#Hot"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#PlainCream"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasCountryOfOrigin"/>
+                <owl:hasValue rdf:resource="#Guatemala"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#Caramel"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#GuaCreamCoffee -->
+
+    <owl:Class rdf:about="#GuaCreamCoffee">
+        <rdfs:subClassOf rdf:resource="#NamedCoffee"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasCountryOfOrigin"/>
+                <owl:hasValue rdf:resource="#Guatemala"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#WhippedCream"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasBase"/>
+                <owl:someValuesFrom rdf:resource="#Filter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasTemperature"/>
+                <owl:someValuesFrom rdf:resource="#Hot"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#PlainCream"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#GuaFilterCoffee -->
+
+    <owl:Class rdf:about="#GuaFilterCoffee">
+        <rdfs:subClassOf rdf:resource="#NamedCoffee"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasBase"/>
+                <owl:someValuesFrom rdf:resource="#Filter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasTemperature"/>
+                <owl:someValuesFrom rdf:resource="#Hot"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasCountryOfOrigin"/>
+                <owl:hasValue rdf:resource="#Guatemala"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#GuaIceCoffee -->
+
+    <owl:Class rdf:about="#GuaIceCoffee">
+        <rdfs:subClassOf rdf:resource="#NamedCoffee"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasBase"/>
+                <owl:someValuesFrom rdf:resource="#Filter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#PlainCream"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#IceCream"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#AlmondLiqueuer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasCountryOfOrigin"/>
+                <owl:hasValue rdf:resource="#Guatemala"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#ColdMilk"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasTemperature"/>
+                <owl:someValuesFrom rdf:resource="#Cold"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#GuaIceFilter -->
+
+    <owl:Class rdf:about="#GuaIceFilter">
+        <rdfs:subClassOf rdf:resource="#NamedCoffee"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasTemperature"/>
+                <owl:someValuesFrom rdf:resource="#Cold"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasBase"/>
+                <owl:someValuesFrom rdf:resource="#Filter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#ChrushedIce"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasCountryOfOrigin"/>
+                <owl:hasValue rdf:resource="#Guatemala"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#ColdMilk"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#GuaJamaicaIceCoffee -->
+
+    <owl:Class rdf:about="#GuaJamaicaIceCoffee">
+        <rdfs:subClassOf rdf:resource="#NamedCoffee"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#PlainCream"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasTemperature"/>
+                <owl:someValuesFrom rdf:resource="#Cold"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#Rum"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasBase"/>
+                <owl:someValuesFrom rdf:resource="#Filter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#IceCream"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasCountryOfOrigin"/>
+                <owl:hasValue rdf:resource="#Guatemala"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#GuatemalaCoffee -->
+
+    <owl:Class rdf:about="#GuatemalaCoffee">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="#Coffee"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#hasCountryOfOrigin"/>
+                        <owl:hasValue rdf:resource="#Guatemala"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#GuatemalaFilter -->
+
+    <owl:Class rdf:about="#GuatemalaFilter">
+        <rdfs:subClassOf rdf:resource="#Filter"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Herbs -->
+
+    <owl:Class rdf:about="#Herbs">
+        <rdfs:subClassOf rdf:resource="#Extras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#HonCaramelCoffee -->
+
+    <owl:Class rdf:about="#HonCaramelCoffee">
+        <rdfs:subClassOf rdf:resource="#NamedCoffee"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasCountryOfOrigin"/>
+                <owl:hasValue rdf:resource="#Honduras"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasTemperature"/>
+                <owl:someValuesFrom rdf:resource="#Hot"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#Caramel"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#PlainCream"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasBase"/>
+                <owl:someValuesFrom rdf:resource="#Filter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#HonCreamCoffee -->
+
+    <owl:Class rdf:about="#HonCreamCoffee">
+        <rdfs:subClassOf rdf:resource="#NamedCoffee"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#PlainCream"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasBase"/>
+                <owl:someValuesFrom rdf:resource="#Filter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasCountryOfOrigin"/>
+                <owl:hasValue rdf:resource="#Honduras"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasTemperature"/>
+                <owl:someValuesFrom rdf:resource="#Hot"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#WhippedCream"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#HonFilterCoffee -->
+
+    <owl:Class rdf:about="#HonFilterCoffee">
+        <rdfs:subClassOf rdf:resource="#NamedCoffee"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasBase"/>
+                <owl:someValuesFrom rdf:resource="#Filter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasCountryOfOrigin"/>
+                <owl:hasValue rdf:resource="#Honduras"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasTemperature"/>
+                <owl:someValuesFrom rdf:resource="#Hot"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#HonIceCoffee -->
+
+    <owl:Class rdf:about="#HonIceCoffee">
+        <rdfs:subClassOf rdf:resource="#NamedCoffee"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasCountryOfOrigin"/>
+                <owl:hasValue rdf:resource="#Honduras"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#IceCream"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#ColdMilk"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasBase"/>
+                <owl:someValuesFrom rdf:resource="#Filter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasTemperature"/>
+                <owl:someValuesFrom rdf:resource="#Cold"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#AlmondLiqueuer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#PlainCream"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#HonIceFilter -->
+
+    <owl:Class rdf:about="#HonIceFilter">
+        <rdfs:subClassOf rdf:resource="#NamedCoffee"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasCountryOfOrigin"/>
+                <owl:hasValue rdf:resource="#Honduras"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasBase"/>
+                <owl:someValuesFrom rdf:resource="#Filter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#ColdMilk"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasTemperature"/>
+                <owl:someValuesFrom rdf:resource="#Cold"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#ChrushedIce"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#HonJamaicaIceCoffee -->
+
+    <owl:Class rdf:about="#HonJamaicaIceCoffee">
+        <rdfs:subClassOf rdf:resource="#NamedCoffee"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#IceCream"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasCountryOfOrigin"/>
+                <owl:hasValue rdf:resource="#Honduras"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#Rum"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#PlainCream"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasBase"/>
+                <owl:someValuesFrom rdf:resource="#Filter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasTemperature"/>
+                <owl:someValuesFrom rdf:resource="#Cold"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#HondurasCoffee -->
+
+    <owl:Class rdf:about="#HondurasCoffee">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="#Coffee"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#hasCountryOfOrigin"/>
+                        <owl:hasValue rdf:resource="#Honduras"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#HondurasFilter -->
+
+    <owl:Class rdf:about="#HondurasFilter">
+        <rdfs:subClassOf rdf:resource="#Filter"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Hot -->
+
+    <owl:Class rdf:about="#Hot">
+        <rdfs:subClassOf rdf:resource="#Temperature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#HotCoffee -->
+
+    <owl:Class rdf:about="#HotCoffee">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="#Coffee"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#hasTemperature"/>
+                        <owl:someValuesFrom rdf:resource="#Hot"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#HotMilk -->
+
+    <owl:Class rdf:about="#HotMilk">
+        <rdfs:subClassOf rdf:resource="#Milk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#IceCream -->
+
+    <owl:Class rdf:about="#IceCream">
+        <rdfs:subClassOf rdf:resource="#Miscellaneous"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#IcedCaffeLatte -->
+
+    <owl:Class rdf:about="#IcedCaffeLatte">
+        <rdfs:subClassOf rdf:resource="#NamedCoffee"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#ChrushedIce"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#ColdMilk"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasTemperature"/>
+                <owl:someValuesFrom rdf:resource="#Cold"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasBase"/>
+                <owl:someValuesFrom rdf:resource="#Espresso"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#IcedEspresso -->
+
+    <owl:Class rdf:about="#IcedEspresso">
+        <rdfs:subClassOf rdf:resource="#NamedCoffee"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#PlainCream"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#ColdMilk"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#Chocolate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasBase"/>
+                <owl:someValuesFrom rdf:resource="#Espresso"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasTemperature"/>
+                <owl:someValuesFrom rdf:resource="#Cold"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#IcedMocha -->
+
+    <owl:Class rdf:about="#IcedMocha">
+        <rdfs:subClassOf rdf:resource="#NamedCoffee"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#PlainCream"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasBase"/>
+                <owl:someValuesFrom rdf:resource="#Mocha"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#ColdMilk"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasTemperature"/>
+                <owl:someValuesFrom rdf:resource="#Cold"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#Chocolate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#IrishCoffee -->
+
+    <owl:Class rdf:about="#IrishCoffee">
+        <rdfs:subClassOf rdf:resource="#NamedCoffee"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasTemperature"/>
+                <owl:someValuesFrom rdf:resource="#Hot"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#Whiskey"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#PlainCream"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasBase"/>
+                <owl:someValuesFrom rdf:resource="#Espresso"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#LatteMacchiato -->
+
+    <owl:Class rdf:about="#LatteMacchiato">
+        <rdfs:subClassOf rdf:resource="#NamedCoffee"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasTemperature"/>
+                <owl:someValuesFrom rdf:resource="#Hot"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#HotMilk"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#MilkFoam"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasBase"/>
+                <owl:someValuesFrom rdf:resource="#Espresso"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#LemonZest -->
+
+    <owl:Class rdf:about="#LemonZest">
+        <rdfs:subClassOf rdf:resource="#Fruits"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Liquor -->
+
+    <owl:Class rdf:about="#Liquor">
+        <rdfs:subClassOf rdf:resource="#Extras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Milk -->
+
+    <owl:Class rdf:about="#Milk">
+        <rdfs:subClassOf rdf:resource="#Extras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#MilkFoam -->
+
+    <owl:Class rdf:about="#MilkFoam">
+        <rdfs:subClassOf rdf:resource="#Milk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Miscellaneous -->
+
+    <owl:Class rdf:about="#Miscellaneous">
+        <rdfs:subClassOf rdf:resource="#Extras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Mocha -->
+
+    <owl:Class rdf:about="#Mocha">
+        <rdfs:subClassOf rdf:resource="#Base"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#MochaCoffee -->
+
+    <owl:Class rdf:about="#MochaCoffee">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="#Coffee"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#hasBase"/>
+                        <owl:someValuesFrom rdf:resource="#Mocha"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#MonkeyMocha -->
+
+    <owl:Class rdf:about="#MonkeyMocha">
+        <rdfs:subClassOf rdf:resource="#NamedCoffee"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasBase"/>
+                <owl:someValuesFrom rdf:resource="#Mocha"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#Bannana"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasTemperature"/>
+                <owl:someValuesFrom rdf:resource="#Hot"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#NamedCoffee -->
+
+    <owl:Class rdf:about="#NamedCoffee">
+        <rdfs:subClassOf rdf:resource="#Coffee"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#OrangeMocha -->
+
+    <owl:Class rdf:about="#OrangeMocha">
+        <rdfs:subClassOf rdf:resource="#NamedCoffee"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasBase"/>
+                <owl:someValuesFrom rdf:resource="#Mocha"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasTemperature"/>
+                <owl:someValuesFrom rdf:resource="#Hot"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#Chocolate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Peppermint -->
+
+    <owl:Class rdf:about="#Peppermint">
+        <rdfs:subClassOf rdf:resource="#Herbs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#PeppermintMocha -->
+
+    <owl:Class rdf:about="#PeppermintMocha">
+        <rdfs:subClassOf rdf:resource="#NamedCoffee"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasBase"/>
+                <owl:someValuesFrom rdf:resource="#Mocha"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasTemperature"/>
+                <owl:someValuesFrom rdf:resource="#Hot"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasExtras"/>
+                <owl:someValuesFrom rdf:resource="#Peppermint"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#PlainCream -->
+
+    <owl:Class rdf:about="#PlainCream">
+        <rdfs:subClassOf rdf:resource="#Cream"/>
+        <owl:disjointWith rdf:resource="#WhippedCream"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#PlainEspresso -->
+
+    <owl:Class rdf:about="#PlainEspresso">
+        <rdfs:subClassOf rdf:resource="#NamedCoffee"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasTemperature"/>
+                <owl:someValuesFrom rdf:resource="#Hot"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasBase"/>
+                <owl:someValuesFrom rdf:resource="#Espresso"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Rum -->
+
+    <owl:Class rdf:about="#Rum">
+        <rdfs:subClassOf rdf:resource="#Liquor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Temperature -->
+
+    <owl:Class rdf:about="#Temperature">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="#Cold"/>
+                    <rdf:Description rdf:about="#Hot"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Vanilla -->
+
+    <owl:Class rdf:about="#Vanilla">
+        <rdfs:subClassOf rdf:resource="#Herbs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#WhippedCream -->
+
+    <owl:Class rdf:about="#WhippedCream">
+        <rdfs:subClassOf rdf:resource="#Cream"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Whiskey -->
+
+    <owl:Class rdf:about="#Whiskey">
+        <rdfs:subClassOf rdf:resource="#Liquor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <owl:Class rdf:about="&owl;Thing"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Colombia -->
+
+    <owl:Thing rdf:about="#Colombia"/>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Guatemala -->
+
+    <owl:Thing rdf:about="#Guatemala"/>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Honduras -->
+
+    <owl:Thing rdf:about="#Honduras"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="#Cream"/>
+            <rdf:Description rdf:about="#Fruits"/>
+            <rdf:Description rdf:about="#Herbs"/>
+            <rdf:Description rdf:about="#Liquor"/>
+            <rdf:Description rdf:about="#Milk"/>
+            <rdf:Description rdf:about="#Miscellaneous"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="#Caramel"/>
+            <rdf:Description rdf:about="#Chocolate"/>
+            <rdf:Description rdf:about="#ChrushedIce"/>
+            <rdf:Description rdf:about="#IceCream"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="#AlmondLiqueuer"/>
+            <rdf:Description rdf:about="#CherryLiqueuer"/>
+            <rdf:Description rdf:about="#Rum"/>
+            <rdf:Description rdf:about="#Whiskey"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="#ColombiaFilter"/>
+            <rdf:Description rdf:about="#GuatemalaFilter"/>
+            <rdf:Description rdf:about="#HondurasFilter"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="#Bannana"/>
+            <rdf:Description rdf:about="#Cherry"/>
+            <rdf:Description rdf:about="#LemonZest"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="#EspressoCoffee"/>
+            <rdf:Description rdf:about="#FilterCoffee"/>
+            <rdf:Description rdf:about="#MochaCoffee"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="#Espresso"/>
+            <rdf:Description rdf:about="#Filter"/>
+            <rdf:Description rdf:about="#Mocha"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="#ColdMilk"/>
+            <rdf:Description rdf:about="#CondensedMilk"/>
+            <rdf:Description rdf:about="#HotMilk"/>
+            <rdf:Description rdf:about="#MilkFoam"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 2.2.1.1138) http://owlapi.sourceforge.net -->
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PizzaFinderPrefs>
+    <OntologyLocation url="file:///Users/drummond/Desktop/PizzaFinder/pizza-latest.owl"/>
+	<PizzaClass name="NamedPizza"/>
+	<VegetarianPizzaClass name="VegetarianPizza"/>
+	<SpicyPizzaClass name="SpicyPizza"/>
+	<ToppingClass name="PizzaTopping"/>
+	<ToppingProperty name="hasTopping"/>
+    <PizzaSizeProperty name="hasPizzaSize"/>
+</PizzaFinderPrefs>

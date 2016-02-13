@@ -1,0 +1,3078 @@
+Manifest-Version: 1.0
+Created-By: IntelliJ IDEA
+
+Name: org/coode/owl/rdfxml/parser/OWLRDFConsumer.class
+SHA1-Digest: 7PqxQyQSmMkry5Hjq+K7x3f5a2M=
+
+Name: org/semanticweb/owl/model/OWLObject.class
+SHA1-Digest: GLiDJ7YD8Cyi4egHMKf4QCnKnKU=
+
+Name: org/coode/obo/parser/OBOParserConstants.class
+SHA1-Digest: 6tJ5wLT+ObUe9MpEDLJiHU3cYX8=
+
+Name: edu/unika/aifb/rdf/api/syntax/RDFParser$EmptyPropertyElement.cla
+ ss
+SHA1-Digest: HTeBHbztMA+6y3WP8+NZCW+b6oY=
+
+Name: uk/ac/manchester/cs/owl/inference/dig11/Vocab.class
+SHA1-Digest: zlhqW1L/Ucv7vY13jLkgVp3Snbo=
+
+Name: org/coode/owl/rdfxml/parser/AbstractNaryBooleanDescriptionTransl
+ ator.class
+SHA1-Digest: hNz1U70c8dzOcQmGZ+Clye19AqI=
+
+Name: org/semanticweb/owl/model/OWLNaryClassAxiom.class
+SHA1-Digest: B3PRL6dburhUemwhKc3xl3CD4fU=
+
+Name: org/semanticweb/owl/model/OWLNaryPropertyAxiom.class
+SHA1-Digest: RkKukGcFg0lCaWkT6kgcwrksvcQ=
+
+Name: org/coode/owl/krssparser/Token.class
+SHA1-Digest: IjJcRmgJRTX0qcGBq6VI6BT/kb4=
+
+Name: org/coode/owl/owlxmlparser/OWLObjectPropertyElementHandler.class
+SHA1-Digest: iki7m1AXP8ZVPqF0nmOW0yuswB0=
+
+Name: org/semanticweb/owl/io/OWLParserFactory.class
+SHA1-Digest: IDF1XBWUQmkfAYr7nMfwF6wkpbY=
+
+Name: uk/ac/manchester/cs/owl/OWLSymmetricObjectPropertyAxiomImpl.clas
+ s
+SHA1-Digest: 5/WJXOocQdx97jJGGVi12bJDRNs=
+
+Name: org/semanticweb/owl/model/SWRLAtomVariable.class
+SHA1-Digest: QMbq5oU4eugNr0A+XnafMRxzRuk=
+
+Name: org/coode/owl/krssparser/KRSSParser$1.class
+SHA1-Digest: kS5SxNUsU+lFU1SMD/PrHjp5DVg=
+
+Name: uk/ac/manchester/cs/owl/inference/dig11/DIGQueryResponseIterator
+ .class
+SHA1-Digest: sgyR8SFK/9hrMgIx+SFJdWbKy4U=
+
+Name: uk/ac/manchester/cs/owl/OWLOntologyImpl$22.class
+SHA1-Digest: xHcXr+Zj8RUxy+TrhDX9d+nilvE=
+
+Name: org/semanticweb/owl/model/OWLNegativeObjectPropertyAssertionAxio
+ m.class
+SHA1-Digest: PnYhdpOXaY7Y/L7OWLoPDaHwzSE=
+
+Name: org/coode/owl/owlxmlparser/OWLDataPropertyElementHandler.class
+SHA1-Digest: vLEdHiayk7MRtb02HYMYEtSl8Ug=
+
+Name: org/coode/owl/owlxmlparser/OWLDatatypeRestrictionElementHandler.
+ class
+SHA1-Digest: WjkaF+5s+PR4z2NOTT7y5fuMy/o=
+
+Name: org/semanticweb/owl/model/SWRLBinaryAtom.class
+SHA1-Digest: 7Vo7bbkkv9UNCyajN39SKDIe/F0=
+
+Name: org/semanticweb/owl/model/OWLDeprecatedClassAxiom.class
+SHA1-Digest: dFezMQi991jQJvM2zZfOGNcFlUQ=
+
+Name: uk/ac/manchester/cs/owl/OWLDataSubPropertyAxiomImpl.class
+SHA1-Digest: 2UxAYusIUyrmLnesvqMJ1Az8Uxw=
+
+Name: uk/ac/manchester/cs/owl/OWLPropertyExpressionImpl.class
+SHA1-Digest: hF+0VtLVEi7dUm5RwbYN6oBhLrw=
+
+Name: uk/ac/manchester/cs/owl/OWLOntologyImpl$9.class
+SHA1-Digest: fZf13xfmlkeDU8BvNGSKypnRfzs=
+
+Name: org/semanticweb/owl/util/DLExpressivityChecker$ConstructComparat
+ or.class
+SHA1-Digest: 5HFhDLOv0xhcoLG512PzvonSURo=
+
+Name: org/semanticweb/owl/model/OWLObjectProperty.class
+SHA1-Digest: 57bd40VcrqI8TYkdZOXLk6fZcEc=
+
+Name: uk/ac/manchester/cs/owl/OWLOntologyImpl$6.class
+SHA1-Digest: HYL4QkCDwu3xpmcLn/hrJvSFtyw=
+
+Name: org/coode/obo/parser/TransitiveOverHandler.class
+SHA1-Digest: tCaTNhU/D7Nh1yzEsmBvpd/iJsc=
+
+Name: org/semanticweb/owl/model/OWLObjectAllRestrictionTestCase.class
+SHA1-Digest: TjCdjZMK75SpzLQeIDPbmXnOV9A=
+
+Name: org/coode/owl/rdfxml/parser/TPOneOfHandler.class
+SHA1-Digest: wqueElwqWGyyNvPnIqVIxgPdhNs=
+
+Name: org/coode/owl/owlxmlparser/AbstractOWLObjectPropertyElementHandl
+ er.class
+SHA1-Digest: z82JJh9r1vzkgQPiRCYM+8ZgSzo=
+
+Name: org/coode/owl/owlxmlparser/AbstractOWLObjectPropertyOperandAxiom
+ ElementHandler.class
+SHA1-Digest: QV9cJHM1+J17dfjb1FXD1cbwoqw=
+
+Name: org/semanticweb/owl/model/OWLDataMaxCardinalityTestCase.class
+SHA1-Digest: SMJaafdZ15cDFaBPgW45OoyqBTo=
+
+Name: org/coode/owl/rdfxml/parser/AbstractTripleHandler.class
+SHA1-Digest: rpPEzFSFz4cnEnP8cSjy++/DWMk=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$45.class
+SHA1-Digest: HY0QCGsfGQDFL6sOSspsO4THWjI=
+
+Name: org/coode/owl/owlxmlparser/OWLObjectComplementOfElementHandler.c
+ lass
+SHA1-Digest: cS09qJVR8AqnG9S5dE0haS39qhw=
+
+Name: org/semanticweb/owl/model/OWLDifferentIndividualsAxiom.class
+SHA1-Digest: tbCSTK2IrsPBRZsA7vJUkXLvE2I=
+
+Name: org/coode/obo/parser/OWLOBOParser.class
+SHA1-Digest: GtLerx+iDD2RyxATWG3avFelCmk=
+
+Name: edu/unika/aifb/rdf/api/syntax/RDFParser$NodeElement.class
+SHA1-Digest: x4EIVr6P4Bb1i4B2sLrdq3bfNIc=
+
+Name: uk/ac/manchester/cs/owl/SWRLClassAtomImpl.class
+SHA1-Digest: 08+okpv7PyvJFCLt4qKPIC+36/Q=
+
+Name: org/coode/obo/parser/Token.class
+SHA1-Digest: 6npdX1p76aDZNotelcsHM/ZJndQ=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$57.class
+SHA1-Digest: CMFrcZZJqXTilO10aVfIjhxrHWo=
+
+Name: org/coode/owlapi/examples/Example1.class
+SHA1-Digest: BK9vqvhDi10tkFJsouZ1F6isoPM=
+
+Name: org/semanticweb/owl/model/OWLTypedConstantTestCase.class
+SHA1-Digest: VSmDiszNdXOX+ej6rEQHy+UfA08=
+
+Name: org/semanticweb/owl/model/OWLDataPropertyDomainAxiomTestCase.cla
+ ss
+SHA1-Digest: U57LRzyS2915VSW0Hx8yGo3uSb8=
+
+Name: uk/ac/manchester/cs/owl/OWLImportsDeclarationImpl.class
+SHA1-Digest: o3yI8E5GwssXuZ2OC4XupTQtSuo=
+
+Name: org/coode/owl/owlxmlparser/OWLAxiomAnnotationAxiomHandler.class
+SHA1-Digest: pQo/k+OGskz+HkxXVjLl72/jPY8=
+
+Name: uk/ac/manchester/cs/owl/OWLObjectPropertyRangeAxiomImpl.class
+SHA1-Digest: kQhQ03kZ6Tx4+R8JLBrxQhUVlRM=
+
+Name: org/coode/owl/rdfxml/parser/TPDistinctMembersHandler.class
+SHA1-Digest: Wgmq3IQ7/d5qeCp9GeKmwQnOwG0=
+
+Name: org/coode/owl/rdfxml/parser/AbstractObjectCardinalityTranslator.
+ class
+SHA1-Digest: Tb8UTYfWaOFaQdBEKLuhuQN2y3g=
+
+Name: org/semanticweb/owl/model/OWLObjectIntersectionOf.class
+SHA1-Digest: 6RUSiBtMfjDKvRpmKW+R9EwLheY=
+
+Name: org/semanticweb/owl/model/SWRLSameAsAtom.class
+SHA1-Digest: dijcbHhfTa/+he+prSUMfd0+akQ=
+
+Name: org/coode/owl/rdfxml/parser/TypeSWRLDifferentIndividualsAtomHand
+ ler.class
+SHA1-Digest: c+YAWbNyMVzmFNououOE4sY6Z3Y=
+
+Name: org/coode/owl/rdfxml/parser/TPSomeValuesFromHandler.class
+SHA1-Digest: +rfYM38XWA5SC7IWyLVvttnK4As=
+
+Name: org/coode/owl/rdfxml/parser/TypeSymmetricPropertyHandler.class
+SHA1-Digest: v/cy9n345z/rAEGbz95rLJB+b/U=
+
+Name: org/semanticweb/owl/model/OWLDisjointDataPropertiesTestCase.clas
+ s
+SHA1-Digest: QJRQjzRw3BziAwH3053ZmqSVXvY=
+
+Name: uk/ac/manchester/cs/owl/SWRLAtomImpl.class
+SHA1-Digest: w1DsRjZsJ/fstcD3JR6IyIAdFVk=
+
+Name: org/semanticweb/owl/model/OWLDataValueRestriction.class
+SHA1-Digest: rXPA7+JLxW3XbrTHZRBJA0q37A8=
+
+Name: org/semanticweb/owl/model/OWLObjectVisitor.class
+SHA1-Digest: u97wmeLHpnRauioy0bnpsbUFNZo=
+
+Name: org/semanticweb/owl/vocab/OWLXMLVocabulary.class
+SHA1-Digest: pkt1BOKJvEnMnQwhm2HfiQD4Da8=
+
+Name: org/coode/owlapi/owlxml/renderer/OWLXMLObjectRenderer.class
+SHA1-Digest: hTu2IAjDQEgSVPRQdl9fyS8HIVE=
+
+Name: org/coode/owl/rdfxml/parser/TPTypeHandler.class
+SHA1-Digest: B7SH5Q5WKUpiU6m2ge1257HxNZw=
+
+Name: org/semanticweb/owl/model/OWLAnnotationVisitor.class
+SHA1-Digest: pp5Am9IftkHz9k8phSanG1k9yFk=
+
+Name: org/coode/owl/owlxmlparser/OWLDisjointClassesAxiomElementHandler
+ .class
+SHA1-Digest: 60/GpaprHgqZ6ynbT1+3JxjjYic=
+
+Name: org/coode/owl/rdfxml/parser/AbstractDataQuantifiedRestrictionTra
+ nslator.class
+SHA1-Digest: XjuHkBfAj7sTZvyXKsTO7Xy9JJA=
+
+Name: org/coode/owl/owlxmlparser/AbstractOWLObjectPropertyCharacterist
+ icAxiomElementHandler.class
+SHA1-Digest: cnavXZH3Qm8/nWMc0czRc7o5fR0=
+
+Name: uk/ac/manchester/cs/owl/OWLCardinalityRestrictionImpl.class
+SHA1-Digest: AKJ4c+uIA6dDmYZR+7eb2LkeIHc=
+
+Name: org/semanticweb/owl/model/OWLOntologyChangeListener.class
+SHA1-Digest: VnaVkEy/JpXTo043WR3BYlFz9+A=
+
+Name: org/coode/owl/owlxmlparser/OWLDataMaxCardinalityElementHandler.c
+ lass
+SHA1-Digest: ZgJ5dPFjZz0EMi2EfPtgQKRJJh4=
+
+Name: uk/ac/manchester/cs/owl/OWLOntologyURIMapperImpl.class
+SHA1-Digest: IxW02/zOzDndMl8Ec7WJRn5WHq0=
+
+Name: org/coode/owl/owlxmlparser/OWLClassAssertionAxiomElementHandler.
+ class
+SHA1-Digest: GXSWHV3oe8SPis3WS7l71JxjC9k=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$42.class
+SHA1-Digest: wRu45C54jju3np1d4GQmrPYIJ4I=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$49.class
+SHA1-Digest: snc5lYuIcIZMywaNi3wQ9yVJpx4=
+
+Name: org/semanticweb/owl/model/OWLObjectAnnotation.class
+SHA1-Digest: BxabfLeFFW+QKvVNziWTsehnxP8=
+
+Name: org/semanticweb/owl/util/OWLEntityRenamer.class
+SHA1-Digest: K/gUZc79goVZMjIw9Ceglflzj9M=
+
+Name: org/coode/owl/rdfxml/parser/DataMaxCardinalityTranslator.class
+SHA1-Digest: t81XAYcQRwszVw00bJF5JG/WNZQ=
+
+Name: org/coode/owl/rdf/model/AbstractTranslator$PunningChecker.class
+SHA1-Digest: Ln7p1To8p0VLJTQ3G1ej5R2uaGA=
+
+Name: org/coode/owl/rdfxml/parser/TPRestHandler.class
+SHA1-Digest: xCT0uzHhYOAf8KsuVEVrDz7jMG4=
+
+Name: org/semanticweb/owl/model/OWLDataPropertyRangeAxiomTestCase.clas
+ s
+SHA1-Digest: ZYeATQAUX6KZ/X57wye5teaE4bM=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserAttributeNotFoundExceptio
+ n.class
+SHA1-Digest: iVh4ftwlMidb2leATsNb3A1JLAA=
+
+Name: org/semanticweb/owl/util/OWLAxiomFilter.class
+SHA1-Digest: sKmOQ+BZ9T9kcXGQhOu07UPh2gQ=
+
+Name: uk/ac/manchester/cs/owl/inference/dig11/DIGQueryResponseImpl.cla
+ ss
+SHA1-Digest: tc4Dib3sNIPPcoIexI5y6z56KeI=
+
+Name: org/semanticweb/owl/model/OWLPropertyAxiom.class
+SHA1-Digest: flLqxcQArR3vvOaAAzmBqZYFpF0=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$30.class
+SHA1-Digest: TCWNECRk/wXNoRyX8Lv8V5WNs2w=
+
+Name: org/coode/owl/rdfxml/parser/RDFXMLParserFactory.class
+SHA1-Digest: JVQDrBCWcWYdhOH+9g7qKTY3LLk=
+
+Name: org/semanticweb/owl/model/OWLDeprecatedDataPropertyAxiom.class
+SHA1-Digest: 6pYfBLotVCkmoLMMkVE8PYvif14=
+
+Name: uk/ac/manchester/cs/owl/OWLConstantAnnotationImpl.class
+SHA1-Digest: KDpiUMR094YKlNyrqe5nPpsvPRk=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$56.class
+SHA1-Digest: M2blEPHe4oav/KU29IShFIuiy58=
+
+Name: uk/ac/manchester/cs/owl/OWLFunctionalObjectPropertyAxiomImpl.cla
+ ss
+SHA1-Digest: MSumFy3oyL++KItT4x/TXz0cPak=
+
+Name: org/semanticweb/owl/inference/OWLReasonerException.class
+SHA1-Digest: luwSl3W8TMQ3mcTccLfAuAjNeyw=
+
+Name: org/coode/owl/rdfxml/parser/TPImportsHandler.class
+SHA1-Digest: HsjW+Hh7oiqhnfO57wfMLDkF7DA=
+
+Name: uk/ac/manchester/cs/owl/OWLObjectSomeRestrictionImpl.class
+SHA1-Digest: ZqQA+LIfk4JD2gfCKVA98BOEV+w=
+
+Name: org/coode/owl/rdfxml/parser/TypeSWRLDataValuedPropertyAtomHandle
+ r.class
+SHA1-Digest: YMmP6V5Op9n+LyLnWGYdCh/co1U=
+
+Name: org/semanticweb/owl/model/OWLNotTestCase.class
+SHA1-Digest: AWYkDg789vtQxQ4gPYqe6CxARVI=
+
+Name: org/coode/owl/rdfxml/parser/AbstractDataRestrictionTranslator.cl
+ ass
+SHA1-Digest: PjksTN0K0+YqfPfMOfCU8zcYIqM=
+
+Name: org/coode/xml/XMLWriterImpl$XMLElement.class
+SHA1-Digest: ZJIMu4ITiDItQs1PhDRUQudLpvw=
+
+Name: org/semanticweb/owl/model/OWLDataRangeRestriction.class
+SHA1-Digest: Nt01JaFx7uocNGMxXdb+uiXv4xA=
+
+Name: org/coode/owl/functionalparser/SimpleCharStream.class
+SHA1-Digest: kU4Sdse3tS08Jz8Cg8htnwIsLwI=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$60.class
+SHA1-Digest: qgIec75JLpP1BSC2voNfPE2jfwE=
+
+Name: org/coode/owl/rdfxml/parser/TypeOntologyHandler.class
+SHA1-Digest: DsVrc1m8DmsUcWQiJJcIy4UXhJU=
+
+Name: org/semanticweb/owl/model/AbstractOWLOntologyManagerTestCase.cla
+ ss
+SHA1-Digest: YqsLT9qOsqKoWS4dclnff+7Ahcc=
+
+Name: org/coode/owl/rdfxml/parser/IntersectionOfTranslator.class
+SHA1-Digest: kOI+QHmiZYT1JobAN1R4BOS8lTY=
+
+Name: org/coode/owl/owlxmlparser/SImpleElementHandlerFactory.class
+SHA1-Digest: xA43VyKGEo+6tIlU8dCd8O1yGKs=
+
+Name: org/semanticweb/owl/model/OWLOntologyStorageException.class
+SHA1-Digest: oYRy+ufyqICBl4lDdao9LAuujks=
+
+Name: uk/ac/manchester/cs/owl/OWLDataExactCardinalityRestrictionImpl.c
+ lass
+SHA1-Digest: upFe5onMjgbd+TEkdKQX5Ajsr2c=
+
+Name: org/semanticweb/owl/model/OWLDataFactory.class
+SHA1-Digest: Cr76sGzwxHDGvUf6S3q/WdYl2sM=
+
+Name: org/coode/obo/parser/TransitiveTagValueHandler.class
+SHA1-Digest: X+KVkiOS99wl5mg7p8RDl8XVQEU=
+
+Name: org/coode/owl/rdf/model/RDFTriple.class
+SHA1-Digest: gUvDPDfl2GMG+q7deJ9vPzM21PA=
+
+Name: org/coode/obo/parser/InverseHandler.class
+SHA1-Digest: eNqVoFJd7aePmt6FpS9qXb0TpA0=
+
+Name: org/semanticweb/owl/inference/OWLIndividualReasoner.class
+SHA1-Digest: dIjMEFGIt9Nqu6C7h/n9vNNaYKs=
+
+Name: org/semanticweb/owl/model/DefaultChangeBroadcastStrategy.class
+SHA1-Digest: qWkAiA/e0EpCBA27vUaJbRvr8l4=
+
+Name: uk/ac/manchester/cs/owl/OWLOntologyImpl$16.class
+SHA1-Digest: UtB/5YHUunDs//3yVkT+bBQB4SM=
+
+Name: org/semanticweb/owl/model/OWLClass.class
+SHA1-Digest: Vra58vl+8I9fQoyWAdVaXpFRF/g=
+
+Name: org/semanticweb/owl/model/OWLConstantAnnotation.class
+SHA1-Digest: BnorLlvY8IJ4NFusrn7w2n5cHSw=
+
+Name: org/semanticweb/owl/model/OWLDataExactCardinalityTestCase.class
+SHA1-Digest: o9qEJtCLej8+1aGI5jJk097o1sI=
+
+Name: org/coode/owl/krssparser/KRSSParserTokenManager.class
+SHA1-Digest: cu9WOPfv9EpX0zMTkr4XZ9Yc2ME=
+
+Name: org/coode/owlapi/owlxml/renderer/OWLXMLOntologyStorageException.
+ class
+SHA1-Digest: L4QWp5/t2etb+cflyqmRzu9G3o4=
+
+Name: org/semanticweb/owl/model/OWLDataValueRestrictionTestCase.class
+SHA1-Digest: FANXwG/2Xz3wwxSAfcjvIn0T4TA=
+
+Name: org/semanticweb/owl/inference/OWLReasonerAdapter.class
+SHA1-Digest: IfV5sR11zF3lkx/l5OvLxTbqZxA=
+
+Name: org/coode/obo/parser/TagValueHandler.class
+SHA1-Digest: holQluOzIDjUPCtownAqoxoE228=
+
+Name: org/semanticweb/owl/io/OWLParserException.class
+SHA1-Digest: v7wAlH7ejGOKTJvEXgVF1f1WJV4=
+
+Name: org/coode/owl/functionalparser/OWLFunctionalSyntaxParser$JJCalls
+ .class
+SHA1-Digest: fGadHZ2rGYCyHcATE3npaTSvcGg=
+
+Name: org/semanticweb/owl/util/NamedConjunctChecker.class
+SHA1-Digest: eyUN+TsLCkr4XLBJucSMGqNP2ng=
+
+Name: org/semanticweb/owl/model/OWLDataPropertyRangeAxiom.class
+SHA1-Digest: R9Gbgqlhq1QV+AoPTcieOfDm69g=
+
+Name: org/coode/owl/owlxmlparser/OWLDataOneOfElementHandler.class
+SHA1-Digest: IVhmm80MHqvwI7avtgcT+Y8iLGo=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$19.class
+SHA1-Digest: P2FuK0PHcT/9J5+cyJkkU4qVoAw=
+
+Name: org/semanticweb/owl/model/SWRLObjectPropertyAtom.class
+SHA1-Digest: XrA/37g3WhDz+S4wbI69JRUyJGM=
+
+Name: org/coode/owl/rdfxml/parser/TPDisjointUnionHandler.class
+SHA1-Digest: KLGhKbXEl8QCtHAWLEQa8VMS11E=
+
+Name: org/semanticweb/owl/model/OWLObjectSelfRestrictionTestCase.class
+SHA1-Digest: c/SifoKUHrWr7oGdubETNAEpnJM=
+
+Name: org/semanticweb/owl/io/StringInputSource.class
+SHA1-Digest: WL5I/wr83aw5rNi1auSrrjr+1+0=
+
+Name: org/semanticweb/owl/io/OWLParserIOException.class
+SHA1-Digest: yZz/cXk+s5FVIlCn4drNMJUUXjY=
+
+Name: uk/ac/manchester/cs/owl/OWLAnnotationImpl.class
+SHA1-Digest: 9Kc3zgSjEk3MTnSru+veYGH19jA=
+
+Name: org/semanticweb/owl/model/OWLObjectMaxCardinalityRestrictionTest
+ Case.class
+SHA1-Digest: f4VwcYAYQonYIAQRmfMEyAOhTWs=
+
+Name: org/coode/owl/rdfxml/parser/SWRLAtomListItemTranslator$SWRLAtomD
+ ObjectListItemTranslator.class
+SHA1-Digest: a4YjjaZZa97/HqQ2foWtSFNjeoo=
+
+Name: org/coode/owl/rdfxml/parser/DataMinCardinalityTranslator.class
+SHA1-Digest: 2L0NvfHC2/GTq0ZCwlx5TP1HbQg=
+
+Name: org/coode/xml/OWLOntologyNamespaceManager.class
+SHA1-Digest: 63NNaeA7O87j7O278EjJJOJne08=
+
+Name: org/semanticweb/owl/model/OWLOntologyFormat.class
+SHA1-Digest: pnnk05Trdc6W7Dep65h3dilgP3c=
+
+Name: org/semanticweb/owl/util/OWLEntitySetProvider.class
+SHA1-Digest: wVVAKrcZUsBkmHmrHcXiF2jx6jk=
+
+Name: org/semanticweb/owl/util/ProgressMonitor.class
+SHA1-Digest: irOkR5IYfbekifaD/PGXSFeqOtI=
+
+Name: uk/ac/manchester/cs/owl/OWLObjectPropertyCharacteristicAxiomImpl
+ .class
+SHA1-Digest: HOWJcP8IxH/ql0B434ytwsvUbeU=
+
+Name: uk/ac/manchester/cs/owl/OWLDisjointObjectPropertiesAxiomImpl.cla
+ ss
+SHA1-Digest: 6klpInlZffkqwGw1GeanlNByTZM=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler.class
+SHA1-Digest: FwlqVJJePH9MxniK6xY2MNX13Wk=
+
+Name: org/semanticweb/owl/model/OWLAxiomAnnotationAxiom.class
+SHA1-Digest: MIWLpz02weKe9zMCxlr3IYxtK1Q=
+
+Name: org/coode/obo/parser/OBOParserFactory.class
+SHA1-Digest: tM3Q/7aDMHo7S555UHRaFHB87P4=
+
+Name: org/coode/owl/rdfxml/parser/ObjectSomeValuesFromTranslator.class
+SHA1-Digest: fZ1QJEOw1dLSh967CYZe4QLYHSo=
+
+Name: org/coode/owl/rdfxml/parser/TypeSWRLClassAtomHandler.class
+SHA1-Digest: bgcBT0vJKnBzr+raGZb8yAEmpTs=
+
+Name: org/semanticweb/owl/model/AbstractOWLNaryOperandsObjectTestCase.
+ class
+SHA1-Digest: G/mQWQFg30HYvSiXc/0DvMHqgd8=
+
+Name: org/semanticweb/owl/util/AutoURIMapper.class
+SHA1-Digest: kALLcN5kFs72soLQzP/WrTJSYWU=
+
+Name: uk/ac/manchester/cs/owl/OWLDataAllRestrictionImpl.class
+SHA1-Digest: RZrmJquixt9PpztRzWFozOHY/eg=
+
+Name: uk/ac/manchester/cs/owl/OWLPropertyRangeAxiomImpl.class
+SHA1-Digest: URLfasYQHfPIXySp1MIlFjmTwSs=
+
+Name: org/coode/owl/owlxmlparser/OWLSubObjectPropertyOfAxiomElementHan
+ dler.class
+SHA1-Digest: P4NqVjtF/j9WH2O/mqPIqn2ISTY=
+
+Name: org/semanticweb/owl/model/SWRLAtom.class
+SHA1-Digest: gYhli+PgMZ0qrcpIiQmPWWBB8h4=
+
+Name: org/coode/owl/rdfxml/parser/RDFAPITest$LiteralTriple.class
+SHA1-Digest: E4NpwUg71K4XZVAd4sz3GeKb5KU=
+
+Name: org/semanticweb/owl/model/OWLObjectPropertyTestCase.class
+SHA1-Digest: iXAGDTVFca5i+WDS4PtGrjgL4W0=
+
+Name: org/coode/owl/owlxmlparser/OWLDataPropertyDomainAxiomElementHand
+ ler.class
+SHA1-Digest: co5t+ZV+WE4uJEstIhKdrAKbdpo=
+
+Name: org/semanticweb/owl/io/OWLFunctionalSyntaxOntologyFormat.class
+SHA1-Digest: DijbIrL+umcHX9w59o4CJ1/uokI=
+
+Name: org/coode/owl/krssparser/TokenMgrError.class
+SHA1-Digest: RFzKArPS07az0ZWiDS5MM9yZekY=
+
+Name: org/coode/owl/functionalparser/OWLFunctionalSyntaxParser.class
+SHA1-Digest: ICPUuY4cotQb7kVriJ9CgSCJLyU=
+
+Name: org/semanticweb/owl/util/SimpleRenderer$1.class
+SHA1-Digest: KPiKkFDtIcJmRP0Uq1uQs5gAv6s=
+
+Name: org/coode/owl/rdfxml/parser/TPFirstResourceHandler.class
+SHA1-Digest: ZLYFQHmGXIXKdE2rrcp+C67Ud88=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserFactory.class
+SHA1-Digest: dRjqbVdRRfImCDrskrATYgzpJx4=
+
+Name: org/semanticweb/owl/model/OWLOrTestCase.class
+SHA1-Digest: 14Twmq0q1JsQypOO5zWNofpvB5k=
+
+Name: org/semanticweb/owl/model/OWLDescription.class
+SHA1-Digest: iSogpM0CmcAi84U4DDvJPxO/5nM=
+
+Name: org/semanticweb/owl/util/OWLOntologyChangeVisitorAdapter.class
+SHA1-Digest: cYgTBgynPc94uigHenLuOHCyph0=
+
+Name: org/semanticweb/owl/io/AbstractOWLRenderer.class
+SHA1-Digest: n+YmrcgfuYtpD/Jf4i6PGXuaE8Q=
+
+Name: org/semanticweb/owl/model/SWRLRule.class
+SHA1-Digest: 64u8zTWrS9CpKip6+zmkA3MHY8I=
+
+Name: org/semanticweb/owl/model/SWRLAtomDObject.class
+SHA1-Digest: kwyaMqsUfsDNdoIC/R7kCprzpfM=
+
+Name: org/semanticweb/owl/model/OWLNaryBooleanDescription.class
+SHA1-Digest: xb+RslvhVJ1W2+vBhpyExb+oopU=
+
+Name: org/coode/owl/rdf/model/RDFTranslator.class
+SHA1-Digest: WoKB7oZIdlvkGQzy7W02mWWqyiQ=
+
+Name: org/coode/owl/owlxmlparser/OWLEquivalentObjectPropertiesAxiomEle
+ mentHandler.class
+SHA1-Digest: 6WTR82c6ofYC0jhrc3pAbM5dynM=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$34.class
+SHA1-Digest: hVOMv/l+W6olJWf60cMtvJdsN/A=
+
+Name: org/semanticweb/owl/model/AbstractOWLRestrictionTestCase.class
+SHA1-Digest: 2flx7ynceorxokcnjMSSW7m+LlY=
+
+Name: uk/ac/manchester/cs/owl/OWLNaryClassAxiomImpl.class
+SHA1-Digest: enY26vNu0I4cwbEJdroqf9pZzE8=
+
+Name: org/coode/owl/rdf/rdfxml/RDFXMLRenderer.class
+SHA1-Digest: 1Da1UzYVMIM1QZ3KDhUTQoBEuHM=
+
+Name: org/semanticweb/owl/model/OWLPropertyDomainAxiom.class
+SHA1-Digest: Ynvwh73TZkMN/Sqdof9lR8lt4Q4=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$20.class
+SHA1-Digest: HhG9U7933xPK6dGF9max0AD2f/k=
+
+Name: org/semanticweb/owl/model/OWLAndTestCase.class
+SHA1-Digest: ADJ9qX0bJ4baJkmkk8NIk/li1qw=
+
+Name: org/semanticweb/owl/model/OWLEntityVisitor.class
+SHA1-Digest: Vr7wYHQ5QJq0/YzHF5iKOsnexRw=
+
+Name: uk/ac/manchester/cs/owl/inference/dig11/DIGQueryResponse.class
+SHA1-Digest: ZxDWfvLgjB7XDyzuDQ4U8YF+MXk=
+
+Name: org/coode/owl/rdfxml/parser/TypePropertyHandler.class
+SHA1-Digest: pwzvUAiciFG1RnWxudbqNuMEf0o=
+
+Name: org/coode/owl/krssparser/KRSSOWLParserException.class
+SHA1-Digest: 2ITYC70hjJZClIOmyQ9zv8s6fjc=
+
+Name: org/semanticweb/owl/model/OWLOntologyFactory.class
+SHA1-Digest: dYRtG+DHDizlZAzzSfui5MnxDX8=
+
+Name: org/coode/owl/rdfxml/parser/GTPAnnotationLiteralHandler.class
+SHA1-Digest: h2qEMaPXcXv7ALwaD25g5tXqLv8=
+
+Name: org/coode/owl/owlxmlparser/AbstractDataRestrictionElementHandler
+ .class
+SHA1-Digest: d1wa2O/YxdY+A36Cu1+e4gUfMuk=
+
+Name: org/coode/owlapi/owlxml/renderer/OWLXMLWriter.class
+SHA1-Digest: OC7S0CmVnsrgdwalw3+4OZ33Ue0=
+
+Name: org/semanticweb/owl/model/OWLDataMinCardinalityRestriction.class
+SHA1-Digest: AblVNeihseo2ts2CRrPt5owIK/U=
+
+Name: uk/ac/manchester/cs/owl/OWLObjectPropertyInverseImpl.class
+SHA1-Digest: +/TkmG5jguysZiHFwp8iT83rBSQ=
+
+Name: org/semanticweb/owl/model/OWLConstant.class
+SHA1-Digest: pweza3sAa0R2b+u1U5lnpMBZVzc=
+
+Name: org/coode/owl/rdfxml/parser/TPSubPropertyOfHandler.class
+SHA1-Digest: QQXYN+My+oaZ6cMdb6rfz2zBH4E=
+
+Name: uk/ac/manchester/cs/owl/OWLObjectPropertyExpressionImpl.class
+SHA1-Digest: 0zvD3X2dFpeAZD6R+9hyYh/vlns=
+
+Name: org/coode/owl/owlxmlparser/OWLObjectAllValuesFromElementHandler.
+ class
+SHA1-Digest: nJtuudqT+qyGbh5O0a+tWFTQbs4=
+
+Name: org/coode/owl/rdfxml/parser/TypeRDFPropertyHandler.class
+SHA1-Digest: qQzOeQj+BPW2d4fHNm7hW74xFjw=
+
+Name: uk/ac/manchester/cs/owl/OWLOntologyImpl$12.class
+SHA1-Digest: SK7aS41v2SI/NsnCIK8elgGE/I8=
+
+Name: org/semanticweb/owl/model/OWLDataType.class
+SHA1-Digest: QaTvKuqiczPhNGAuqoEiYKUC6SU=
+
+Name: uk/ac/manchester/cs/owl/OWLOntologyImpl$10.class
+SHA1-Digest: GISLDdHER02PxueLSiZ3+h2CKMU=
+
+Name: org/coode/owl/functionalrenderer/OWLFunctionalSyntaxOntologyStor
+ er.class
+SHA1-Digest: 8OvUkNuzJHrVkEvrMgVN7V0WIhA=
+
+Name: uk/ac/manchester/cs/owl/OWLDataOneOfImpl.class
+SHA1-Digest: Qsr/VKrtaNTUjpFsfJP1uFri9Zw=
+
+Name: uk/ac/manchester/cs/owl/OWLObjectPropertyImpl.class
+SHA1-Digest: fMKfeRizTYrIzG1yVLoyjg9v8to=
+
+Name: org/coode/owl/rdfxml/parser/RDFAPITest$1.class
+SHA1-Digest: 6CEoIpgHzWBmMp7JefP9GZ01Yzw=
+
+Name: org/coode/owl/rdfxml/parser/ObjectAllValuesFromTranslator.class
+SHA1-Digest: QJZaKOCzY111IXx9qaHAAdRAmzE=
+
+Name: org/semanticweb/owl/model/OWLImportsDeclaration.class
+SHA1-Digest: fh8qQaZUp5XSYDVdiuPorpqtK60=
+
+Name: uk/ac/manchester/cs/owl/OWLClassAssertionAxiomImpl.class
+SHA1-Digest: P/Xeax8BfN1xN8shvGJCBxwTDgs=
+
+Name: org/coode/owl/rdfxml/parser/TypeSWRLBuiltInAtomHandler.class
+SHA1-Digest: dG4bRh3GelZfifUl09Ww+uFZ30E=
+
+Name: uk/ac/manchester/cs/owl/OWLObjectSubPropertyAxiomImpl.class
+SHA1-Digest: jn+kiQaJntg6DX4fgCPgNO145Mg=
+
+Name: org/semanticweb/owl/model/OWLTransitiveObjectPropertyAxiomTestCa
+ se.class
+SHA1-Digest: 2qUWfmEmmARotFp9/OzeFn/9lkk=
+
+Name: uk/ac/manchester/cs/owl/OWLOntologyImpl$24.class
+SHA1-Digest: FGVlkn27kXQG3Apf1lnU56IHnIE=
+
+Name: org/coode/owl/owlxmlparser/OWLDisjointUnionElementHandler.class
+SHA1-Digest: QT7muv+O12nSWKYhTwXKp/vIR2o=
+
+Name: uk/ac/manchester/cs/owl/SWRLDataRangeAtomImpl.class
+SHA1-Digest: NdgCibkgGyMbQXUtXQJQK73Qs/g=
+
+Name: org/coode/obo/parser/DisjointFromHandler.class
+SHA1-Digest: aetfXOGu5SlwYphGB5CL7W9rphE=
+
+Name: uk/ac/manchester/cs/owl/OWLRestrictionImpl.class
+SHA1-Digest: /1NRhj4yc0mG0P+//Kk1oHo/T4Y=
+
+Name: org/coode/owl/rdfxml/parser/TPSubClassOfHandler.class
+SHA1-Digest: vX6OQP57jl1qZRzk4aJFuWyv9LE=
+
+Name: org/semanticweb/owl/util/Monitorable.class
+SHA1-Digest: daiBTrKNG+2ZbRk3fsZWtS/Cum8=
+
+Name: org/coode/owl/rdfxml/parser/TPDataPropertyRangeHandler.class
+SHA1-Digest: p///Ek/BZZWOFsxbD3cichw8S+w=
+
+Name: org/coode/owl/rdf/rdfxml/RDFXMLRenderer$3.class
+SHA1-Digest: WpVlm/Qd5dQwA6WXeJtgoyM9MFQ=
+
+Name: uk/ac/manchester/cs/owl/OWLDataSomeRestrictionImpl.class
+SHA1-Digest: Vi7DLBzAtsFtFYCpcp4IiQzzXWA=
+
+Name: org/semanticweb/owl/model/OWLLogicalAxiom.class
+SHA1-Digest: 2H9MiI5R1DGnefmpbtxrHTEpe7U=
+
+Name: org/coode/obo/parser/OBOParser.class
+SHA1-Digest: ATs20CYZw45UePYnJbFmYTqHeds=
+
+Name: org/coode/owl/owlxmlparser/AbstractOWLElementHandler.class
+SHA1-Digest: eer3m04ypqhNywSmXJU6VVkYHsE=
+
+Name: org/semanticweb/owl/model/SWRLAtomConstantObject.class
+SHA1-Digest: 0siuJO8QBullT9siyaGf+SGgz0Q=
+
+Name: org/coode/owl/rdfxml/parser/TypeReflexivePropertyHandler.class
+SHA1-Digest: xRJNn292OOWOq+bS09u+G4mop60=
+
+Name: uk/ac/manchester/cs/owl/OWLLogicalAxiomImpl.class
+SHA1-Digest: 7GFmEmtBj2JRouE+aAI8K+zD4jQ=
+
+Name: org/semanticweb/owl/vocab/DublinCoreVocabulary.class
+SHA1-Digest: dNE1mHnFNQhJuIesY6QQB5jThyA=
+
+Name: edu/unika/aifb/rdf/api/syntax/RDFParser$StartRDF.class
+SHA1-Digest: LAj4AGYm3KpBz/0g1+ceq/LRWeY=
+
+Name: org/coode/owl/rdfxml/parser/DescriptionTranslator.class
+SHA1-Digest: E891a3yXCr+xt+Gc/gq03EeN+Nc=
+
+Name: uk/ac/manchester/cs/owl/OWLAxiomImpl.class
+SHA1-Digest: BdpVb8ERkMhufUKQ8x2vhb5OY2c=
+
+Name: org/coode/owl/owlxmlparser/OWLElementHandler.class
+SHA1-Digest: x5Zthp4Es580csuP/zfiUfWqODw=
+
+Name: org/semanticweb/owl/model/OWLRestrictedDataRangeTestCase.class
+SHA1-Digest: IVkWjv9YpAfFMuIr+HIzOdkuu+g=
+
+Name: org/coode/obo/parser/AbstractTagValueHandler.class
+SHA1-Digest: /6K5Guvd63IOpEfchtOk8USulMw=
+
+Name: org/coode/owl/rdfxml/parser/TypeDataPropertyHandler.class
+SHA1-Digest: NeeJatZgnQRqxflxWlhsqlMEZTg=
+
+Name: org/semanticweb/owl/model/OWLIndividual.class
+SHA1-Digest: gcIc9DghCOdrzZHYE64Wom0TioM=
+
+Name: uk/ac/manchester/cs/owl/SWRLSameAsAtomImpl.class
+SHA1-Digest: 1r0adiy5PnKw98cVNuWkKArF+OY=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserUnexpectedElementExceptio
+ n.class
+SHA1-Digest: 1G9mFEI8vakJ6BG42HpIOSqbLMI=
+
+Name: edu/unika/aifb/rdf/api/syntax/RDFParser$State.class
+SHA1-Digest: OVqHCInefMCnyTF4jcVt+wrRh9M=
+
+Name: org/coode/owl/rdfxml/parser/TPInverseOfHandler.class
+SHA1-Digest: lKhbfV8DJlmihVzItUsAenQ8P8o=
+
+Name: uk/ac/manchester/cs/owl/OWLDisjointUnionAxiomImpl.class
+SHA1-Digest: N5nRyW6xVT9PzjBUFwEX5BTv0N8=
+
+Name: org/semanticweb/owl/io/OWLXMLOntologyFormat.class
+SHA1-Digest: ESStpH0TdzI80yq4QlSwnaDGSgE=
+
+Name: org/semanticweb/owl/model/OWLObjectPropertyAssertionAxiom.class
+SHA1-Digest: Gkgo4MIQ0VQk2hSdGkQsZ9PKk4o=
+
+Name: org/semanticweb/owl/model/AbstractOWLEntityTestCase.class
+SHA1-Digest: 5wn9+jfcvfeq4/oukWrHmUTwccY=
+
+Name: org/semanticweb/owl/model/OWLObjectPropertyDomainAxiomTestCase.c
+ lass
+SHA1-Digest: nd+l9aecquqb39f1gzcY/+t4ytg=
+
+Name: uk/ac/manchester/cs/owl/OWLOntologyImpl$3.class
+SHA1-Digest: ODC7f2y4Atv4ni8P6x5gns1q5rk=
+
+Name: uk/ac/manchester/cs/owl/OWLOntologyImpl$26.class
+SHA1-Digest: O+AgO7EH4p7nGcNjA/VQaZcng8I=
+
+Name: org/coode/owl/owlxmlparser/OWLObjectOneOfElementHandler.class
+SHA1-Digest: Yul4RDSQl0+mKAJm77o/6IZ8460=
+
+Name: uk/ac/manchester/cs/owl/OWLAntiSymmetricObjectPropertyAxiomImpl.
+ class
+SHA1-Digest: NIIwd3kZk3hRRYTp6wmGF++Zv6Y=
+
+Name: uk/ac/manchester/cs/owl/OWLFunctionalDataPropertyAxiomImpl.class
+SHA1-Digest: PaB7JRSsu3QyoG4SBmUUcL+Bixc=
+
+Name: org/coode/owl/rdfxml/parser/TypeListHandler.class
+SHA1-Digest: BHoHqQ7YONJMLpEuBmmjHKzn2Dg=
+
+Name: uk/ac/manchester/cs/owl/OWLOntologyImpl$23.class
+SHA1-Digest: zcoZVWstGhchIzUB7GAQJSJ9kxw=
+
+Name: uk/ac/manchester/cs/owl/OWLOntologyImpl$2.class
+SHA1-Digest: tYwxX5H689e39nxNCZy+mmmZ2fc=
+
+Name: org/coode/owl/rdfxml/parser/TypedConstantListItemTranslator.clas
+ s
+SHA1-Digest: qEu8cLpdecdd3E+47QfVE87TVYc=
+
+Name: edu/unika/aifb/rdf/api/syntax/RDFParser$PropertyElementList.clas
+ s
+SHA1-Digest: KegvqJfNnndFuDja3TwG0FIzvo0=
+
+Name: org/semanticweb/owl/io/RDFXMLOntologyFormat.class
+SHA1-Digest: 4P7Qnakd0AJI4Jyn4yjymRI3IaM=
+
+Name: org/coode/owl/owlxmlparser/OWLDeclarationAxiomElementHandler.cla
+ ss
+SHA1-Digest: 1TDl6sXIUSc1aEiZAxaswlHM3NA=
+
+Name: uk/ac/manchester/cs/owl/OWLDeclarationAxiomImpl.class
+SHA1-Digest: FB+7iLADJykRnxEcvpDdxosd+xM=
+
+Name: org/semanticweb/owl/inference/OWLSatisfiabilityChecker.class
+SHA1-Digest: Jaq8FKe2dcyO35WMliR4/L8/fGc=
+
+Name: org/semanticweb/owl/model/OWLDataComplementOf.class
+SHA1-Digest: ld8qDAVvVBtAKdmH9QjVZNBOAj8=
+
+Name: org/semanticweb/owl/model/OWLFunctionalObjectPropertyAxiomTestCa
+ se.class
+SHA1-Digest: 3GXqmzbtOg4osi1CX/dz3TX5ELs=
+
+Name: org/semanticweb/owl/model/SWRLAtomObject.class
+SHA1-Digest: ktxmtH7OdfUApN0UiKsHhetLV5k=
+
+Name: org/coode/owl/rdfxml/parser/TypeAnnotationPropertyHandler.class
+SHA1-Digest: nG0CHi6IiaGmMsT5Ef5DYLyN090=
+
+Name: org/semanticweb/owl/model/OWLMutableOntology.class
+SHA1-Digest: qkvNq5A7GIH9Fuq0yzXHwLKbsV8=
+
+Name: org/coode/obo/parser/SimpleCharStream.class
+SHA1-Digest: 1WvwlqL/H3nb4FAdGKnRM/rSGIY=
+
+Name: org/semanticweb/owl/util/ToldClassHierarchyReasoner$NamedClassCh
+ ecker.class
+SHA1-Digest: 6VDe4lCCg2KLI1GR99zgEymIDxo=
+
+Name: org/semanticweb/owl/model/OWLDataOneOf.class
+SHA1-Digest: b2pF5Z1KsTMhECzoujm28DS7pwU=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$44.class
+SHA1-Digest: 6B55pgL5/iUq7l+3G8Wu0AK/fzE=
+
+Name: org/coode/owl/owlxmlparser/AbstractOWLIndividualOperandAxiomElem
+ entHandler.class
+SHA1-Digest: XhCBFaTDkn6Eh2VRgf+9ywtCU+o=
+
+Name: uk/ac/manchester/cs/owl/OWLOntologyImpl$OWLNamedObjectReferenceR
+ emover.class
+SHA1-Digest: F+e8fwa3Dei6Dt+jf3l9USvlie4=
+
+Name: org/semanticweb/owl/model/OWLDataAllRestriction.class
+SHA1-Digest: GKQLtq29dpw3f1J1qBsUMyMsFIk=
+
+Name: org/semanticweb/owl/model/OWLDifferentIndividualsAxiomTestCase.c
+ lass
+SHA1-Digest: PJxsU9xgbGlC5OU6CSZMeyN1lMg=
+
+Name: uk/ac/manchester/cs/owl/OWLOntologyImpl$4.class
+SHA1-Digest: oatF54go/VLzise6Ijrt5YmKD5I=
+
+Name: org/coode/owl/rdfxml/parser/OptimisedListTranslator.class
+SHA1-Digest: 6AF37jNn6GX6ZmN35DjFWo7zmNk=
+
+Name: org/semanticweb/owl/model/OWLDataPropertyAxiom.class
+SHA1-Digest: ZiSiN4oW0rkHbXFkgILGlIqbnx0=
+
+Name: org/coode/owl/rdfxml/parser/SWRLAtomListItemTranslator$1.class
+SHA1-Digest: dz1w5vxlEhZVW4FoPRw8Lt7gbkw=
+
+Name: org/coode/owl/owlxmlparser/OWLObjectIntersectionOfElementHandler
+ .class
+SHA1-Digest: 0YftEcHS6sF2+IzUDqeTfgIOKLw=
+
+Name: org/semanticweb/owl/model/OWLAxiom.class
+SHA1-Digest: KesmlcRTqQTQ+gbW98EwAx3DXhg=
+
+Name: org/semanticweb/owl/model/OWLObjectMaxCardinalityRestriction.cla
+ ss
+SHA1-Digest: i3OKK0eUw+ZlkHFzjSKUOpBXVHs=
+
+Name: uk/ac/manchester/cs/owl/OWLDataPropertyCharacteristicAxiomImpl.c
+ lass
+SHA1-Digest: 8d7hyNxfKQaT3a3IHrzS0vUX/o0=
+
+Name: org/coode/owl/owlxmlparser/AbstractDescriptionFillerRestriction.
+ class
+SHA1-Digest: j9s3dQjesSMXEtxFe3PwxiYN2aw=
+
+Name: org/semanticweb/owl/vocab/OWLRestrictedDataRangeFacetVocabulary.
+ class
+SHA1-Digest: OCIL6uaf2vFd6BKxKF9XolSxB/Y=
+
+Name: org/coode/owl/owlxmlparser/AbstractElementHandlerFactory.class
+SHA1-Digest: spwXh9gzji0kypwj/TmrZBBVPw8=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$54.class
+SHA1-Digest: /xosTWQpenvt76jtyvkUO41FaAo=
+
+Name: org/semanticweb/owl/model/OWLDataRangeFacetRestriction.class
+SHA1-Digest: pLQ6CC8KdAk65JL7K5SLHrGwAB0=
+
+Name: uk/ac/manchester/cs/owl/OWLOntologyImpl$5.class
+SHA1-Digest: K4myBkCwM/iMpnkCbEHMnTUt2N4=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$25.class
+SHA1-Digest: 4wpNhvV2p+FLtLMtk9EBMcHpcIw=
+
+Name: org/semanticweb/owl/model/OWLOntologyChangeException.class
+SHA1-Digest: Xs48QalOFPYZNYoSrlOp2DKz95c=
+
+Name: uk/ac/manchester/cs/owl/inference/dig11/DIGTranslator.class
+SHA1-Digest: srefS6rXYdtAeLjveHbNrulstfw=
+
+Name: org/coode/owl/rdfxml/parser/OWLRDFParserException.class
+SHA1-Digest: DqDfE3wpPv4tJviaKX7ORgzCljQ=
+
+Name: org/semanticweb/owl/util/NullProgressMonitor.class
+SHA1-Digest: ZcT9+DbqTfCh5r7PLD6+cGySTq8=
+
+Name: uk/ac/manchester/cs/owl/OWLObjectOneOfImpl.class
+SHA1-Digest: uZAwliHW2RYmR/QIU55xzGoRsK4=
+
+Name: org/semanticweb/owl/util/BidirectionalShortFormProviderAdapter.c
+ lass
+SHA1-Digest: voDAvFzpAhCscaZ+ZvqFAf6NR1M=
+
+Name: uk/ac/manchester/cs/owl/OWLQuantifiedRestrictionImpl.class
+SHA1-Digest: DHcfBCNyufl+oQU39heEJbrUyiw=
+
+Name: org/semanticweb/owl/model/TestUtils.class
+SHA1-Digest: C4FL/h5ilpbt8dcIzWimScb6ITA=
+
+Name: org/coode/owl/rdfxml/parser/TypeDeprecatedClassHandler.class
+SHA1-Digest: 7gA1ofXGJuBoy7FBjmZZcgElhsE=
+
+Name: org/semanticweb/owl/model/OWLEquivalentDataPropertiesAxiom.class
+SHA1-Digest: KRmqc7RDqTuH5bt3GKsJ8bHUshs=
+
+Name: uk/ac/manchester/cs/owl/OWLEquivalentObjectPropertiesAxiomImpl.c
+ lass
+SHA1-Digest: rrHFNRvlQml6zE0jS4L4sPnLE8U=
+
+Name: org/semanticweb/owl/model/OWLOntologyChangeVisitor.class
+SHA1-Digest: tYSxxk5RuRVqNadny+HSmuoX5tc=
+
+Name: org/semanticweb/owl/io/OWLParser.class
+SHA1-Digest: CEetBgzTa4jNj/rKhn6rJ1Sav80=
+
+Name: uk/ac/manchester/cs/owl/OWLDifferentIndividualsAxiomImpl.class
+SHA1-Digest: Tcz8mYpPzggofjy7XgyG/UR9LHk=
+
+Name: org/coode/owl/owlxmlparser/OWLDataRestrictionElementHandler.clas
+ s
+SHA1-Digest: GSW+GcFx5bPGfnraNZIn0p2HYts=
+
+Name: org/coode/owl/owlxmlparser/OWLDataMinCardinalityElementHandler.c
+ lass
+SHA1-Digest: JpuXoCnIB5CV9hcn5Le4YQeqEdk=
+
+Name: uk/ac/manchester/cs/owl/OWLEntityAnnotationAxiomImpl.class
+SHA1-Digest: +8x/OEN5cp9szp5mc4Fq11+hH5Q=
+
+Name: uk/ac/manchester/cs/owl/OWLDataPropertyAssertionAxiomImpl.class
+SHA1-Digest: oaJsVOGADLzdff076zsg+Y8mwWg=
+
+Name: uk/ac/manchester/cs/owl/OWLOntologyImpl$11.class
+SHA1-Digest: XvT8pbcp5C54/ywnQz1LA5j3WS0=
+
+Name: org/semanticweb/owl/model/OWLDataAllRestrictionTestCase.class
+SHA1-Digest: 3saDdXfhb+TWhza7KkXY+IgEzo0=
+
+Name: org/semanticweb/owl/model/OWLIndividualNotObjectRelationshipAxio
+ mTestCase.class
+SHA1-Digest: eanZxXN3zSAAGDo7ep5MSbLgfJI=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$62.class
+SHA1-Digest: kBrvcGvuswsBbVPEilJlYUrPE+c=
+
+Name: uk/ac/manchester/cs/owl/OWLDataPropertyDomainAxiomImpl.class
+SHA1-Digest: 9A9FB6fxhT8ohTyzeqRsB70spwk=
+
+Name: org/semanticweb/owl/model/OWLDataMinCardinalityTestCase.class
+SHA1-Digest: 7+Bg7m0P3Ge5cIifveZbImRxUAo=
+
+Name: uk/ac/manchester/cs/owl/inference/dig11/DIGXMLWriterFactory.clas
+ s
+SHA1-Digest: 2qM3EEx4Sl22v2Y6cRvZhCd6Nd0=
+
+Name: org/semanticweb/owl/util/AutoURIMapper$OWLXMLOntologyRootElement
+ Handler.class
+SHA1-Digest: /pkzxl3EQ0iCIsbvaWLyhaGOyn8=
+
+Name: org/semanticweb/owl/model/OWLOntologyAnnotationAxiom.class
+SHA1-Digest: EEEwyUYKYT5t9rcqH1nGr+h+goU=
+
+Name: org/coode/owl/rdfxml/parser/ObjectHasValueTranslator.class
+SHA1-Digest: 9+5tjoYGmWT/mFe96UH6xKZID1o=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserSAXException.class
+SHA1-Digest: Ab3CqN3SKVjyfXYdthue7pQEsuw=
+
+Name: org/coode/owlapi/examples/Example3.class
+SHA1-Digest: umuMs4oplF6xS0YsYaD03fBUIz8=
+
+Name: org/semanticweb/owl/model/AbstractOWLDataCardinalityRestrictionT
+ estCase.class
+SHA1-Digest: gCjjx0QlIJUA7sexImIxKLPZXRs=
+
+Name: org/coode/owl/owlxmlparser/OWLObjectPropertyAssertionAxiomElemen
+ tHandler.class
+SHA1-Digest: c9+WT2h/zArJKecedGMMae7rQzg=
+
+Name: org/semanticweb/owl/model/OWLObjectPropertyRangeAxiom.class
+SHA1-Digest: ftcIuBV5kmrKeaUqbkHQRLahBvY=
+
+Name: org/semanticweb/owl/util/SimpleRootClassChecker.class
+SHA1-Digest: PkJESg7T2NhRIkX+912LB2Ks3tc=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$26.class
+SHA1-Digest: U1qkogChN8rK1Knk6oq9YI6Msbc=
+
+Name: org/semanticweb/owl/util/CachingBidirectionalShortFormProvider.c
+ lass
+SHA1-Digest: FX+5uVwYWnK3t7FVgbzLPaKKwok=
+
+Name: org/coode/owl/rdfxml/parser/OneOfTranslator.class
+SHA1-Digest: +etoPM+hGcA9odC3ozUQzWBJBIM=
+
+Name: org/semanticweb/owl/model/OWLDataMaxCardinalityRestriction.class
+SHA1-Digest: ga4gcgZx8sHoneiTeXmSoFxKgH4=
+
+Name: org/semanticweb/owl/model/OWLCommentAnnotation.class
+SHA1-Digest: vipL4nbeN+nL1UUd94Tf9XCuQqY=
+
+Name: uk/ac/manchester/cs/owl/OWLOntologyImpl$14.class
+SHA1-Digest: t/mwo04/2+MG+Di/a7EPCSnkxQQ=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParser.class
+SHA1-Digest: 2qkI0CaxNEa2AoBRCax2MYgBY/k=
+
+Name: org/coode/owl/owlxmlparser/OWLIrreflexiveObjectPropertyAxiomElem
+ entHandler.class
+SHA1-Digest: L5JbBuRSeHr01fA2t4cWQWmVod4=
+
+Name: org/semanticweb/owl/model/AbstractOWLRestrictionWithFillerTestCa
+ se.class
+SHA1-Digest: 59wcSEvj++bmKep8MCUnBTamEs4=
+
+Name: uk/ac/manchester/cs/owl/OWLDataComplementOfImpl.class
+SHA1-Digest: YTDJ8iFS2A7443+012e3CBWobOI=
+
+Name: org/coode/owl/owlxmlparser/AbstractObjectRestrictionElementHandl
+ er.class
+SHA1-Digest: VD952zNaUmWvA7sn73G99xplE44=
+
+Name: org/semanticweb/owl/model/OWLNamedObjectVisitor.class
+SHA1-Digest: 0urfIxuM6sxLlqoTJnOZ+LsvWUA=
+
+Name: org/coode/owl/rdfxml/parser/TPDisjointDataPropertiesHandler.clas
+ s
+SHA1-Digest: JTAk697vNDB3kQHydxUiabSAbGw=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$43.class
+SHA1-Digest: b5fYxJOYzjuyF8Zqa7bkNyBL/LQ=
+
+Name: org/semanticweb/owl/vocab/NamespaceOWLOntologyFormat.class
+SHA1-Digest: XrxWevzB89yzHN377XUyCZJrqVQ=
+
+Name: org/coode/owl/functionalparser/OWLFunctionalSyntaxParser$Lookahe
+ adSuccess.class
+SHA1-Digest: djtrU78ZYIHPu9pvO/TlPgUvjOo=
+
+Name: org/coode/owl/owlxmlparser/OWLDisjointObjectPropertiesAxiomEleme
+ ntHandler.class
+SHA1-Digest: lDaCijbQCOgkuqArVT44cRSLipA=
+
+Name: org/semanticweb/owl/io/OWLOntologyInputSource.class
+SHA1-Digest: 3U1N7g6PI615HsyEHCasAQHp8XM=
+
+Name: org/coode/owl/owlxmlparser/OWLObjectMinCardinalityElementHandler
+ .class
+SHA1-Digest: bYimSTBsyF0GQ4fumLCBxn4zpjw=
+
+Name: org/coode/owl/rdfxml/parser/TPSubObjectPropertyOfHandler.class
+SHA1-Digest: 2oPUOWjBDJOgaWtgdbKXZL0n0eM=
+
+Name: org/coode/owl/owlxmlparser/OWLObjectExistsSelfElementHandler.cla
+ ss
+SHA1-Digest: WyHWPMhASn1/lTNGz10vgnQ+uGE=
+
+Name: uk/ac/manchester/cs/owl/OWLOntologyImpl$7.class
+SHA1-Digest: JpEj/UA3sjVL4V6qyK3iFm2y0qk=
+
+Name: org/semanticweb/owl/model/OWLNamedObject.class
+SHA1-Digest: 9HTWWxKkCL3TqZArzsVikombbBI=
+
+Name: org/semanticweb/owl/util/OntologyBaseURIChanger.class
+SHA1-Digest: MStdMeQW3yNw9OT5lAo7bJz25q4=
+
+Name: uk/ac/manchester/cs/owl/OWLDataMinCardinalityRestrictionImpl.cla
+ ss
+SHA1-Digest: a6sY0EZPH9WqBzCFbq9vwcpXk3E=
+
+Name: uk/ac/manchester/cs/owl/inference/dig11/HTTPReasonerImpl.class
+SHA1-Digest: 3o0Me2MeNgm1A0KFr32Qu4d2V04=
+
+Name: org/coode/owl/rdfxml/parser/tests/RDFParserTestCases.class
+SHA1-Digest: LGWviJwTNMA13BSWb0aBHP9QrSs=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$3.class
+SHA1-Digest: wGJQ4J8x/7vXCfh05rfduWvfSAA=
+
+Name: org/coode/owl/krssparser/KRSSParserConstants.class
+SHA1-Digest: U21txx/mW93I+S1Q2IwDJPmxwL4=
+
+Name: org/coode/obo/parser/OBOParserTokenManager.class
+SHA1-Digest: 1N79qXBBV/UZvbMgSdBFm52uH+E=
+
+Name: org/semanticweb/owl/model/OWLDisjointObjectPropertiesAxiomTestCa
+ se.class
+SHA1-Digest: ArcvuHJvwsXhJfQ20vDRtrIIDp8=
+
+Name: org/semanticweb/owl/model/SWRLObjectVisitor.class
+SHA1-Digest: eMJHV41bFgv/hTW1f4yBG6tvs/Y=
+
+Name: org/coode/owl/functionalrenderer/OWLObjectRenderer.class
+SHA1-Digest: VZ6x1/byiBmkmoq5AU9O/Pw0KvA=
+
+Name: org/semanticweb/owl/util/NamedConjunctChecker$NamedConjunctCheck
+ erVisitor.class
+SHA1-Digest: 2omBXH8PbJEmuE1i8xVq6HzkoG0=
+
+Name: org/semanticweb/owl/model/OWLObjectValueRestriction.class
+SHA1-Digest: AHyFXdA1i7MfXkh685JvKOdMi5U=
+
+Name: org/semanticweb/owl/util/AutoURIMapper$OntologyRootElementHandle
+ r.class
+SHA1-Digest: G11Ft2JNwHyJV8KvyXMg+KajJpA=
+
+Name: org/coode/xml/XMLWriterFactory.class
+SHA1-Digest: sNk8yUgOGfzTEwL3GOvZO5l7CKk=
+
+Name: org/coode/xml/XMLWriterImpl.class
+SHA1-Digest: wrTydyjwXVN67BRHGgfGOjLRl7k=
+
+Name: org/semanticweb/owl/model/OWLSameIndividualsAxiom.class
+SHA1-Digest: 4eWy75yUpYJa45QK99QoQ7pVJJI=
+
+Name: org/coode/owl/rdfxml/parser/TypeObjectPropertyHandler.class
+SHA1-Digest: G5/Gb+XfSuWKtf5yrCLyLxFKOy0=
+
+Name: org/coode/owl/rdfxml/parser/TPDisjointWithHandler.class
+SHA1-Digest: CCkrdmNroTzxiT0GiymwwhYL964=
+
+Name: org/semanticweb/owl/util/OWLOntologySingletonSetProvider.class
+SHA1-Digest: pOeNFa6McWJ9hkswk2fQBEFafvw=
+
+Name: org/semanticweb/owl/debugging/DebuggerDescriptionGenerator.class
+SHA1-Digest: dVrOwm0oNmGg8DDvj+VRq8A0zNc=
+
+Name: org/coode/owl/rdfxml/parser/TPOnPropertyHandler.class
+SHA1-Digest: Rxs04DPu8BxGoSlkoamh5bZIfdM=
+
+Name: org/coode/owl/owlxmlparser/OWLInverseFunctionalObjectPropertyAxi
+ omElementHandler.class
+SHA1-Digest: azUs9Wvs4XYdlUz6AYIBA4POKoI=
+
+Name: org/semanticweb/owl/model/OWLOntologyURIMapper.class
+SHA1-Digest: TskSR1PPm2UTxGX5/rwnpextkSk=
+
+Name: uk/ac/manchester/cs/owl/OWLObjectComplementOfImpl.class
+SHA1-Digest: aP7b39FAP6ed7572+QQDX2ZvzhE=
+
+Name: org/semanticweb/owl/model/OWLQuantifiedRestriction.class
+SHA1-Digest: 84ZjTXkCezTvY35eYWL1/Mq4k+Q=
+
+Name: org/coode/owl/rdfxml/parser/TypeSWRLIndividualPropertyAtomHandle
+ r.class
+SHA1-Digest: fbIVz+DNw/l+qu4t9Dz03bv4420=
+
+Name: org/coode/owl/rdfxml/parser/TPComplementOfHandler.class
+SHA1-Digest: ABj+5SgmEHBD/iLjSnqFuuct5K4=
+
+Name: org/coode/owl/owlxmlparser/AbstractOWLPropertyCharacteristicAxio
+ mElementHandler.class
+SHA1-Digest: WNCow5iQ1tPc570V+1+zyr3qZpw=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserElementNotFoundException.
+ class
+SHA1-Digest: M/US1KdoRfjQli5VxcqGdk50mMY=
+
+Name: org/coode/owl/functionalparser/OWLFunctionalSyntaxParserFactory.
+ class
+SHA1-Digest: nVSx+1bTIQ5xMwq0tduesuWG6EE=
+
+Name: org/coode/owl/functionalparser/OWLFunctionalSyntaxParserTokenMan
+ ager.class
+SHA1-Digest: sRSvlrnAm/O+YbnthtedSNNvBwE=
+
+Name: org/semanticweb/owl/util/OWLAxiomVisitorAdapter.class
+SHA1-Digest: 8IP/Ivk7VH50IGvkVfw8JQDHwc4=
+
+Name: org/coode/owl/krssparser/KRSSOWLParser.class
+SHA1-Digest: KmGBJKYaJzEY34F6buik1Ab3DGs=
+
+Name: org/coode/owl/rdfxml/parser/TPEquivalentObjectPropertyHandler.cl
+ ass
+SHA1-Digest: J20w4GcHI/hjvKzbffEzjc63xTs=
+
+Name: org/coode/owl/owlxmlparser/OWLDataPropertyRangeAxiomElementHandl
+ er.class
+SHA1-Digest: y5WV68tHKRCGsKBLXEDWmRwWs8w=
+
+Name: org/semanticweb/owl/model/OWLEquivalentDataPropertiesAxiomTestCa
+ se.class
+SHA1-Digest: Yi6W4S9r4mlZzhBmJNzXlgn/144=
+
+Name: org/semanticweb/owl/model/OWLDataVisitor.class
+SHA1-Digest: eUs6Kd2YM96vDxiz65s4A8Jt6VA=
+
+Name: uk/ac/manchester/cs/owl/OWLUnaryPropertyAxiomImpl.class
+SHA1-Digest: d3ki4PxO5eQMfJVm5VtdTSdnDlA=
+
+Name: org/semanticweb/owl/util/CollectionFactory.class
+SHA1-Digest: OMKb4RUZV5Uk32B3EyhXw//2drM=
+
+Name: org/coode/owl/rdfxml/parser/AbstractDescriptionTranslator.class
+SHA1-Digest: Z2+rZwOCfXG7afa8hpTP92r04mY=
+
+Name: org/coode/owl/rdfxml/parser/AbstractResourceTripleHandler.class
+SHA1-Digest: 6U3RLDQVOAm1LbtoKznWcsoukEg=
+
+Name: org/semanticweb/owl/io/OWLRendererException.class
+SHA1-Digest: P5NUb4nJfiQAzOw5xGiWMK693VU=
+
+Name: edu/unika/aifb/rdf/api/syntax/RDFParser$ReifiedStatementBag.clas
+ s
+SHA1-Digest: yJSC9OISLd4M2dw4o7eP6EJBPnY=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$35.class
+SHA1-Digest: FXcOzQbksx0ScTEKvq0M60QgN1A=
+
+Name: org/semanticweb/owl/util/ToldClassHierarchyReasoner$ChildClassEx
+ tractor.class
+SHA1-Digest: jERSLyipDSBXxsVZB59GP7kAjX8=
+
+Name: org/coode/owl/krssparser/KRSSParser.class
+SHA1-Digest: vbrk++Y19F2YxBT9opCVtcf+JEE=
+
+Name: uk/ac/manchester/cs/owl/OWLOntologyImpl$OWLOntologyChangeFilter.
+ class
+SHA1-Digest: Tc9tTHneqWCLKvU6dl7lZ7cg1wI=
+
+Name: org/coode/owl/rdfxml/parser/AbstractRestrictionTranslator.class
+SHA1-Digest: VlBZUzi6Q4dkHjOlUDyhLl5gqU4=
+
+Name: org/semanticweb/owl/model/OWLOntologyFactoryNotFoundException.cl
+ ass
+SHA1-Digest: KPVyhBtWntHF1b7M0b/jrThXQlA=
+
+Name: uk/ac/manchester/cs/owl/SWRLAtomIVariableImpl.class
+SHA1-Digest: vXWMFcAl0aBALVQAt44P7CNdTrI=
+
+Name: org/coode/owl/rdfxml/parser/DataSomeValuesFromTranslator.class
+SHA1-Digest: WpUdV7Zsyu3yDs6wT9W5i3CQ2Fs=
+
+Name: org/coode/owl/krssparser/SimpleCharStream.class
+SHA1-Digest: XGBe9dStPnC+iyc6xyfV4mWhgQg=
+
+Name: org/semanticweb/owl/vocab/SWRLVocabulary.class
+SHA1-Digest: +rD38iq7djJvqCCgUDhBgS5/3iA=
+
+Name: org/semanticweb/owl/model/OWLOntologyResourceAccessException.cla
+ ss
+SHA1-Digest: 9bLLl3lRg+j1NctRQJNMSFMpIJk=
+
+Name: org/coode/owl/rdfxml/parser/TypeFunctionalPropertyHandler.class
+SHA1-Digest: De5RT0XI6YQ4NWeNp2/C2kaFMco=
+
+Name: org/coode/owl/rdfxml/parser/TypeRestrictionHandler.class
+SHA1-Digest: lEcvJVFNfG74YAU1Bnp8+O2s79s=
+
+Name: org/semanticweb/owl/util/FilteringOWLOntologyChangeListener.clas
+ s
+SHA1-Digest: YKqxyLRBboGCEWhiflny5ogy9zU=
+
+Name: uk/ac/manchester/cs/owl/OWLDisjointClassesAxiomImpl.class
+SHA1-Digest: T9vhM/BMePHHIvZrkZ0+DelD3a0=
+
+Name: uk/ac/manchester/cs/owl/inference/dig11/DIGReasonerIdentity.clas
+ s
+SHA1-Digest: wnNpJI4s3KtnMBUHwddjDkXZmUk=
+
+Name: org/semanticweb/owl/vocab/Namespaces.class
+SHA1-Digest: 5TiVrlHaELL60nqExqqbjluAUEk=
+
+Name: org/coode/owl/owlxmlparser/OWLReflexiveObjectPropertyAxiomElemen
+ tHandler.class
+SHA1-Digest: IMo0/sEgqovnSqP11hxa5ftG5MQ=
+
+Name: org/semanticweb/owl/model/OWLClassTestCase.class
+SHA1-Digest: Ar5SAEOmciEzyxQREC4aKYHnF0Q=
+
+Name: org/coode/owl/rdfxml/parser/TPEquivalentPropertyHandler.class
+SHA1-Digest: 7K+VPWMcK7zbOInz6l4M67DNhxU=
+
+Name: org/coode/xml/XMLWriterNamespaceManager.class
+SHA1-Digest: PSgKT2ingywIkiblDpn7IXx5sqI=
+
+Name: org/semanticweb/owl/model/OWLIndividualNotDataRelationshipAxiomT
+ estCase.class
+SHA1-Digest: kN4UdzS9DiSkKQRslPv1mMAfffY=
+
+Name: org/semanticweb/owl/model/OWLOntologyFactory$OWLOntologyCreation
+ Handler.class
+SHA1-Digest: z/PViwvvmYcDltArjqGbRBVUbHs=
+
+Name: org/semanticweb/owl/model/OWLIrreflexiveObjectPropertyAxiom.clas
+ s
+SHA1-Digest: fW+oXh+s08gPA3ECakgJao9lAIU=
+
+Name: org/semanticweb/owl/debugging/OWLDebugger.class
+SHA1-Digest: Mp0ky3QmlxxyoKlxfdN2kY6YmAY=
+
+Name: org/semanticweb/owl/model/OWLObjectSomeRestrictionTestCase.class
+SHA1-Digest: YkiM5LTBRPZ/fk+86ADs/NqcECk=
+
+Name: uk/ac/manchester/cs/owl/OWLObjectSelfRestrictionImpl.class
+SHA1-Digest: ca7RMdRkgaJJCs872LegezkDYbc=
+
+Name: org/semanticweb/owl/model/SWRLAtomDVariable.class
+SHA1-Digest: fWSkqOlkSeSTETXsP0FxfeiyO7w=
+
+Name: org/semanticweb/owl/util/RootClassChecker.class
+SHA1-Digest: 92HnENo7Bm+qpw3zYVaa4qeOe7U=
+
+Name: org/coode/owl/owlxmlparser/OWLFunctionalDataPropertyAxiomElement
+ Handler.class
+SHA1-Digest: dpJ6ixAcRQBo1MOEEClWilY8RmI=
+
+Name: org/semanticweb/owl/model/OWLObjectAllRestriction.class
+SHA1-Digest: JA7Hky+xjkbgGAYT+0pXPxAcAYU=
+
+Name: uk/ac/manchester/cs/owl/OWLDataPropertyRangeAxiomImpl.class
+SHA1-Digest: 2s6RffkHt5OXYG8PZbt7LYeeKXQ=
+
+Name: uk/ac/manchester/cs/owl/SWRLBinaryAtomImpl.class
+SHA1-Digest: qISD0IdiuMtyRu21apPZCeciV6o=
+
+Name: org/semanticweb/owl/util/DLExpressivityChecker.class
+SHA1-Digest: epQNHEYIHO157uqNUp24eIr8JWI=
+
+Name: uk/ac/manchester/cs/owl/OWLObjectImpl.class
+SHA1-Digest: 1VAQ7QSNuXtyYCuckZL06dbMS0Y=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$48.class
+SHA1-Digest: 7pLCwJsKtdXMBIF3l/jGLG9Y/p8=
+
+Name: org/semanticweb/owl/model/OWLDataRangeNotTestCase.class
+SHA1-Digest: +xLO26rbt2XY76oLxKvo+WoXhUM=
+
+Name: org/coode/owl/rdfxml/parser/ObjectCardinalityTranslator.class
+SHA1-Digest: Y7AN8iWWtRtU5J4ue4k37PmqzbU=
+
+Name: uk/ac/manchester/cs/owl/OWLOntologyImpl$8.class
+SHA1-Digest: oeheU9csaTcT33afoaFBh3HKlHU=
+
+Name: uk/ac/manchester/cs/owl/inference/dig11/DIGReasonerPreferences.c
+ lass
+SHA1-Digest: vsMao17U4kQQFm3mz/Z0hXWaZ/c=
+
+Name: org/semanticweb/owl/util/ToldClassHierarchyReasoner.class
+SHA1-Digest: bElcN9A1GljTwoJKU93X/GC+tSk=
+
+Name: org/coode/owl/rdfxml/parser/TypeNegativeObjectPropertyAssertionH
+ andler.class
+SHA1-Digest: 8MKQxMLxv5YmlmcapbvYRMMpPuY=
+
+Name: uk/ac/manchester/cs/owl/OWLSameIndividualsAxiomImpl.class
+SHA1-Digest: r0baKOaVwfxEcJSuUbji/4zDaZU=
+
+Name: org/coode/owl/rdfxml/parser/RDFXMLParser$1.class
+SHA1-Digest: d+8ODHL2Eh0hGqaKD/wXpegpvRI=
+
+Name: org/coode/owl/rdfxml/parser/SelfRestrictionTranslator.class
+SHA1-Digest: JHDKQrbNfpeR31gaXznRJI/Pebo=
+
+Name: org/semanticweb/owl/model/OWLFunctionalDataPropertyTestCase.clas
+ s
+SHA1-Digest: e+vXQVXpiNRczuczHLIdYFv8i88=
+
+Name: org/coode/obo/parser/SymmetricTagValueHandler.class
+SHA1-Digest: xY/+J8Hozzc/4epgkfRHFDLBm6Q=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$22.class
+SHA1-Digest: 3pW44M839h7I4bnHm74uvCckZLs=
+
+Name: uk/ac/manchester/cs/owl/ParsableOWLOntologyFactory.class
+SHA1-Digest: 9Z1vdumQhgjfDbW+h5J9RtJTNfU=
+
+Name: org/coode/owl/owlxmlparser/OWLSubDataPropertyOfAxiomElementHandl
+ er.class
+SHA1-Digest: Za/MaSeBP6tFPyBL3n3V6dkuxgU=
+
+Name: org/semanticweb/owl/model/OWLIndividualDataRelationshipAxiomTest
+ Case.class
+SHA1-Digest: anmfTFbbbM2htDJdLz9yC+dXiko=
+
+Name: org/semanticweb/owl/model/OWLObjectExactCardinalityTestCase.clas
+ s
+SHA1-Digest: CUNIZvwVk06Og41XqvK0nvRVSPs=
+
+Name: uk/ac/manchester/cs/owl/SWRLBuiltInAtomImpl.class
+SHA1-Digest: wx8SROv1+9J34SIsgFCncw8E9dU=
+
+Name: org/semanticweb/owl/apibinding/OWLManager.class
+SHA1-Digest: 2nWGmx33CBmCiXPQjoHSerFaOso=
+
+Name: org/coode/owl/rdf/model/RDFLiteralNode.class
+SHA1-Digest: +Qd+iDs4IvisIpgm0McxO6cCQUk=
+
+Name: org/semanticweb/owl/model/OWLReflexiveObjectPropertyAxiomTestCas
+ e.class
+SHA1-Digest: VWJQQOexyQHVcwJlYarHdTaMUZo=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$24.class
+SHA1-Digest: 9B4PziL+T6AaDLr1C5qqMjyFFGk=
+
+Name: org/semanticweb/owl/inference/MonitorableOWLReasoner.class
+SHA1-Digest: sxIikGh/LPDujIWLjvEvfgvlwk0=
+
+Name: uk/ac/manchester/cs/owl/OWLNegativeDataPropertyAssertionAxiomImp
+ l.class
+SHA1-Digest: z5HPdFzfxweH9lIan5cLTFrWQXA=
+
+Name: edu/unika/aifb/rdf/api/syntax/RDFParser$ReificationManager.class
+SHA1-Digest: 0TnN1J1IuEFJH/+bMzleP9WOTEk=
+
+Name: org/coode/owl/owlxmlparser/OWLOntologyHandler.class
+SHA1-Digest: fL0Dzbxeztl2hhJRUD7tdbsssu8=
+
+Name: edu/unika/aifb/rdf/api/syntax/RDFParser$ParseTypeLiteralProperty
+ Element.class
+SHA1-Digest: q0zyjoAUcfzzvFvsxCw6waK9634=
+
+Name: org/coode/owl/owlxmlparser/OWLInverseObjectPropertyElementHandle
+ r.class
+SHA1-Digest: wMOgXwiEYquCXPunX8FYZu/YGEM=
+
+Name: uk/ac/manchester/cs/owl/OWLPropertyDomainAxiomImpl.class
+SHA1-Digest: dFliKy42x1c8ORoWZ7CrxnDcp+U=
+
+Name: org/coode/owl/owlxmlparser/OWLObjectSomeValuesFromElementHandler
+ .class
+SHA1-Digest: l9nW/b/uxVwKRCoyFte9cWLAE18=
+
+Name: org/semanticweb/owl/model/OWLDataFactoryFactory.class
+SHA1-Digest: rtHOFtuGzqw708DBbjFlHoM6b2g=
+
+Name: org/semanticweb/owl/util/OWLDataUtil.class
+SHA1-Digest: nNc7y7Lnx5TmVR/p9L9Fjhk5fok=
+
+Name: org/coode/owl/owlxmlparser/OWLDataComplementOfElementHandler.cla
+ ss
+SHA1-Digest: JBaSsjS6TEFo3JaFnafhNUIO9Yg=
+
+Name: org/semanticweb/owl/model/SpecificOntologyChangeBroadcastStrateg
+ y.class
+SHA1-Digest: lklc+GXPo6fzRhbQ9K9S3nvpzu4=
+
+Name: org/coode/owl/rdfxml/parser/GTPObjectPropertyAssertionHandler.cl
+ ass
+SHA1-Digest: 2UHz57HWJoUb8WFWBvyiby+dpnM=
+
+Name: org/semanticweb/owl/model/OWLInverseFunctionalObjectPropertyAxio
+ mTestCase.class
+SHA1-Digest: Luy0TIWuxwnu/7oh63UGoaaKg4E=
+
+Name: org/semanticweb/owl/model/OWLSubPropertyAxiom.class
+SHA1-Digest: NIuSfMvjGtnF314Xm2W6pIpIeDA=
+
+Name: org/semanticweb/owl/model/OWLObjectSubPropertyAxiomTestCase.clas
+ s
+SHA1-Digest: 80ijAZNw0BBQmSJuGgPOPnl3AJo=
+
+Name: org/coode/owl/rdfxml/parser/TypeFunctionalObjectPropertyHandler.
+ class
+SHA1-Digest: lLhPFB5ljYxjjOG34xSzbjF3CPA=
+
+Name: org/semanticweb/owl/io/OWLRendererIOException.class
+SHA1-Digest: inkxJlpsQ8ERskTbHOu2ZQBo2NA=
+
+Name: org/semanticweb/owl/model/OWLIndividualAxiom.class
+SHA1-Digest: wUW/YnjbEu3IaJq08kJaGGPtuck=
+
+Name: org/coode/xml/XMLWriterPreferences.class
+SHA1-Digest: fVyM8287BXAmrlYqiE0YERgmzms=
+
+Name: org/coode/obo/parser/OBOParserHandler.class
+SHA1-Digest: sCGYFnED1+XFNHd3U3Myj96fH3U=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$33.class
+SHA1-Digest: cZnTvoTll35pGgq5YRICgQFwTs0=
+
+Name: org/semanticweb/owl/model/UnknownOWLOntologyException.class
+SHA1-Digest: /vT5zYg0hIXSw85s1xDKI7DAH7E=
+
+Name: uk/ac/manchester/cs/owl/OWLNaryIndividualAxiomImpl.class
+SHA1-Digest: Oj89/4gS+SBL6WVWq7XENCLb6lk=
+
+Name: uk/ac/manchester/cs/owl/OWLSubPropertyAxiomImpl.class
+SHA1-Digest: XqdERlckPWnpTlTf5ACuxNx70NU=
+
+Name: org/coode/owl/rdfxml/parser/TPPropertyDomainHandler.class
+SHA1-Digest: Qc/F0O4Fkbdfhz5cvYnEkWZgdqk=
+
+Name: org/coode/xml/XMLWriterImpl$1.class
+SHA1-Digest: X6u8I3V0CM6kgoRnudTRU14gGkg=
+
+Name: org/semanticweb/owl/util/OWLEntityCollector.class
+SHA1-Digest: VCG0DLSQabpbCDofVuzyNH/G+lg=
+
+Name: org/coode/obo/parser/PartOfTagValueHandler.class
+SHA1-Digest: XdS62Jjo2Fmm/kt4cvn0sV/Qqr0=
+
+Name: org/semanticweb/owl/model/AbstractOWLObjectCardinalityRestrictio
+ nTestCase.class
+SHA1-Digest: sK4Gm8cS70wna4P/Z9UpcNE/EqQ=
+
+Name: org/coode/obo/parser/ReflexiveHandler.class
+SHA1-Digest: gI2dVkvg7bPlClH1dsjBdCBY8Jg=
+
+Name: uk/ac/manchester/cs/owl/OWLUntypedConstantImpl.class
+SHA1-Digest: BF0f+T/90ukyUxlZv9a8uOBseMw=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$38.class
+SHA1-Digest: zma77Xb2PEKzW+FPrbmfRC/23o0=
+
+Name: org/semanticweb/owl/util/HashCode.class
+SHA1-Digest: UKs/3Fh+2piiXHTF+9ZOFPS7P88=
+
+Name: org/semanticweb/owl/inference/OWLConsistencyChecker.class
+SHA1-Digest: i01nk3uqUsKuLSyD9RPLQwsq9ZY=
+
+Name: org/semanticweb/owl/model/OWLObjectValueRestrictionTestCase.clas
+ s
+SHA1-Digest: qkTZ007fNLYjWrS7S2hPhLITpjg=
+
+Name: org/coode/owl/rdfxml/parser/TypeAxiomHandler.class
+SHA1-Digest: i3SDi9Ot6OJ6n9vDcXO92Hayaw4=
+
+Name: org/coode/owl/rdf/rdfxml/RDFXMLWriter.class
+SHA1-Digest: oRqUCtCkvMaNI5ZMnckzyEFKQoY=
+
+Name: org/semanticweb/owl/model/OWLUntypedConstant.class
+SHA1-Digest: G/aklOHcdNLFKPSOfQY/l0NIszE=
+
+Name: uk/ac/manchester/cs/owl/OWLObjectMaxCardinalityRestrictionImpl.c
+ lass
+SHA1-Digest: 0Xu6urhqgmkboJOfSe+t8OrxVyw=
+
+Name: uk/ac/manchester/cs/owl/inference/dig11/DIGTranslatorImpl.class
+SHA1-Digest: aguq0K0LK3DGMiQRd6Y3TRptz50=
+
+Name: org/semanticweb/owl/model/OWLAnnotation.class
+SHA1-Digest: SMG0AKyJ/nD1zGNI30JGpIrGhuQ=
+
+Name: org/coode/owl/rdfxml/parser/TypeFunctionalDataPropertyHandler.cl
+ ass
+SHA1-Digest: z+JNNeC9fVc/acY5TXy7LPcvO28=
+
+Name: uk/ac/manchester/cs/owl/OWLIndividualImpl.class
+SHA1-Digest: vDuscxqdhUImYiKGYO542HpW738=
+
+Name: org/semanticweb/owl/inference/OWLPropertyReasoner.class
+SHA1-Digest: F+ICPcIGKrRMdL4lzftus0G6UXw=
+
+Name: org/semanticweb/owl/model/OWLObjectOneOf.class
+SHA1-Digest: PD7mapjRN26Iqgh3KE5dUb8MZqc=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$59.class
+SHA1-Digest: gtNq8FdWouUwGSg523gU+M81nn8=
+
+Name: uk/ac/manchester/cs/owl/inference/dig11/DIGReasoner.class
+SHA1-Digest: LjDvhj7K0sMyeZS2dw83efiUEcc=
+
+Name: org/semanticweb/owl/model/BuiltInClassTestCase.class
+SHA1-Digest: DSS3qGnt1oUw7YOBGrGSvGdFkbg=
+
+Name: org/semanticweb/owl/model/OWLAnnotationAxiom.class
+SHA1-Digest: FwqN06e58vIE4EGsH6lJP2Ypxw0=
+
+Name: uk/ac/manchester/cs/owl/OWLOntologyImpl$15.class
+SHA1-Digest: 1jalx2XBuD9DNsKUtp0uATldyLE=
+
+Name: uk/ac/manchester/cs/owl/SWRLUnaryAtomImpl.class
+SHA1-Digest: DhsPgUMh65TrqBDvXhA2RC5wuJY=
+
+Name: org/semanticweb/owl/inference/OWLReasonerBase.class
+SHA1-Digest: ho6x7n321UQBvSdCug4rOtHnTmI=
+
+Name: org/semanticweb/owl/io/OWLRenderer.class
+SHA1-Digest: W0t8AJb62iJfENlqbyLRLubVi38=
+
+Name: org/semanticweb/owl/model/AbstractOWLDataFactoryTest.class
+SHA1-Digest: +VAaEZM81xN8CwB4U7EZGXif6fc=
+
+Name: uk/ac/manchester/cs/owl/OWLDataRangeRestrictionImpl.class
+SHA1-Digest: Phgf/X7SHYW/awO7oi70AxmXtqk=
+
+Name: org/coode/owl/rdfxml/parser/TPDeclaredAsHandler.class
+SHA1-Digest: ejiNtlXoCBNtK3TdkZRuAjwHMA4=
+
+Name: uk/ac/manchester/cs/owl/SWRLDifferentFromAtomImpl.class
+SHA1-Digest: G3aB9sDlQZE7duZXolCuqt85umM=
+
+Name: org/coode/owl/rdf/rdfxml/RDFXMLOntologyStorer.class
+SHA1-Digest: PqXm+rRtPM1mof7UEHeX8gy0UF8=
+
+Name: org/semanticweb/owl/model/OWLUnaryPropertyAxiom.class
+SHA1-Digest: 78U/uSWojpmXZFCDwIrDs7b8tkI=
+
+Name: uk/ac/manchester/cs/owl/OWLOntologyImpl$18.class
+SHA1-Digest: HgYb74VCPVzJLll8XnnZNJVeLts=
+
+Name: org/semanticweb/owl/model/OWLObjectPropertyInverse.class
+SHA1-Digest: NYgmay2h5KlITBBaFbXoji/Y+EM=
+
+Name: org/coode/owl/owlxmlparser/OWLNegativeObjectPropertyAssertionAxi
+ omElementHandler.class
+SHA1-Digest: nXKX2UNC6S1DAQqqBSg5qZwGRxs=
+
+Name: org/coode/obo/parser/IsATagValueHandler.class
+SHA1-Digest: 0D1BBtHixZ6f5EtxTzxDkvXCKW8=
+
+Name: org/coode/owl/rdfxml/parser/TPObjectPropertyRangeHandler.class
+SHA1-Digest: 5FXluMLpoaliop+hQg0NkW4VUVs=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$14.class
+SHA1-Digest: N+XDmAuoQ64sPknk1YBra6kgno8=
+
+Name: org/coode/owl/owlxmlparser/AbstractOWLObjectPropertyAssertionAxi
+ omElementHandler.class
+SHA1-Digest: pAGkznz/g8e4jEXw3wkeOy9aHRs=
+
+Name: org/coode/owl/rdfxml/parser/BuiltInTypeHandler.class
+SHA1-Digest: aU35teLDwmQ8zVlZf5BwzfReN9Q=
+
+Name: org/coode/owl/rdfxml/parser/DataHasValueTranslator.class
+SHA1-Digest: Em7Ta+Ht1Ie4Cy+F/HVyMDfTiac=
+
+Name: org/semanticweb/owl/model/OWLNaryIndividualAxiom.class
+SHA1-Digest: 8AYH4njPGzh4iP7N/5bRVEAJ5Dc=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$4.class
+SHA1-Digest: +pJpdxqNQ04hT3iEYiQHcWN6LwY=
+
+Name: org/coode/owl/owlxmlparser/AbstractOWLAssertionAxiomElementHandl
+ er.class
+SHA1-Digest: z1FruPPwX6lKVWAu+Arbz/i4JkE=
+
+Name: org/coode/owl/fragments/ELPlusPlusFragment.class
+SHA1-Digest: cbQHaj9fkwYAJI6ufLM5x0qnoBo=
+
+Name: uk/ac/manchester/cs/owl/OWLValueRestrictionImpl.class
+SHA1-Digest: MfvjPb6xf6leO11zKdkispBFMCY=
+
+Name: org/coode/owl/krssparser/ParseException.class
+SHA1-Digest: C19hV48T7RrAVa0n4hFNJL5A7tc=
+
+Name: org/coode/obo/parser/OBOParserHandlerAdapter.class
+SHA1-Digest: AdbSNhkEogdH36JIwqZTY5WFOBI=
+
+Name: edu/unika/aifb/rdf/api/syntax/RDFParser$ParseTypeCollectionPrope
+ rtyElement.class
+SHA1-Digest: tx1y62egp0mGL5GuP+iS6ZvNUPQ=
+
+Name: org/semanticweb/owl/io/PhysicalURIInputSource.class
+SHA1-Digest: Lk8cagNTqvy6ugoZACVxAUIbYNE=
+
+Name: org/semanticweb/owl/model/OWLProperty.class
+SHA1-Digest: KDggPV15d+YOAlUxTpzAP/mwhNw=
+
+Name: org/coode/owl/rdf/model/AbstractTranslator$1.class
+SHA1-Digest: FrbR/f3u/E/VLu2XnDYAE5ks03c=
+
+Name: org/semanticweb/owl/model/OWLObjectPropertyExpression.class
+SHA1-Digest: MdL5lp0rS66DN4/vOc0D1PR6KV8=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$39.class
+SHA1-Digest: CKBWRPoxHYlksmbu5cYNd54a7ws=
+
+Name: org/coode/obo/parser/IntersectionOfHandler.class
+SHA1-Digest: GpOj/0GeNaE+X37rAmkiqFpepzM=
+
+Name: org/semanticweb/owl/model/OWLTransitiveObjectPropertyAxiom.class
+SHA1-Digest: eddioze6tlCTtwUC413b/DlJmEA=
+
+Name: org/coode/obo/parser/OBOConsumer.class
+SHA1-Digest: cosFZdn9F6FDrmtaHdTL+9IxcGs=
+
+Name: org/semanticweb/owl/model/OWLOntologyManager.class
+SHA1-Digest: mV/jqTDxEtg94tKUwTmCBn32H4U=
+
+Name: org/coode/owl/owlxmlparser/OWLDataSomeValuesFromElementHandler.c
+ lass
+SHA1-Digest: YvikObdNTTNlE9Wtn0TtUC0EuLg=
+
+Name: org/semanticweb/owl/model/OWLPropertyRange.class
+SHA1-Digest: /Z6rYIFtchDx0R0VU8wsSMye+28=
+
+Name: org/coode/owl/rdfxml/parser/DataAllValuesFromTranslator.class
+SHA1-Digest: DJqyFGSypxk245obww3ATdEEyk8=
+
+Name: org/semanticweb/owl/model/OWLObjectMinCardinalityRestriction.cla
+ ss
+SHA1-Digest: fsTkzSy6pznrietfq/Kv6JBgCnY=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$28.class
+SHA1-Digest: uVUwWgaOr8uoYcBFU2Ze+5zfcxw=
+
+Name: org/semanticweb/owl/model/OWLAxiomVisitor.class
+SHA1-Digest: iN2fsRyO6eQQlRSV4JA/T1pNiLg=
+
+Name: org/coode/owl/rdf/model/RDFResourceNode.class
+SHA1-Digest: ztBgr1XLVfvcrwSANvDdChmAvLs=
+
+Name: org/semanticweb/owl/inference/MonitorableOWLReasonerAdapter.clas
+ s
+SHA1-Digest: yC3n3zDhYHkdHnShs8Ykz2TEGNI=
+
+Name: org/coode/owl/owlxmlparser/AbstractOWLDataPropertyOperandAxiomEl
+ ementHandler.class
+SHA1-Digest: HwCzPZT/BOVmDcOQluD5Q8ISnwU=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$58.class
+SHA1-Digest: XH/HF0gSuO0EswkBR9PTkHdL6vs=
+
+Name: org/semanticweb/owl/model/OWLFunctionalDataPropertyAxiom.class
+SHA1-Digest: wxKIlMyF9a+IACHq4pRKMV6xA9k=
+
+Name: org/coode/owl/owlxmlparser/OWLEquivalentClassesAxiomElementHandl
+ er.class
+SHA1-Digest: HsF+TMVyMPET1wDBMmq6lC1KOrY=
+
+Name: org/semanticweb/owl/model/OWLClassAxiom.class
+SHA1-Digest: u+etMpJMebQr5Ie5MJXPgbvlvIY=
+
+Name: org/coode/owl/rdfxml/parser/UnionOfTranslator.class
+SHA1-Digest: Es4XI1PfzoofcvM/cKW22xVpZTY=
+
+Name: org/coode/owl/rdfxml/parser/TypeRDFSClassHandler.class
+SHA1-Digest: S2x/7pNMnocccBcT1xDqGQ2lshE=
+
+Name: org/coode/owl/rdfxml/parser/TPUnionOfHandler.class
+SHA1-Digest: 6T9XMUq9+FgbcPdx0E6XVA9PggI=
+
+Name: org/semanticweb/owl/inference/UnsupportedReasonerOperationExcept
+ ion.class
+SHA1-Digest: pAj0IFYqeB4H3s7VJncby0Wo9RI=
+
+Name: org/coode/owl/rdfxml/parser/RDFAPITest$Triple.class
+SHA1-Digest: oScbSPI7Z/t31gALvX46dLV32/0=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$29.class
+SHA1-Digest: YI++ZVy7/85vMoWzguzA3wpCBPc=
+
+Name: org/coode/owl/owlxmlparser/AbstractDataRangeFillerRestrictionEle
+ mentHandler.class
+SHA1-Digest: qzskI+W41LabDcguAZrD3EFc02w=
+
+Name: org/coode/owl/owlxmlparser/OWLUnionOfElementHandler.class
+SHA1-Digest: d8p+Ub/aAIZf4z+INIzNokA8nEw=
+
+Name: uk/ac/manchester/cs/owl/inference/dig11/DIGRenderer.class
+SHA1-Digest: 7EiphQXqy43lctsWRuaZMS1nXtQ=
+
+Name: org/semanticweb/owl/model/OWLDeclarationAxiom.class
+SHA1-Digest: T1OZqC4OA7x7qrnVg4HFEGX0gMg=
+
+Name: org/semanticweb/owl/model/SWRLUnaryAtom.class
+SHA1-Digest: DTY+975zBC3+fgbFwUHqo57aNfM=
+
+Name: uk/ac/manchester/cs/owl/OWLIndividualRelationshipAxiomImpl.class
+SHA1-Digest: B7aVCn4Pl54wT/BC6OIdk3ha/rY=
+
+Name: org/semanticweb/owl/util/SimpleURIMapper.class
+SHA1-Digest: +5NFeBABXxqTcc2w5sDQ0OHTLy0=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$9.class
+SHA1-Digest: FDDVnnfg+agQiWsE4u9kucx7Tr8=
+
+Name: org/semanticweb/owl/model/OWLReflexiveObjectPropertyAxiom.class
+SHA1-Digest: w3rLwcmrTcCnSrs1XiWMketqxKU=
+
+Name: edu/unika/aifb/rdf/api/syntax/RDFParser.class
+SHA1-Digest: AAUhg97BTCvd0I9ByQ53YqwbRZQ=
+
+Name: org/coode/owl/owlxmlparser/OWLDataAllValuesFromElementHandler.cl
+ ass
+SHA1-Digest: aqH9hoU8yiMuwq5X91ednXlzI2M=
+
+Name: org/semanticweb/owl/model/OWLInverseFunctionalObjectPropertyAxio
+ m.class
+SHA1-Digest: 3HH/iC82evw9I4z4qLZp6t1E/xU=
+
+Name: uk/ac/manchester/cs/owl/OWLDataMaxCardinalityRestrictionImpl.cla
+ ss
+SHA1-Digest: pxRd7gDqHIsdRyLuEqMeki8fiOI=
+
+Name: uk/ac/manchester/cs/owl/OWLDataTypeImpl.class
+SHA1-Digest: s+qNtZrFAMMT6hmeAcdr7eZueoE=
+
+Name: org/coode/owl/rdfxml/parser/ObjectMinCardinalityTranslator.class
+SHA1-Digest: iuxtW9sTR1JQc7tX8Bpp/L0fupE=
+
+Name: org/coode/owl/rdf/model/RDFGraph.class
+SHA1-Digest: bUlWWfqa4uC3kw/baQ2UXKE1/gw=
+
+Name: org/coode/owl/rdfxml/parser/TPDisjointObjectPropertiesHandler.cl
+ ass
+SHA1-Digest: uGaeQ9AIvAJLjvwq5mue+ki9x5A=
+
+Name: org/semanticweb/owl/model/OWLEquivalentClassesAxiomTestCase.clas
+ s
+SHA1-Digest: 1n9L3Z/ezqfIF+lIkW2u/iQyII0=
+
+Name: org/coode/owl/owlxmlparser/AbstractOWLObjectCardinalityElementHa
+ ndler.class
+SHA1-Digest: C7XxprbvYXs8/ZrwC+fbUJem6to=
+
+Name: uk/ac/manchester/cs/owl/OWLEquivalentDataPropertiesAxiomImpl.cla
+ ss
+SHA1-Digest: bePb7NH3cD3s9XUYVHHzGBwHKYI=
+
+Name: uk/ac/manchester/cs/owl/OWLOntologyImpl$OWLEntityReferenceChecke
+ r.class
+SHA1-Digest: yuU3LMu4PJPE4Fu68tNe/lnvjbA=
+
+Name: org/semanticweb/owl/io/OWLParserFactoryRegistry.class
+SHA1-Digest: fYsTgiUrHfsSCqlPntSWP/JDvQA=
+
+Name: org/semanticweb/owl/model/OWLPropertyExpression.class
+SHA1-Digest: exRqC3HWzBss6PyNkphFUIPbMkk=
+
+Name: org/semanticweb/owl/model/OWLRuntimeException.class
+SHA1-Digest: hoTe7jqrKst638mAcVemj+hplsU=
+
+Name: org/coode/owl/rdfxml/parser/ObjectMaxCardinalityTranslator.class
+SHA1-Digest: J1eVknAj0vJSWt0EKy75lanoPus=
+
+Name: org/coode/owl/rdfxml/parser/ObjectPropertyListItemTranslator.cla
+ ss
+SHA1-Digest: iPVyyBVA7PvoaSWvuQlwweHF57Y=
+
+Name: org/semanticweb/owl/util/OWLOntologyMerger.class
+SHA1-Digest: r2ryOmFCGCBiGFLLxCcYB4djM54=
+
+Name: uk/ac/manchester/cs/owl/OWLOntologyImpl$25.class
+SHA1-Digest: SdBLCvJCLf8h3GTrT0zfV809Ovw=
+
+Name: org/coode/owl/rdfxml/parser/RDFAPITest$AbstractTriple.class
+SHA1-Digest: moqboc4wKCAwkJBs4rlZNEqHxgY=
+
+Name: org/semanticweb/owl/model/OWLDisjointObjectPropertiesAxiom.class
+SHA1-Digest: L4mqUJYCIAqmFfn66usbKrxtw3s=
+
+Name: org/semanticweb/owl/model/OWLSymmetricObjectPropertyAxiom.class
+SHA1-Digest: /8zt8mvBptsTLsna0yC/yT4EUi8=
+
+Name: org/coode/owl/owlxmlparser/OWLDifferentIndividualsAxiomElementHa
+ ndler.class
+SHA1-Digest: 2A7mBnRr4Dc7k161ttkUybbJwdo=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$61.class
+SHA1-Digest: vhEtCd/9OhCrRD72SypcAfI93ns=
+
+Name: org/semanticweb/owl/model/OWLValueRestriction.class
+SHA1-Digest: WcKHyxejWRxP/lH52cak8XwZrd0=
+
+Name: org/semanticweb/owl/model/SWRLAtomIndividualObject.class
+SHA1-Digest: C6inzP6k4oGaa2QTUzsi1fQ42TQ=
+
+Name: org/coode/owl/rdf/model/AbstractTranslator.class
+SHA1-Digest: t6buDBUSK5J6MpDCrSZv40u/ISw=
+
+Name: org/coode/owl/rdfxml/parser/AbstractTypeAxiomHandler.class
+SHA1-Digest: KxfcVZik508yUr9lNcZEBAjdsDw=
+
+Name: edu/unika/aifb/rdf/api/syntax/RDFParser$ParseTypeResourcePropert
+ yElement.class
+SHA1-Digest: /l+EERH8Xl8UL+aFOrUv+k318VM=
+
+Name: org/coode/owl/owlxmlparser/OWLObjectMaxCardinalityElementHandler
+ .class
+SHA1-Digest: s/uDpPTdUyD4nL/v6/DQ1FFppk8=
+
+Name: org/coode/owl/rdfxml/parser/RDFAPITest.class
+SHA1-Digest: nw+SaS7aJ6dv/qgPpXCi5Dxr1R8=
+
+Name: uk/ac/manchester/cs/owl/OWLOntologyImpl$20.class
+SHA1-Digest: 6Kzssf8Q8JTsWT8xtWeemRFS/48=
+
+Name: org/coode/owl/rdfxml/parser/ListItemTranslator.class
+SHA1-Digest: S+SXIYeMRP3MFsY6r/92P6muErU=
+
+Name: org/coode/owl/rdfxml/parser/TPEquivalentClassHandler.class
+SHA1-Digest: oZ5woPlZTx5DhR02ne385T80qh0=
+
+Name: org/coode/owl/rdfxml/parser/TypeDatatypeHandler.class
+SHA1-Digest: XjiE11Z6XrMF7S8iWuOya+2KVPc=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserUnexpectedAttributeExcept
+ ion.class
+SHA1-Digest: uWI0vSk0LBVqiaXe37RrS95BNFw=
+
+Name: uk/ac/manchester/cs/owl/inference/dig11/DIGReasonerException.cla
+ ss
+SHA1-Digest: HaIlEXYo4Z4IensY/UDXsRH4wD8=
+
+Name: org/semanticweb/owl/model/OWLEntity.class
+SHA1-Digest: qC0+1dNtqgvfLZ7i7YJxRd6LeT8=
+
+Name: org/semanticweb/owl/model/OWLEquivalentClassesAxiom.class
+SHA1-Digest: W9l5bT95n9nYjldynJV6/dESjik=
+
+Name: org/coode/owl/functionalparser/OWLFunctionalSyntaxOWLParser.clas
+ s
+SHA1-Digest: 4TfSLj0zeXVDxZGfK99m8c5+JmI=
+
+Name: org/semanticweb/owl/util/ToldClassHierarchyReasoner$ParentClassE
+ xtractor.class
+SHA1-Digest: uBirFuwBXbjmdi/42uxF2In48gU=
+
+Name: org/coode/owl/rdf/model/RDFNode.class
+SHA1-Digest: V67229ir47i/NdG4dl3l0gPP/50=
+
+Name: org/semanticweb/owl/model/AbstractOWLPropertyCharacteristicTestC
+ ase.class
+SHA1-Digest: pB3xJcu54p2bFjgO3Tw9pqDe7HQ=
+
+Name: org/semanticweb/owl/util/AnnotationValueShortFormProvider.class
+SHA1-Digest: xHrL92wcG2Ez5kGWGbesUDG6X+Q=
+
+Name: org/semanticweb/owl/util/OWLDescriptionVisitorAdapter.class
+SHA1-Digest: rsc7JQcZXriJxeSXJgU5SJok7VE=
+
+Name: org/coode/owl/rdfxml/parser/GTPDataPropertyAssertionHandler.clas
+ s
+SHA1-Digest: Iy+N2pVQcnWMKezZITuFrnnM/pY=
+
+Name: org/coode/owl/rdfxml/parser/IndividualListItemTranslator.class
+SHA1-Digest: n392KF5yxJZq5OcSvOAYjBkS48M=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$40.class
+SHA1-Digest: pVJnEOO5Vg99NTL5EECSQWz0dCo=
+
+Name: org/coode/owl/owlxmlparser/AbstractOWLDescriptionElementHandler.
+ class
+SHA1-Digest: kHJlAQCVA4Up35qLWIXiyZiv7YY=
+
+Name: org/coode/obo/parser/OBOOntologyFormat.class
+SHA1-Digest: 6jVS4Z1JPUl/29er1HmWfw55r+c=
+
+Name: org/coode/owl/owlxmlparser/OWLNegativeDataPropertyAssertionAxiom
+ ElementHandler.class
+SHA1-Digest: vWWQH6pGBf0ggpoYQjUFNqiuoLQ=
+
+Name: org/coode/owl/rdfxml/parser/AbstractDataCardinalityTranslator.cl
+ ass
+SHA1-Digest: 8CXyLM+V+qc6QMeweqK5RzKALtM=
+
+Name: org/coode/owl/rdfxml/parser/TypeClassHandler.class
+SHA1-Digest: AaW7RszGog+CLlzaPpoabP5FrCs=
+
+Name: uk/ac/manchester/cs/owl/OWLEquivalentClassesAxiomImpl.class
+SHA1-Digest: bxM4cPotag3Rm25vIyMogRULgUw=
+
+Name: uk/ac/manchester/cs/owl/OWLOntologyImpl$21.class
+SHA1-Digest: l0VqAbtwbpIL30LAVnBjhSg6p1M=
+
+Name: org/coode/owl/rdfxml/parser/MalformedDescriptionException.class
+SHA1-Digest: CnVVMxfTvYV+g1xi2/9Ul+1qni4=
+
+Name: org/coode/owl/owlxmlparser/AbstractNaryBooleanDescriptionElement
+ Handler.class
+SHA1-Digest: Uspvx/8SdvtYWENB4dNZbxi54zI=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$7.class
+SHA1-Digest: 7IkDUiaP96Ak+yafEw3Lf0yfJH0=
+
+Name: org/coode/owl/owlxmlparser/OWLFunctionalObjectPropertyAxiomEleme
+ ntHandler.class
+SHA1-Digest: hXs27zy6qlI+6sydQX4jz2wLPg4=
+
+Name: org/semanticweb/owl/model/OWLIndividualTypeAxiomTestCase.class
+SHA1-Digest: XytO4NQmRIzcuMWOUKUgc9+xiLY=
+
+Name: org/coode/obo/parser/UnionOfHandler.class
+SHA1-Digest: mlrBNnX7FPG0SSWe9tshZARO1p8=
+
+Name: org/semanticweb/owl/model/OWLOntologyManagerImplTestCase.class
+SHA1-Digest: QlB70elO/1Yzg+O5H4oebSdwVcw=
+
+Name: org/semanticweb/owl/util/ShortFormProvider.class
+SHA1-Digest: D0u5oNE9/z6BkAG86i+piMtoTZA=
+
+Name: org/semanticweb/owl/util/CommonBaseURIMapper.class
+SHA1-Digest: OY+hAJTMJDCwzCEqVm7GlJzQAKc=
+
+Name: org/coode/owl/fragments/Construct.class
+SHA1-Digest: 6h9bNsbWWGwJliCpVd+GbIEoUTs=
+
+Name: org/coode/owl/rdfxml/parser/TypeSWRLAtomListHandler.class
+SHA1-Digest: qCqaAEO9F60Er+KOywU9bug2s4M=
+
+Name: uk/ac/manchester/cs/owl/OWLDataValueRestrictionImpl.class
+SHA1-Digest: FPvY7dkKVTAzGHk6b+3jD7/4+O4=
+
+Name: org/coode/owl/krssparser/KRSSOntologyFormat.class
+SHA1-Digest: TV/eaqNhhO2RKA3ZgooZkz0pM88=
+
+Name: org/coode/obo/parser/OBOVocabulary.class
+SHA1-Digest: hsER2i+DONwIEVE0GaHmP9d+1+g=
+
+Name: org/semanticweb/owl/util/OWLEntityCollectingOntologyChangeListen
+ er.class
+SHA1-Digest: 8g8u5Puw+BMXElCWJdXT4++jw0U=
+
+Name: uk/ac/manchester/cs/owl/OWLReflexiveObjectPropertyAxiomImpl.clas
+ s
+SHA1-Digest: ZCh0mxFDaWdTsU82YeSfIMnB07s=
+
+Name: uk/ac/manchester/cs/owl/OWLObjectPropertyChainSubPropertyAxiomIm
+ pl.class
+SHA1-Digest: H7/Osck1vY6iU4YP/FNqxWBRz6Y=
+
+Name: uk/ac/manchester/cs/owl/OWLOntologyImpl.class
+SHA1-Digest: Cksubj946Z1+fBpGlbK0R5Oqkn0=
+
+Name: org/coode/owl/owlxmlparser/OWLDataTypeElementHandler.class
+SHA1-Digest: CaXnBEjf7+Zvri7fv4vncBKYrC4=
+
+Name: uk/ac/manchester/cs/owl/OWLDataRangeFacetRestrictionImpl.class
+SHA1-Digest: HnwoS2aPDxyBfVWiFahUbarSq0s=
+
+Name: org/coode/obo/parser/NameTagValueHandler.class
+SHA1-Digest: gfXXOB/ehoRYTNICE2GuwPvDhvo=
+
+Name: uk/ac/manchester/cs/owl/OWLAxiomAnnotationAxiomImpl.class
+SHA1-Digest: XlVglfIodIMB9SLeXzJl/C8Uc3o=
+
+Name: org/semanticweb/owl/model/OWLObjectCardinalityRestriction.class
+SHA1-Digest: tlRHZ4kdBX4BV4cQB4G34kjZHe0=
+
+Name: uk/ac/manchester/cs/owl/OWLIndividualAxiomImpl.class
+SHA1-Digest: 9TGqndUvyHjFa1PF1FDXFYFptco=
+
+Name: org/coode/owl/owlxmlparser/OWLSymmetricObjectPropertyAxiomElemen
+ tHandler.class
+SHA1-Digest: fFmKtwc7VnES1fyY1giaTWRc2fo=
+
+Name: org/coode/owl/rdfxml/parser/TypeObjectRestrictionHandler.class
+SHA1-Digest: PL3tPGj7nyDqw3V4YeMCeowSoU8=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$27.class
+SHA1-Digest: CD+BCMvNCylbkYLgd/8LAaZaEB4=
+
+Name: org/semanticweb/owl/model/OWLAntiSymmetricObjectPropertyAxiom.cl
+ ass
+SHA1-Digest: msRJ/5HZGH9TUyt1w8WmNW2Z6RM=
+
+Name: org/semanticweb/owl/model/OWLDataSubPropertyAxiomTestCase.class
+SHA1-Digest: yV2s252txDFPdvqhpDSqhl964Bo=
+
+Name: org/semanticweb/owl/model/OWLOntologyStorerNotFoundException.cla
+ ss
+SHA1-Digest: mAD1BDNZRo90YwRXS6rHOqE4woM=
+
+Name: uk/ac/manchester/cs/owl/OWLPropertyAxiomImpl.class
+SHA1-Digest: eKLUgmdMlgyhj4x8WkeaW616Cjw=
+
+Name: org/semanticweb/owl/io/DefaultOntologyFormat.class
+SHA1-Digest: NEtsrJ63OqCGLjZeUkCb0ZvZjas=
+
+Name: org/semanticweb/owl/util/BidirectionalShortFormProvider.class
+SHA1-Digest: 459OhJYU+TgusJFtoOkzTaSB3YY=
+
+Name: org/coode/owl/rdfxml/parser/TypeSWRLBuiltInHandler.class
+SHA1-Digest: wD15NWXLDLZd42Gbapi0mtm1pgU=
+
+Name: org/semanticweb/owl/util/OWLOntologyChangeFilter$1.class
+SHA1-Digest: Ou5qPjpHM9GJw2YslCzRTWsVUcE=
+
+Name: org/semanticweb/owl/model/SWRLDataFactory.class
+SHA1-Digest: 30XwgfgqpHrMn1YieOk2Uk7HpMI=
+
+Name: org/coode/xml/XMLWriter.class
+SHA1-Digest: 0/yUglkR1d5GD2XET14Xstcad0w=
+
+Name: uk/ac/manchester/cs/owl/OWLObjectAllRestrictionImpl.class
+SHA1-Digest: iZzJGch6S72JcVBMGIfnWK/hrCk=
+
+Name: org/semanticweb/owl/model/OWLDisjointClassesAxiomTestCase.class
+SHA1-Digest: fgiOm9ZL3HchOI5bZPrCLHMhN6M=
+
+Name: org/semanticweb/owl/model/OWLAntiSymmetricObjectPropertyAxiomTes
+ tCase.class
+SHA1-Digest: VfL5FFys0B37plgc/hu/O9LL1Tw=
+
+Name: org/coode/owl/functionalparser/ParseException.class
+SHA1-Digest: iu6FvEMFEqDN6rbT6GBuUCi8VME=
+
+Name: uk/ac/manchester/cs/owl/OWLTypedConstantImpl.class
+SHA1-Digest: 9pn5paBLEDbOgo4LBl5wStDvFbE=
+
+Name: uk/ac/manchester/cs/owl/OWLObjectValueRestrictionImpl.class
+SHA1-Digest: 6wY2sCXTBL1V3RMWl5PLAT9Rico=
+
+Name: org/semanticweb/owl/model/OWLObjectSubPropertyAxiom.class
+SHA1-Digest: DPDN/GWfZZ0t9QdUu90ETOSHw2I=
+
+Name: org/coode/owl/rdf/rdfxml/RDFXMLRenderer$2.class
+SHA1-Digest: 81oGrZRzNTdyz30uPYVgJMndJOc=
+
+Name: org/semanticweb/owl/model/OWLEntityAnnotationAxiom.class
+SHA1-Digest: Wbbtv9GBESmy7qEdzw31ujDoz4s=
+
+Name: org/coode/owl/owlxmlparser/OWLClassElementHandler.class
+SHA1-Digest: afLE8nqJBs8BbiHHcKfku4JGLp8=
+
+Name: org/coode/obo/parser/AntiSymmetricHandler.class
+SHA1-Digest: 5DrujVPZqSrJt25upK4uY4tpU4E=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$13.class
+SHA1-Digest: 28XnPlDO5/9u9vUSgUCRmtgq/Tw=
+
+Name: org/semanticweb/owl/model/OWLEquivalentObjectPropertiesAxiom.cla
+ ss
+SHA1-Digest: 9UHaOHOV8Si50YQ77leSwOPC2uM=
+
+Name: org/semanticweb/owl/util/SimpleRenderer.class
+SHA1-Digest: QHniwTVOji2x0w8mXwNoQyGCsfU=
+
+Name: org/semanticweb/owl/model/OWLAnonymousDescription.class
+SHA1-Digest: lBFd9zPsydeM1v9CNWanldxyG7Q=
+
+Name: uk/ac/manchester/cs/owl/OWLClassAxiomImpl.class
+SHA1-Digest: aT4ggpP57Xe/N8YgWz5UDQUagWA=
+
+Name: org/semanticweb/owl/util/DLExpressivityChecker$Construct.class
+SHA1-Digest: y5AoibLm+6/B0XEbd0pWu4Dtwic=
+
+Name: uk/ac/manchester/cs/owl/OWLTransitiveObjectPropertyAxiomImpl.cla
+ ss
+SHA1-Digest: cYsgDVmLVidSN7PtyGsm9cDkhfg=
+
+Name: org/semanticweb/owl/inference/UndefinedEntityException.class
+SHA1-Digest: aZ4y3Ev4VceulkqCcp6ED/+Uqpc=
+
+Name: org/coode/owl/rdfxml/parser/TypeAntisymmetricPropertyHandler.cla
+ ss
+SHA1-Digest: 3bhF1mz1dVIthaBUzxslhyKORMw=
+
+Name: uk/ac/manchester/cs/owl/OWLInverseObjectPropertiesAxiomImpl.clas
+ s
+SHA1-Digest: Hl4BPw4xVCXI+FdYzU/letEcaKE=
+
+Name: org/coode/owl/rdfxml/parser/TypeSWRLVariableHandler.class
+SHA1-Digest: Rv5nLgl/ny6rlHQ7GN6I+bGN9UE=
+
+Name: uk/ac/manchester/cs/owl/OWLOntologyImpl$1.class
+SHA1-Digest: 4+dxavM7rMmY3v/t6lnkKfI2sKM=
+
+Name: org/coode/owl/rdfxml/parser/TPSameAsHandler.class
+SHA1-Digest: u/uucP6tmOEK7uCh8CfNdmOrhbI=
+
+Name: org/coode/owl/rdfxml/parser/TPEquivalentDataPropertyHandler.clas
+ s
+SHA1-Digest: OL5eWQrLDfH0w3tsR8eT6eIOeaI=
+
+Name: org/coode/owl/functionalparser/OWLFunctionalSyntaxParser$1.class
+SHA1-Digest: daWjwq4YWFMULkCmWzCN8kTBPGU=
+
+Name: uk/ac/manchester/cs/owl/OWLOntologyManagerImpl.class
+SHA1-Digest: swwwE11ZwxiDzIA6QzMU9OH6rJM=
+
+Name: org/coode/owl/rdfxml/parser/TypeInverseFunctionalPropertyHandler
+ .class
+SHA1-Digest: zwqyUID4qVdQ8U+whfn22CtKxeA=
+
+Name: org/semanticweb/owl/model/SWRLDataRangeAtom.class
+SHA1-Digest: M7eO0FpaaCG7WGjc0GcL/+y8in8=
+
+Name: org/coode/owl/krssparser/KRSSOWLParserFactory.class
+SHA1-Digest: Me7Yz6IlXw6gX3mwoJXl0GVzN3Q=
+
+Name: org/semanticweb/owl/model/OWLOntologySetProvider.class
+SHA1-Digest: QRLNpCQIP2ZrE1/wEoQszN+3hNs=
+
+Name: org/semanticweb/owl/util/OWLReasonerMediator.class
+SHA1-Digest: wFbFRhnsNJe8o6LSOO7uuM8L7oI=
+
+Name: org/semanticweb/owl/model/OWLPropertyRangeAxiom.class
+SHA1-Digest: mvG37etnE3Cy/0/9IytI56Cpeok=
+
+Name: org/semanticweb/owl/util/OWLObjectDuplicator.class
+SHA1-Digest: DVN6JYHQtfF4FNPZHZnCjlCc7Bo=
+
+Name: org/coode/owl/rdfxml/parser/OWLRDFXMLParserSAXException.class
+SHA1-Digest: YlEiVhN96Ag9Jv3EBBz33Bn1Po0=
+
+Name: org/coode/owl/rdfxml/parser/OWLRDFXMLParserMalformedNodeExceptio
+ n.class
+SHA1-Digest: EbXdOvQLafDiw/pARUPIYEo8acE=
+
+Name: org/semanticweb/owl/model/StandardAnnotationsTestCase.class
+SHA1-Digest: 17Y0RpLAP8jfMIzQXwApMR06UTM=
+
+Name: org/semanticweb/owl/model/RemoveAxiom.class
+SHA1-Digest: JV4pI3AXLsHLmy5i4/DaxiI4pd4=
+
+Name: org/semanticweb/owl/model/OWLSubClassAxiom.class
+SHA1-Digest: nZZliTw0jY6XVbSv5ZNav+uAaS4=
+
+Name: org/coode/owl/owlxmlparser/AbstractRestrictionElementHandler.cla
+ ss
+SHA1-Digest: 8Bk8qnt6P10uDpyjdtv0qBVC6wA=
+
+Name: org/semanticweb/owl/model/OWLRestriction.class
+SHA1-Digest: NQNXj/1DS+mor3CB8wZIJg7uYZs=
+
+Name: org/coode/owl/owlxmlparser/OWLObjectPropertyDomainElementHandler
+ .class
+SHA1-Digest: AwfFMgaE98CCtXqUAhsdTai143M=
+
+Name: org/semanticweb/owl/model/OWLLabelAnnotation.class
+SHA1-Digest: WxaT2IyJZxKxLA3xGtNFtYLBBsw=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$53.class
+SHA1-Digest: BJ7zcNVwCB9AZ0vKqcbPF3Fs99s=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$55.class
+SHA1-Digest: HeMXG3TnR5+gA27yyRybA5d9HCE=
+
+Name: org/semanticweb/owl/model/OWLDataTypeTestCase.class
+SHA1-Digest: OzZ3HGoDz9A6EWaRz3BFwy0+FV8=
+
+Name: org/coode/owl/rdfxml/parser/SWRLAtomListItemTranslator.class
+SHA1-Digest: v0Gavm+PpD4/ZzDLOCW7Gsdxy8w=
+
+Name: org/coode/owl/functionalparser/TokenMgrError.class
+SHA1-Digest: 6nE8Ox7Gu7j8CoPLGhppyID7SvQ=
+
+Name: org/coode/owl/rdfxml/parser/TPIntersectionOfHandler.class
+SHA1-Digest: RkX22/FNjy8zkFkDsH1W0ty+UMs=
+
+Name: org/semanticweb/owl/model/OWLCardinalityRestriction.class
+SHA1-Digest: IuMQMeM9+Lp85HmWeCNxIpjJfJ8=
+
+Name: org/semanticweb/owl/model/OWLDataPropertyAssertionAxiom.class
+SHA1-Digest: XrosnG38BmJg4LDX6Jb80H/XwIU=
+
+Name: uk/ac/manchester/cs/owl/OWLDataFactoryImpl.class
+SHA1-Digest: MMD4VxrQM+wSy4mPkqySVL57ZvY=
+
+Name: org/semanticweb/owl/model/SWRLClassAtom.class
+SHA1-Digest: WDdu6sD1CUUHjtecO1nHWHLPHTA=
+
+Name: org/semanticweb/owl/vocab/SWRLBuiltInsVocabulary.class
+SHA1-Digest: 8VOtarQfXXcvw5Lep+fgoZr3a58=
+
+Name: org/coode/owl/owlxmlparser/OWLSubClassAxiomElementHandler.class
+SHA1-Digest: qsruXfmP094zIkwO2hOAOfYooqY=
+
+Name: uk/ac/manchester/cs/owl/SWRLAtomIndividualObjectImpl.class
+SHA1-Digest: xGzRgZIWU5Xi3xuk4uE1sQQcc4Y=
+
+Name: org/coode/owl/rdfxml/parser/OWLObjectPropertyExpressionListItemT
+ ranslator.class
+SHA1-Digest: 6wtIF6peNgadR5XLb/wXtBEqx2M=
+
+Name: org/semanticweb/owl/model/OWLNegativeDataPropertyAssertionAxiom.
+ class
+SHA1-Digest: j6ehDzhFBFAIcwuGHRfxWyYx3Ic=
+
+Name: org/semanticweb/owl/model/OWLOntologyChangeVetoException.class
+SHA1-Digest: caoU0aBKxNySQAmwZtF9kAsbSyM=
+
+Name: org/coode/owl/rdfxml/parser/TPDataPropertDomainHandler.class
+SHA1-Digest: N9TZc2gnPf0VcQa6COrBcXGCNVQ=
+
+Name: org/coode/owl/krssparser/KRSSParser$JJCalls.class
+SHA1-Digest: Eujl6twvh43fpwX3mxpEBTFVR/A=
+
+Name: org/semanticweb/owl/model/OWLObjectSomeRestriction.class
+SHA1-Digest: wsVo6y+O3+IVnnLp8dIfhgemTl4=
+
+Name: org/semanticweb/owl/vocab/XSDVocabulary.class
+SHA1-Digest: 60an5sv7lVVHqgbDlMtMe4r8WOM=
+
+Name: uk/ac/manchester/cs/owl/OWLNaryBooleanDescriptionImpl.class
+SHA1-Digest: TgFyjW4VE680/WhqVszmiwcpNJE=
+
+Name: org/coode/owl/owlxmlparser/OWLDataPropertyAssertionAxiomElementH
+ andler.class
+SHA1-Digest: 3MbHS4NM6Ot4wr14KMbT19uAqeI=
+
+Name: org/coode/owl/owlxmlparser/OWLObjectExactCardinalityElementHandl
+ er.class
+SHA1-Digest: X3I0Co4w5bEZsDgW3tWeNJdsd30=
+
+Name: org/semanticweb/owl/model/OWLObjectPropertyCharacteristicAxiom.c
+ lass
+SHA1-Digest: aOZrnJBZxLJg7r3+zxYlqJ5Nvno=
+
+Name: org/coode/owl/owlxmlparser/OWLImportsHandler.class
+SHA1-Digest: M89lBrnbj+kFgIZAFd9ihaY/SEE=
+
+Name: uk/ac/manchester/cs/owl/OWLAnnotationAxiomImpl.class
+SHA1-Digest: phbWuBP0kM0+9MGzf9k7eCf7TY4=
+
+Name: org/semanticweb/owl/model/OWLException.class
+SHA1-Digest: 9kGabsZHYfZGVVhLGWkZRxIsv1k=
+
+Name: org/coode/owl/rdfxml/parser/DescriptionTranslatorSelector.class
+SHA1-Digest: pRI2vzl1bmKkitCwvywrgm1zD68=
+
+Name: org/coode/owl/rdfxml/parser/TypeNegativeDataPropertyAssertionHan
+ dler.class
+SHA1-Digest: si1XxJagYif2QfESFjXi+GmQ7JQ=
+
+Name: org/semanticweb/owl/model/OWLOntologyManagerFactory.class
+SHA1-Digest: +oIkBKQEMMwhPR6vgGhT4XMyhFo=
+
+Name: org/coode/owl/owlxmlparser/OWLEntityAnnotationElementHandler.cla
+ ss
+SHA1-Digest: +bi/BcCYBqb6yitBZf0UadkO8L4=
+
+Name: org/semanticweb/owl/model/OWLDataPropertyDomainAxiom.class
+SHA1-Digest: WiR4mZ8X6M+iNRdGro6kNsTug4E=
+
+Name: uk/ac/manchester/cs/owl/OWLDataPropertyImpl.class
+SHA1-Digest: mBijCg8aIqkgnZbM86L48thkj7o=
+
+Name: org/semanticweb/owl/model/OWLPropertyExpressionVisitor.class
+SHA1-Digest: xGUA/Nu7hq4TyVtQAzlHrTslGag=
+
+Name: org/coode/owl/rdfxml/parser/TypeSWRLDataRangeAtomHandler.class
+SHA1-Digest: khz58X8Cufxma9901pDBJWi9d0w=
+
+Name: org/coode/owl/rdfxml/parser/TPFirstLiteralHandler.class
+SHA1-Digest: zaRxKmpN3IpL00h409xzR+Dp3CM=
+
+Name: org/coode/owl/owlxmlparser/OWLDisjointDataPropertiesAxiomElement
+ Handler.class
+SHA1-Digest: Rvzm21BB4o5Dh0u+y4zkdtWA+o0=
+
+Name: org/coode/owl/rdfxml/parser/TypeAllDifferentHandler.class
+SHA1-Digest: 0Jr2onoR6zAGMIsHWGySNtzd3oo=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$52.class
+SHA1-Digest: PrjSU7nwk+NlmMSfTK7gZzkJ9Q0=
+
+Name: org/semanticweb/owl/util/SimpleRootClassChecker$RootClassChecker
+ Helper.class
+SHA1-Digest: SAn8b77k7yNpeDdA9xoHGsDhdFc=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$6.class
+SHA1-Digest: OTlsXDZ8SYCEtNLIoEGy0ljWW9I=
+
+Name: org/semanticweb/owl/model/OWLSameIndividualsAxiomTestCase.class
+SHA1-Digest: Ca2rKZpRcqginz67VJbV7Gg5J18=
+
+Name: org/semanticweb/owl/model/OWLObjectMinCardinalityTestCase.class
+SHA1-Digest: CWjPVxYEKkVX1Tk53hHRgigtBaA=
+
+Name: org/coode/owl/owlxmlparser/AbstractDataCardinalityRestrictionEle
+ mentHandler.class
+SHA1-Digest: s3RtSfDVn5lt5XkUM5HJZaBzLa4=
+
+Name: org/coode/obo/parser/TokenMgrError.class
+SHA1-Digest: y7/giamsttVzKMfSD0nfXKFFHWc=
+
+Name: org/semanticweb/owl/model/OWLTypedConstant.class
+SHA1-Digest: WfySZBRFcqGXGwK+Lmbqn5KoHF4=
+
+Name: org/coode/owl/functionalparser/Token.class
+SHA1-Digest: g6QXIgZWub5WVrq8TrDY21rfFEE=
+
+Name: org/coode/owl/functionalrenderer/OWLFunctionalSyntaxRenderer.cla
+ ss
+SHA1-Digest: 5HtW32Xxdkhn2maZpvG1coL4djI=
+
+Name: org/semanticweb/owl/model/SWRLAtomIObject.class
+SHA1-Digest: Ynk3vi26jB8NsDdFuK5yh2vt6zU=
+
+Name: org/semanticweb/owl/model/SWRLAtomIVariable.class
+SHA1-Digest: wHt6FPf8BRFQIDKLLSPo6IjlI5w=
+
+Name: org/semanticweb/owl/model/AbstractOWLObjectPropertyCharacteristi
+ cAxiomTestCase.class
+SHA1-Digest: tNEFZJMvk21uifZPLSFDD2splSE=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$31.class
+SHA1-Digest: owMZOfdhPIDKiJTTe/eddQtimck=
+
+Name: org/semanticweb/owl/model/OWLDataPropertyCharacteristicAxiom.cla
+ ss
+SHA1-Digest: d/Bu4Bggkyi2TJE/7/BeGeEpUUg=
+
+Name: org/coode/owl/rdfxml/parser/OWLRDFXMLParserException.class
+SHA1-Digest: f5v8B6lDiTMBQjuPNSY71eaY+wo=
+
+Name: org/semanticweb/owl/util/ToldClassHierarchyReasoner$NamedClassEx
+ tractor.class
+SHA1-Digest: UGgE8Vw7vl9m//jGRoc/ZAjwADM=
+
+Name: edu/unika/aifb/rdf/api/syntax/RDFConsumer.class
+SHA1-Digest: 084UzeU/KEFrV96KKT1ohTKA7pU=
+
+Name: org/coode/owl/owlxmlparser/OWLConstantElementHandler.class
+SHA1-Digest: BJhk7Tq2n3ELNxya4nsR0ft41Z4=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$18.class
+SHA1-Digest: o+5j4A+zeqTYcu+Nx76tfWlu8FQ=
+
+Name: org/semanticweb/owl/model/OWLOntologyCreationException.class
+SHA1-Digest: XDWpGzkZSkxMRMoN2uY5YvVsqXw=
+
+Name: org/coode/owl/rdfxml/parser/TypeIrreflexivePropertyHandler.class
+SHA1-Digest: AiJP4FnJMq2aptaAAHeQKKxH9gc=
+
+Name: org/semanticweb/owl/model/OWLOntologyChange.class
+SHA1-Digest: 2kVpZ5xCUUWl8M4hXnKPvIZvAlg=
+
+Name: org/semanticweb/owl/inference/OWLReasoner.class
+SHA1-Digest: 1YvAhHkek6qppEgsans68KSf0P0=
+
+Name: org/semanticweb/owl/model/OWLObjectEnumerationTestCase.class
+SHA1-Digest: W7wLtwszIXRHP9Ssjn281+8CjWY=
+
+Name: org/coode/owl/owlxmlparser/OWLObjectPropertyRangeAxiomElementHan
+ dler.class
+SHA1-Digest: DEDDYS+8riNqK0/kE/wMUtRgCA0=
+
+Name: uk/ac/manchester/cs/owl/OWLConstantImpl.class
+SHA1-Digest: xTI8al4Jd9pbSqMFe2nc4kfikw4=
+
+Name: org/semanticweb/owl/model/OWLObjectPropertyChainSubPropertyAxiom
+ .class
+SHA1-Digest: +GqFRYyiee++yrncU5rJR7Wpppc=
+
+Name: org/semanticweb/owl/util/NamedConjunctChecker$1.class
+SHA1-Digest: DVxB3YlW+Y0db7qnh4DDd8MTUno=
+
+Name: uk/ac/manchester/cs/owl/OWLObjectAnnotationImpl.class
+SHA1-Digest: Jz+/2cli/3Gp4OQySbDVddgS1Q4=
+
+Name: org/coode/owl/owlxmlparser/OWLSameIndividualsAxiomElementHandler
+ .class
+SHA1-Digest: qpcwlnKbz0L+cyZqGz64xlPaNBM=
+
+Name: org/coode/owl/owlxmlparser/OWLObjectHasValueElementHandler.class
+SHA1-Digest: vBjaeanuCV0PZ5gmCXhEPaELl6k=
+
+Name: org/semanticweb/owl/model/OWLSymmetricObjectPropertyAxiomTestCas
+ e.class
+SHA1-Digest: +3YhQzYjmj5vl3jPgD5tCxm16A4=
+
+Name: org/semanticweb/owl/util/AutoURIMapper$RDFXMLOntologyRootElement
+ Handler.class
+SHA1-Digest: aT3HnZBWoAO8meHgq+5007gGVHg=
+
+Name: org/coode/owl/owlxmlparser/AbstractOWLAxiomElementHandler.class
+SHA1-Digest: 6fDNo9E+4GK3IWMhkiqQr8fC5SU=
+
+Name: uk/ac/manchester/cs/owl/SWRLDataValuedPropertyAtomImpl.class
+SHA1-Digest: 7P6LCKDaHvOsWgAyLgek5zo3TmE=
+
+Name: org/semanticweb/owl/model/OWLDataSomeRestrictionTestCase.class
+SHA1-Digest: wpTa4M6AImsDKpD08iSrTRZ/paE=
+
+Name: org/semanticweb/owl/util/ToldClassHierarchyReasoner$1.class
+SHA1-Digest: gKAwhpVjEHR6q2lOzsJuVAr/TYg=
+
+Name: uk/ac/manchester/cs/owl/OWLNaryPropertyAxiomImpl.class
+SHA1-Digest: oY0nUjRo1L29PSBzhIup/nTduoA=
+
+Name: org/coode/owl/rdfxml/parser/DescriptionListItemTranslator.class
+SHA1-Digest: sPGdShBILqDb9yctHckrVhGcZiY=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$12.class
+SHA1-Digest: vBokROlojue3xXegeanIKMRApYI=
+
+Name: org/coode/owl/rdf/rdfxml/RDFXMLRenderer$TripleComparator.class
+SHA1-Digest: GXz/3z1S4TOhvj26ZBBsXgZz4X8=
+
+Name: org/coode/owlapi/owlxml/renderer/OWLXMLOntologyStorer.class
+SHA1-Digest: E5LL5ThFTl2ZFfkWRVnt/l4dyNM=
+
+Name: org/semanticweb/owl/model/OWLObjectExactCardinalityRestriction.c
+ lass
+SHA1-Digest: dlPN6zSvZva6EGqhziVmuQEvlcc=
+
+Name: org/coode/owl/rdfxml/parser/TriplePredicateHandler.class
+SHA1-Digest: bMeMxwU5UieJ2tODusGvlONpZkQ=
+
+Name: org/coode/owl/rdfxml/parser/AbstractObjectRestrictionTranslator.
+ class
+SHA1-Digest: SruXwmA+raYvWBWPGvm9WeWSDN0=
+
+Name: org/semanticweb/owl/model/OWLDataPropertyTestCase.class
+SHA1-Digest: T0sOn+hnoBQXOyeEe9/U6q+PRUE=
+
+Name: org/coode/owl/rdfxml/parser/TypeDataRestrictionHandler.class
+SHA1-Digest: Q4RQJbpsYhTSOjHGcP2BQBUyEGw=
+
+Name: org/semanticweb/owl/model/OWLDisjointDataPropertiesAxiom.class
+SHA1-Digest: Lr3uUnefuReuoVZ9rcKHHmZh3IM=
+
+Name: uk/ac/manchester/cs/owl/OWLObjectPropertyAssertionAxiomImpl.clas
+ s
+SHA1-Digest: pHIcU8hKhkxBiDxQw7COQSLbRBM=
+
+Name: org/coode/obo/parser/OBOParserException.class
+SHA1-Digest: 716n1kFELdk0T/nYnwKu9CdqeJo=
+
+Name: uk/ac/manchester/cs/owl/OWLOntologyImpl$OWLNamedObjectReferenceA
+ dder.class
+SHA1-Digest: VivziaYU+WhJ+9kUHgTYfz9kxp8=
+
+Name: org/coode/owlapi/examples/Example2.class
+SHA1-Digest: y3GoNHNsp7Whrp6cwEzlDNRGWgw=
+
+Name: org/semanticweb/owl/model/OWLDataPropertyExpression.class
+SHA1-Digest: YUcZE8S7pkGYH1nQzjchvsOsyN8=
+
+Name: org/semanticweb/owl/debugging/AbstractOWLDebugger.class
+SHA1-Digest: 4Lr0lOmBj6DXZ9TMy0espNZBloc=
+
+Name: org/coode/owl/owlxmlparser/AbstractOWLDataPropertyAssertionAxiom
+ ElementHandler.class
+SHA1-Digest: /BHiWU0TmFuYwku+0oB6vUsFKDM=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$32.class
+SHA1-Digest: unVGhCPSAMZWu+G8o/5PGtyAZs4=
+
+Name: org/semanticweb/owl/model/SetOntologyURI.class
+SHA1-Digest: 9jk37bZ1SdFiYsErS9JgR8xVZzg=
+
+Name: org/coode/owl/rdfxml/parser/TypeSWRLImpHandler.class
+SHA1-Digest: Rynb+4mPqNBzrA/2RyGvceVwx8g=
+
+Name: org/coode/owl/rdfxml/parser/TPObjectPropertyDomainHandler.class
+SHA1-Digest: NqKQI+VLm5V68pDUqF1DQ9dXttY=
+
+Name: uk/ac/manchester/cs/owl/OWLDisjointDataPropertiesAxiomImpl.class
+SHA1-Digest: nl3d8vXTcctHXovXvabE/vKaUck=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$47.class
+SHA1-Digest: MuFgT4YjLf/B/uyqckE25qtdf0Y=
+
+Name: uk/ac/manchester/cs/owl/OWLObjectExactCardinalityRestrictionImpl
+ .class
+SHA1-Digest: xfqu8GSpaUjImBkzhKT0ixUE7O4=
+
+Name: org/semanticweb/owl/model/OWLDisjointClassesAxiom.class
+SHA1-Digest: 2xCCeFGATdoSwryVV0jDTJ4vfPs=
+
+Name: org/semanticweb/owl/model/OWLDataSubPropertyAxiom.class
+SHA1-Digest: SDD49Y62L1WdmfWEQLexf/vWGFA=
+
+Name: org/coode/owl/owlxmlparser/AbstractOWLDescriptionOperandAxiomEle
+ mentHandler.class
+SHA1-Digest: ZC6Zxp2sRd/SKw2U973dHPOJKKk=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$10.class
+SHA1-Digest: xMV2xuN4J8445H503R+c+8/7CS8=
+
+Name: org/coode/obo/parser/RelationshipTagValueHandler.class
+SHA1-Digest: hC+BHC732+87OnEDmxe2sjmhmUI=
+
+Name: org/semanticweb/owl/model/OWLOntologyURIMappingNotFoundException
+ .class
+SHA1-Digest: GrxUAoL0Q4KfrPCYkrdManTRudg=
+
+Name: uk/ac/manchester/cs/owl/inference/dig11/DIGErrorException.class
+SHA1-Digest: o0+QFY8mJ7ONAG5Zy2E34FGkSw4=
+
+Name: org/coode/owl/functionalparser/OWLFunctionalSyntaxParserExceptio
+ n.class
+SHA1-Digest: O/yL0PgnConiGlbmaecv5zWqPBM=
+
+Name: org/coode/owl/rdfxml/parser/TypeDataRangeHandler.class
+SHA1-Digest: iOXrLP93wBnjIKhmJNZiTmfJERU=
+
+Name: org/semanticweb/owl/model/OWLAnonymousIndividual.class
+SHA1-Digest: P92KfMloE8i2DfW34HPe+pXnw8g=
+
+Name: org/coode/owl/owlxmlparser/OWLDatatypeFacetRestrictionElementHan
+ dler.class
+SHA1-Digest: 840fbf995urdsWIvfXMMszBQNBI=
+
+Name: uk/ac/manchester/cs/owl/OWLAnonymousDescriptionImpl.class
+SHA1-Digest: 4WEVZu7lPX6kGjNZHqbHeT9yBWA=
+
+Name: uk/ac/manchester/cs/owl/OWLLabelAnnotationImpl.class
+SHA1-Digest: Zm5NI4Y+9Q5X640YMC1rLXEsu3E=
+
+Name: org/semanticweb/owl/model/SWRLObject.class
+SHA1-Digest: ECIdbF3hq2Bt4J0mIMdw8gUeI6g=
+
+Name: org/coode/owl/owlxmlparser/OWLElementHandlerFactory.class
+SHA1-Digest: T0NB2/FB5O+Zhg7nmMDGyEyDjY8=
+
+Name: org/semanticweb/owl/util/NamespaceUtil.class
+SHA1-Digest: ZYyQE3ZoP7GFv0gfj+Gc+RohyX4=
+
+Name: org/semanticweb/owl/model/OWLClassAssertionAxiom.class
+SHA1-Digest: B3W/Fy6e6sWr5dP7QeEqAr4dkEg=
+
+Name: org/semanticweb/owl/io/AbstractOWLParser.class
+SHA1-Digest: CYm0Ml4vdgR8v2aJvyWWDaYMG7w=
+
+Name: org/semanticweb/owl/util/SimpleShortFormProvider.class
+SHA1-Digest: m1wDEsETzBWywldmO9Kwx1Ymnts=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserException.class
+SHA1-Digest: 8o/vs3uuxbtIXY+6z4g5IkIF8Y8=
+
+Name: org/semanticweb/owl/model/OWLInverseObjectPropertiesAxiom.class
+SHA1-Digest: PEVeA1DcK4mtEtXZJJElXpYIAbk=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$51.class
+SHA1-Digest: zPKiD8qlGiOynEP4tGf74H0uLlU=
+
+Name: org/semanticweb/owl/model/OWLDisjointUnionAxiom.class
+SHA1-Digest: b2pbacOuE9x8zSa26ttNgTg+KqQ=
+
+Name: org/semanticweb/owl/model/OWLIndividualObjectRelationshipAxiomTe
+ stCase.class
+SHA1-Digest: dij83+2+p3AHhMg478B6wX4pOjk=
+
+Name: uk/ac/manchester/cs/owl/inference/dig11/DIGError.class
+SHA1-Digest: tlaN9S6pOvVmEW4NLHerrbnZRkU=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$23.class
+SHA1-Digest: 4+uHO5FbQ2uRVHb5kJi5P3vLgHA=
+
+Name: uk/ac/manchester/cs/owl/OWLOntologyAnnotationAxiomImpl.class
+SHA1-Digest: 1TtGnR7hKRWtrGGcIJnaDuk3euE=
+
+Name: org/coode/owl/rdfxml/parser/AbstractNamedEquivalentClassAxiomHan
+ dler.class
+SHA1-Digest: j9JRW5GQP3aZTwpTAeZi607zFdM=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$64.class
+SHA1-Digest: NE9ICqcQ4koyMA/hYQ4QgClrspE=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$5.class
+SHA1-Digest: 7/GoUYNKhrgOc0x4RtbK+EJjdv8=
+
+Name: org/coode/owl/functionalparser/OWLFunctionalSyntaxParserConstant
+ s.class
+SHA1-Digest: gwIfmeuC101qD5UAHPbUrbBSsXs=
+
+Name: org/coode/owl/rdfxml/parser/AnonymousNodeChecker.class
+SHA1-Digest: gm+zNVRjjLYULeuguXDuGgDc3fA=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$2.class
+SHA1-Digest: Px4PtnWjT5xBbuggEam90iflGUY=
+
+Name: org/coode/owl/rdfxml/parser/TPPropertyRangeHandler.class
+SHA1-Digest: X6Zz98sXFDAE3/eqSwwj8yr7S4E=
+
+Name: org/coode/owl/rdf/rdfxml/RDFXMLRenderer$1.class
+SHA1-Digest: Dz5n2I3XEoBltc2OwmQ8+tQfYuY=
+
+Name: org/coode/owl/owlxmlparser/AbstractOperandAxiomElementHandler.cl
+ ass
+SHA1-Digest: Ty25zJ45AAv3e8nV8VK8acsEWm8=
+
+Name: org/semanticweb/owl/util/AutoURIMapper$1.class
+SHA1-Digest: qTyKsaRuMeUqB29HLL3zwej3i6o=
+
+Name: uk/ac/manchester/cs/owl/OWLIrreflexiveObjectPropertyAxiomImpl.cl
+ ass
+SHA1-Digest: yv+ujbg1VJNvLMHo5DSLY/M/cNc=
+
+Name: uk/ac/manchester/cs/owl/SWRLObjectPropertyAtomImpl.class
+SHA1-Digest: jdZZ64qvlJQ8/cEqKRlXsBiyvYk=
+
+Name: uk/ac/manchester/cs/owl/ImplUtils.class
+SHA1-Digest: m6M2W3idByvCfqzRuCqVrFOqUVQ=
+
+Name: uk/ac/manchester/cs/owl/OWLSubClassAxiomImpl.class
+SHA1-Digest: VX/mb0w6jefSf/0tN3d74UzKj8I=
+
+Name: org/semanticweb/owl/model/SWRLDataValuedPropertyAtom.class
+SHA1-Digest: covBIsn5hNcLKp99QdyOdziBDzI=
+
+Name: org/semanticweb/owl/model/OWLEquivalentObjectPropertiesAxiomTest
+ Case.class
+SHA1-Digest: k44H2dzk47jTT5dLo9bXMtbkheQ=
+
+Name: org/semanticweb/owl/util/QNameShortFormProvider.class
+SHA1-Digest: +ONTSyXEHBX/vpZh2PKsnT5NJII=
+
+Name: org/coode/owl/rdfxml/parser/TPSubDataPropertyOfHandler.class
+SHA1-Digest: jQ/0l7WYjeKxszVftH1barJL7YY=
+
+Name: org/semanticweb/owl/util/OWLOntologyChangeFilter.class
+SHA1-Digest: 01HdRvwGERGFIF7wYxx3FWtuDEc=
+
+Name: org/semanticweb/owl/model/OWLDataEnumerationTestCase.class
+SHA1-Digest: TIMVVRocYfwlQ7UEp433YYQGgaQ=
+
+Name: org/semanticweb/owl/util/NonMappingOntologyURIMapper.class
+SHA1-Digest: 7rCQyDfOALvUg7Ftf174onhnmj0=
+
+Name: org/semanticweb/owl/model/OWLObjectComplementOf.class
+SHA1-Digest: iJxTJbwU5AuEqDd+iT4SzhyYiWE=
+
+Name: org/semanticweb/owl/model/SWRLDifferentFromAtom.class
+SHA1-Digest: M7pzRTgBZfmi2HnnX5Y5bLmqNKo=
+
+Name: uk/ac/manchester/cs/owl/OWLObjectCardinalityRestrictionImpl.clas
+ s
+SHA1-Digest: 7MhpXPC+xvogO+ImcPXzJoywxLI=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$41.class
+SHA1-Digest: N8pP0W5kwzJY4G+ofgOKM6J1wPM=
+
+Name: uk/ac/manchester/cs/owl/OWLObjectPropertyDomainAxiomImpl.class
+SHA1-Digest: txmIPW2Tru4qdkCnDNOMq++E1lk=
+
+Name: org/semanticweb/owl/model/DeclarationEntityReferencesTestCase.cl
+ ass
+SHA1-Digest: 72gSWdUcRwaeT73M+cd9kH5Wx6o=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$11.class
+SHA1-Digest: l0zXY+QnXNiSl/hIDffsUf017rs=
+
+Name: org/semanticweb/owl/model/OWLIrreflexiveObjectPropertyAxiomTestC
+ ase.class
+SHA1-Digest: ZA2AcSkl1d4NFsR/7UNiPq2A0Hk=
+
+Name: org/semanticweb/owl/model/OWLDeprecatedObjectPropertyAxiom.class
+SHA1-Digest: VBdZO6eRhwKb4tBkeMJCY7myfYk=
+
+Name: org/coode/owl/rdfxml/parser/ComplementOfTranslator.class
+SHA1-Digest: Fkdmf6jEvQquZcAB5NnGXs7PaZI=
+
+Name: org/coode/owl/fragments/AxiomProcessor$1.class
+SHA1-Digest: kWisChN+UNYrd1E/fVGASrqvmjA=
+
+Name: org/coode/owl/fragments/AxiomProcessor.class
+SHA1-Digest: /V7A72Yr8GlhBsJYWNX5Z40mrLw=
+
+Name: org/semanticweb/owl/model/OWLObjectPropertyRangeAxiomTestCase.cl
+ ass
+SHA1-Digest: 5T1N+lyYtW2NQQBYdivVkYt+Sp8=
+
+Name: org/semanticweb/owl/model/OWLObjectPropertyAxiom.class
+SHA1-Digest: igX07C5w2PbVzuc9Q5MtFblqXFw=
+
+Name: uk/ac/manchester/cs/owl/EmptyInMemOWLOntologyFactory.class
+SHA1-Digest: zMEP3WqFv9WiJl9gJjVFYY3+siA=
+
+Name: org/coode/owl/owlxmlparser/OWLObjectUnionOfElementHandler.class
+SHA1-Digest: X9LUeyef32fqos/d0W6tk4q4xlA=
+
+Name: org/coode/obo/parser/IDTagValueHandler.class
+SHA1-Digest: n25vv5Z/HRzVoXPv8Btu6mtVWso=
+
+Name: org/semanticweb/owl/vocab/OWLRDFVocabulary.class
+SHA1-Digest: x/qQ/78uJ4FYSMrKsDb23yX/ZY0=
+
+Name: org/coode/owl/rdfxml/parser/AbstractObjectQuantifiedRestrictionT
+ ranslator.class
+SHA1-Digest: Js/645KRjeDuYkauUbB+QXyaF8o=
+
+Name: org/coode/owl/rdfxml/parser/SWRLRuleTranslator.class
+SHA1-Digest: pBKkUHhOTl3uvBmlFT5cK+Nwnq0=
+
+Name: org/coode/owl/fragments/Fragment.class
+SHA1-Digest: RMCZdw/bEtzpsZ1moutlZS/7oIY=
+
+Name: org/coode/owl/owlxmlparser/OWLIndividualElementHandler.class
+SHA1-Digest: Ymi4oeRd+4FRW/JIW02ZrYkSNuY=
+
+Name: edu/unika/aifb/rdf/api/syntax/RDFParser$NodeElementList.class
+SHA1-Digest: /ogqfdTW9aGxYYaYY78PIk+6sAQ=
+
+Name: org/coode/owl/owlxmlparser/OWLSubObjectPropertyChainElementHandl
+ er.class
+SHA1-Digest: SWyqxB0/hgmneChEa/R3kb9VRmE=
+
+Name: uk/ac/manchester/cs/owl/OWLNegativeObjectPropertyAssertionAxiomI
+ mpl.class
+SHA1-Digest: +LmCrYx1gC5q0ygF0rcuNNjkDIo=
+
+Name: uk/ac/manchester/cs/owl/OWLCommentAnnotationImpl.class
+SHA1-Digest: lrfPPLIe37yX6qgxdexuaZ0bkUM=
+
+Name: org/coode/owl/rdfxml/parser/DataRestrictionHandler.class
+SHA1-Digest: x9LaIoEuKaE9d23ZGOuxBlnnlXQ=
+
+Name: org/coode/owl/fragments/AxiomProcessor$ProcessorVisitor.class
+SHA1-Digest: POS12VnO2uNLkjdfxCfqYMY1/xE=
+
+Name: org/coode/owl/rdfxml/parser/RDFXMLParser.class
+SHA1-Digest: Cr//5ShLjvFRiUCWdDP89yh3xxY=
+
+Name: org/semanticweb/owl/util/OWLOntologyImportsClosureSetProvider.cl
+ ass
+SHA1-Digest: NzFGOY7UNpM2tf/CUOwrAKpnPT8=
+
+Name: org/semanticweb/owl/model/ImmutableOWLOntologyChangeException.cl
+ ass
+SHA1-Digest: Ku3/K9RBuJLN24EMOP/Od0fxcf4=
+
+Name: org/semanticweb/owl/model/OWLObjectUnionOf.class
+SHA1-Digest: 61Kp1TzBtnGd9Fgj51tyghTOEFA=
+
+Name: edu/unika/aifb/rdf/api/syntax/RDFParserException.class
+SHA1-Digest: o8b2eTQU3t+S1d2/tqyA72x88fU=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$15.class
+SHA1-Digest: Cjy/oegNi1wUeMkqIIZMhg7UURA=
+
+Name: org/semanticweb/owl/inference/OWLClassReasoner.class
+SHA1-Digest: 5HTzuqyLzW/kNab2OIcc8IEmlxA=
+
+Name: uk/ac/manchester/cs/owl/SWRLAtomConstantObjectImpl.class
+SHA1-Digest: 9zSmb77jyMTecK7Mbvt4Jtl8Clg=
+
+Name: org/coode/owl/rdfxml/parser/AbstractLiteralTripleHandler.class
+SHA1-Digest: ORiPkxmhJUG4GAzwVrxiuGIc9Nk=
+
+Name: uk/ac/manchester/cs/owl/SWRLAtomDVariableImpl.class
+SHA1-Digest: eE+vu4I6G8CdE0mPtX3CFG3KmHw=
+
+Name: uk/ac/manchester/cs/owl/AbstractInMemOWLOntologyFactory.class
+SHA1-Digest: BZWHaTW/SKFeB1r+RfqJU7qnP3k=
+
+Name: org/coode/owl/owlxmlparser/OWLAntisymmetricObjectPropertyAxiomEl
+ ementHandler.class
+SHA1-Digest: WxBH1nXhU8KI+fdhsEheMQ7ffKk=
+
+Name: uk/ac/manchester/cs/owl/OWLObjectMinCardinalityRestrictionImpl.c
+ lass
+SHA1-Digest: CBPydfilSIQIGhfiH/89gR52MIU=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$21.class
+SHA1-Digest: 0t8F1IDVMjGJEXv4OiMCgJmIf5o=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$16.class
+SHA1-Digest: WbeZId10ucu+27IlPQb9U5GLL+A=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$46.class
+SHA1-Digest: uPabmTdOkIV9pVp8Bi+fx4tQnA8=
+
+Name: org/semanticweb/owl/model/OWLFunctionalObjectPropertyAxiom.class
+SHA1-Digest: WycR49AS8WXyXBoj+oNk+AIESl8=
+
+Name: org/semanticweb/owl/model/OWLObjectPropertyDomainAxiom.class
+SHA1-Digest: 0b652pq3+9WXFjd1HOw4+Lx1biM=
+
+Name: org/coode/owl/owlxmlparser/OWLAnnotationElementHandler.class
+SHA1-Digest: Jk4N7PsUAKjavgF+u53ABmvyF0A=
+
+Name: edu/unika/aifb/rdf/api/util/RDFConstants.class
+SHA1-Digest: 90dN2AiFB5wlNQqarAN9LiQ5ZrI=
+
+Name: org/coode/owl/rdfxml/parser/TPDifferentFromHandler.class
+SHA1-Digest: gAFmVZU/a7SaRC5m85gXaVXDoL0=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$36.class
+SHA1-Digest: /qhEDc5bSBh7FN4yXeNp8kVLpRo=
+
+Name: uk/ac/manchester/cs/owl/OWLObjectIntersectionOfImpl.class
+SHA1-Digest: seZIb775RTDcZqMTa/s5Svekoyg=
+
+Name: uk/ac/manchester/cs/owl/OWLObjectUnionOfImpl.class
+SHA1-Digest: oarBuQFixs88cZoc4YTVCuC3X6I=
+
+Name: uk/ac/manchester/cs/owl/OWLOntologyImpl$19.class
+SHA1-Digest: z4HxZVks+N5R+o4ZmUu6f29Ixho=
+
+Name: org/coode/owl/owlxmlparser/AbstractOWLDataRangeHandler.class
+SHA1-Digest: m4smnPiBELlHsXJyWmtZMFju2dk=
+
+Name: org/coode/owl/rdfxml/parser/TypeSWRLSameIndividualAtomHandler.cl
+ ass
+SHA1-Digest: dh/VpmhG0SDQC87tMLoREIkreAo=
+
+Name: org/semanticweb/owl/util/OWLObjectVisitorAdapter.class
+SHA1-Digest: lk6ZoxK4nphfapnsxEIsSe6J/F4=
+
+Name: uk/ac/manchester/cs/owl/SWRLRuleImpl.class
+SHA1-Digest: IGVLGrSvM04FAyGh8cJ4sDfBYmA=
+
+Name: org/coode/owl/rdfxml/parser/TypeTransitivePropertyHandler.class
+SHA1-Digest: QAy01+0GhzMMp6OCfiHNg61PojI=
+
+Name: org/coode/obo/parser/ParseException.class
+SHA1-Digest: k9jvGezTHRI7whcq4vy7t0wwcv0=
+
+Name: org/semanticweb/owl/model/OWLDataExactCardinalityRestriction.cla
+ ss
+SHA1-Digest: Idy5gVHsXDYK4liRbjpw7TxSIRw=
+
+Name: uk/ac/manchester/cs/owl/OWLClassImpl.class
+SHA1-Digest: PA/HzGjvdLoa38i2N+OIrSnK7Lg=
+
+Name: org/semanticweb/owl/model/OWLBooleanDescription.class
+SHA1-Digest: eDBvLUHyL8tCIyDoew6B4W3ETxU=
+
+Name: org/semanticweb/owl/model/AbstractOWLBinaryOperandAxiomTestCase.
+ class
+SHA1-Digest: Su0kWhN/ceDYyPNLUDd55Qx+/Mo=
+
+Name: org/semanticweb/owl/model/OWLOntologyChangeBroadcastStrategy.cla
+ ss
+SHA1-Digest: X21VTS+UAeKswhJyFnzA+vvqeGo=
+
+Name: org/semanticweb/owl/model/SWRLBuiltInAtom.class
+SHA1-Digest: gOQj1m6MM0Dff7nvTGS7ZVuO3eo=
+
+Name: org/semanticweb/owl/model/OWLObjectSelfRestriction.class
+SHA1-Digest: yEK4HNB0wB4jzrxeyrSAPZeNbwE=
+
+Name: org/semanticweb/owl/model/OWLOntology.class
+SHA1-Digest: MjTsW7FNeMkM9j+ePfT4MRYOptY=
+
+Name: org/semanticweb/owl/model/OWLDataSomeRestriction.class
+SHA1-Digest: p9ZdxTjeAdEc+Jlt09vLkEUvdqo=
+
+Name: org/semanticweb/owl/model/OWLPropertyAssertionAxiom.class
+SHA1-Digest: QDKbFEeLo9PPke1TzTkCF1S4spQ=
+
+Name: org/coode/owl/owlxmlparser/OWLDataHasValueElementHandler.class
+SHA1-Digest: ZA9MDJCl3jhpcLGfBBPOTA7GWag=
+
+Name: uk/ac/manchester/cs/owl/OWLOntologyImpl$13.class
+SHA1-Digest: 4IHs05FHk0uzV6NTjJYdq3yJMMM=
+
+Name: org/coode/owl/owlxmlparser/OWLInverseObjectPropertiesAxiomElemen
+ tHandler.class
+SHA1-Digest: X6smo7PoNXn/476dH84KkH/BzDY=
+
+Name: org/coode/owl/owlxmlparser/OWLTransitiveObjectPropertyAxiomEleme
+ ntHandler.class
+SHA1-Digest: gSda6LqVD+jhaLfbDCWllEadnLs=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$8.class
+SHA1-Digest: HpTKjdh2HO8XxVjWAjhfL6LOoMY=
+
+Name: org/semanticweb/owl/util/SimpleRootClassChecker$NamedSuperChecke
+ r.class
+SHA1-Digest: FwJmnPuzs/0dPG2U0xOnpnIltTM=
+
+Name: uk/ac/manchester/cs/owl/OWLOntologyImpl$17.class
+SHA1-Digest: i+zAUk5EUyEMlBJCRTiPBfNEkzw=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$17.class
+SHA1-Digest: 2xZEO8lFI6nqhsNmgRZr9C+R8iQ=
+
+Name: org/coode/owl/rdfxml/parser/GTPAnnotationResourceTripleHandler.c
+ lass
+SHA1-Digest: ZavA9kego0Hp1VeBL3CO5KPMY/o=
+
+Name: org/semanticweb/owl/model/OWLUntypedConstantTestCase.class
+SHA1-Digest: Nv+kexfhA/LpxedWA52op3qyiz8=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserUnknownElementType.class
+SHA1-Digest: CogsxXCX5i5EFpY/aV8rDK17tyk=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$63.class
+SHA1-Digest: wiqdZis+iPQ93oxb9xps4fCXA+Q=
+
+Name: edu/unika/aifb/rdf/api/syntax/RDFParser$ResourceOrLiteralPropert
+ yElement.class
+SHA1-Digest: wt3posNWeYIETAcvPqU2luBG5gk=
+
+Name: org/semanticweb/owl/model/AbstractOWLIndividualRelationshipAxiom
+ TestCase.class
+SHA1-Digest: STBWCHvxsm3JYuouJGEJkiZsQXA=
+
+Name: org/semanticweb/owl/util/SimpleRootClassChecker$1.class
+SHA1-Digest: DDMFBSzOkxqEf3Eb7LGjHgaKrYE=
+
+Name: org/semanticweb/owl/model/AbstractOWLTestCase.class
+SHA1-Digest: nNr3Pb7YD18YG5EsWl845o3qaXc=
+
+Name: org/coode/owlapi/owlxml/renderer/OWLXMLRenderer.class
+SHA1-Digest: 1hyjepppazBr2PpQBhWo00jk8V8=
+
+Name: uk/ac/manchester/cs/owl/inference/dig11/HTTPReasoner.class
+SHA1-Digest: KeXmYZLuSSefwMh5lWv+aNQi/dg=
+
+Name: org/semanticweb/owl/model/OWLDataProperty.class
+SHA1-Digest: D1Sr0b8OY/KDLNRTJxG1rYkHfu8=
+
+Name: uk/ac/manchester/cs/owl/OWLOntologyImpl$ChangeAxiomVisitor.class
+SHA1-Digest: Oz7aYKt5q6c+y/INHX/urHJ6Juw=
+
+Name: org/semanticweb/owl/debugging/BlackBoxOWLDebugger.class
+SHA1-Digest: DLRzPkOJ0CKa6hkpvm14rdejqh8=
+
+Name: org/semanticweb/owl/model/OWLOntologyStorer.class
+SHA1-Digest: 6S+L6i4H+H7UQZethwnmeL2V5/Y=
+
+Name: org/coode/owl/krssparser/KRSSParser$LookaheadSuccess.class
+SHA1-Digest: pL8cDWa0L3IOdqUOU+R8jqVsm74=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserConfigurationException.cl
+ ass
+SHA1-Digest: +XfaEDYl8t4eN2gNLbSW5EboNFk=
+
+Name: org/semanticweb/owl/model/OWLDataCardinalityRestriction.class
+SHA1-Digest: pw+WonlgPxbTOD0d2eoXJIwDo+Y=
+
+Name: org/coode/owl/rdfxml/parser/DataCardinalityTranslator.class
+SHA1-Digest: dQWMxffZx0v3V3L+KPC7ZXe0BhE=
+
+Name: uk/ac/manchester/cs/owl/SWRLVariableImpl.class
+SHA1-Digest: ihYWoUfiyZBYD1S0UhGOpVerVjk=
+
+Name: uk/ac/manchester/cs/owl/OWLInverseFunctionalObjectPropertyAxiomI
+ mpl.class
+SHA1-Digest: 5cjFMfH+2lYFCSV5nWAUm7kfyNs=
+
+Name: org/semanticweb/owl/model/OWLAxiomChange.class
+SHA1-Digest: OA5pHDphzZpto97EqXCBvbuH+Tw=
+
+Name: org/coode/owl/owlxmlparser/OWLDataExactCardinalityElementHandler
+ .class
+SHA1-Digest: XFd0151fjAoiDJbDfb0NgJrAVXs=
+
+Name: org/semanticweb/owl/model/OWLDataRange.class
+SHA1-Digest: giKuxzib/Dv9Rkz3M7OU2TQCSFo=
+
+Name: uk/ac/manchester/cs/owl/OWLDataCardinalityRestrictionImpl.class
+SHA1-Digest: syTRZ7f3w5GX6dXXLb4PsCGzrfw=
+
+Name: org/semanticweb/owl/model/OWLDescriptionVisitor.class
+SHA1-Digest: GR8c/x0+tOnrmMe5Zii7GwI9FaU=
+
+Name: org/semanticweb/owl/model/OWLIndividualTestCase.class
+SHA1-Digest: GCF9D7pkIY1G3miOdQJyg74120M=
+
+Name: org/semanticweb/owl/model/AddAxiom.class
+SHA1-Digest: W1vgDQSbdjsswHkNk+CAogTu7LI=
+
+Name: org/semanticweb/owl/util/OWLEntityRemover.class
+SHA1-Digest: /+XbVPbNsuQKOvWJgn4JKWaUlgg=
+
+Name: org/coode/owl/rdfxml/parser/RDFXMLParser$2.class
+SHA1-Digest: 81eU9TK/Y8LZva5ceMQJEITERrw=
+
+Name: org/coode/owl/owlxmlparser/OWLEquivalentDataPropertiesAxiomEleme
+ ntHandler.class
+SHA1-Digest: 2C4BUUbnDdrkiL6iMPfGnyBe2AE=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$37.class
+SHA1-Digest: 5VWg8ba/aMUJzdn4FqDGSUVwmAs=
+
+Name: org/coode/owl/rdfxml/parser/TypeSelfRestrictionHandler.class
+SHA1-Digest: GcEgNiiGVJfcRS8prwdQ7iAcnGQ=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$50.class
+SHA1-Digest: CVGrknnaPbBY3yudwDtGPCI7hrU=
+
+Name: org/coode/owl/fragments/AbstractFragment.class
+SHA1-Digest: oG2s3Csl8nurGZqQFEmwhOm/Z70=
+
+Name: org/coode/owl/owlxmlparser/OWLXMLParserHandler$1.class
+SHA1-Digest: ApQEFo5Q7Eo7UnPFiZ3TdBzh5L8=
+

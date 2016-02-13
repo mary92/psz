@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoffeeFinderPrefs>
+    <OntologyLocation url="file:./coffee.owl"></OntologyLocation>
+	<CoffeeClass name="ImenovanaKafa"/>
+	<ColdCoffeeClass name="HladnaKafa"/>
+	<EspressoCoffeeClass name="EspresoKafa"/>
+	<FilterCoffeeClass name="FilterKafa"/>
+	<ColombiaCoffeeClass name="KolumbijaKafa"/>
+	<HondurasCoffeeClass name="HondurasKafa"/>
+	<GuatemalaCoffeeClass name="GvatemalaKafa"/>
+	<HotCoffeeClass name="ToplaKafa"/>
+	<MochaCoffeeClass name="MokaKafa"/>
+	<ExtrasClass name="Dodaci"/>
+	<BaseClass name="Baza"/>
+	<TemperatureClass name="Temperatura"/>
+	<BaseProperty name="imaBazu"/>
+	<ExtrasProperty name="imaDodatke"/>
+	<TemperatureProperty name="imaTemperaturu"/>
+</CoffeeFinderPrefs>

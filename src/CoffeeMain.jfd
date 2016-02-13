@@ -1,0 +1,200 @@
+JFDML JFormDesigner: "5.2.2.2.228" Java: "1.7.0_07" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+			name: "this"
+			"defaultCloseOperation": 3
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) {
+				"rows": 3
+				"columns": 1
+			} ) {
+				name: "LeftPanel"
+				add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+					name: "VrstaScrollPane"
+					add( new FormComponent( "javax.swing.JList" ) {
+						name: "VrstaList"
+					} )
+				} )
+				add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+					name: "BazsScrollPane"
+					add( new FormComponent( "javax.swing.JList" ) {
+						name: "BazaList"
+					} )
+				} )
+				add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+					name: "DodaciScrollPane"
+					add( new FormComponent( "javax.swing.JList" ) {
+						name: "DodaciList"
+					} )
+				} )
+			}, new FormLayoutConstraints( class java.lang.String ) {
+				"value": "Before"
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) {
+				"columns": 1
+				"rows": 3
+			} ) {
+				name: "RightPanel"
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) {
+					"columns": 2
+				} ) {
+					name: "TopRightPanel"
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) {
+						"columns": 1
+						"rows": 3
+					} ) {
+						name: "OdabranaVrstaPanel"
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "OdabranaVrstaLabel"
+							"text": "Odabrana vrsta"
+						} )
+						add( new FormComponent( "javax.swing.JTextField" ) {
+							name: "OdabranaVrstaTextField"
+						} )
+						add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.FlowLayout ) ) {
+							name: "OdabranaVrstaButtonsPanell"
+							add( new FormComponent( "javax.swing.JButton" ) {
+								name: "OdabranaVrstaButtonAdd"
+								"text": "Add"
+							} )
+							add( new FormComponent( "javax.swing.JButton" ) {
+								name: "OdabranaVrstaButtonRem"
+								"text": "Rem"
+							} )
+						} )
+					} )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) {
+						"columns": 1
+						"rows": 3
+					} ) {
+						name: "OdabranaBazaPanel"
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "OdabranaBazaLabel"
+							"text": "Odabrana baza"
+						} )
+						add( new FormComponent( "javax.swing.JTextField" ) {
+							name: "OdabranaBazaTextField"
+						} )
+						add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.FlowLayout ) ) {
+							name: "OdabranaBazaButtonsPanell"
+							add( new FormComponent( "javax.swing.JButton" ) {
+								name: "OdabraanaBazaButtonAdd"
+								"text": "Add"
+							} )
+							add( new FormComponent( "javax.swing.JButton" ) {
+								name: "OdabraanaBazaButtonRem"
+								"text": "Rem"
+							} )
+						} )
+					} )
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) {
+					"rows": 2
+				} ) {
+					name: "CenterRightPanel"
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+						name: "UkljuceniPanel"
+						add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+							name: "UkljuceniTextPanel"
+							add( new FormComponent( "javax.swing.JTextArea" ) {
+								name: "UkljuceniTextArea"
+							}, new FormLayoutConstraints( class java.lang.String ) {
+								"value": "Center"
+							} )
+							add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class javax.swing.BoxLayout ) {
+								"axis": 1
+							} ) {
+								name: "UkljuceniButtonsPanel"
+								add( new FormComponent( "javax.swing.JButton" ) {
+									name: "UkljuceniAddButton"
+									"text": "Add"
+									"preferredSize": new java.awt.Dimension( 60, 23 )
+									"actionCommand": "Rem"
+									"alignmentX": 0.5f
+									"minimumSize": new java.awt.Dimension( 60, 23 )
+									"maximumSize": new java.awt.Dimension( 60, 23 )
+								} )
+								add( new FormComponent( "javax.swing.JButton" ) {
+									name: "UkljuceniRemButton"
+									"text": "Rem"
+									"alignmentX": 0.5f
+									"maximumSize": new java.awt.Dimension( 60, 23 )
+									"minimumSize": new java.awt.Dimension( 60, 23 )
+									"preferredSize": new java.awt.Dimension( 60, 23 )
+								} )
+							}, new FormLayoutConstraints( class java.lang.String ) {
+								"value": "East"
+							} )
+						}, new FormLayoutConstraints( class java.lang.String ) {
+							"value": "Center"
+						} )
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "UkljuceniLabel"
+							"text": "Ukljuceni dodaci"
+						}, new FormLayoutConstraints( class java.lang.String ) {
+							"value": "North"
+						} )
+					} )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+						name: "IskljuceniPanel"
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "IskljuceniLabel"
+							"text": "Iskljuceni dodaci"
+						}, new FormLayoutConstraints( class java.lang.String ) {
+							"value": "North"
+						} )
+						add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+							name: "IskljuceniTextPanel"
+							add( new FormComponent( "javax.swing.JTextArea" ) {
+								name: "IskljuceniTextArea"
+							}, new FormLayoutConstraints( class java.lang.String ) {
+								"value": "Center"
+							} )
+							add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class javax.swing.BoxLayout ) {
+								"axis": 1
+							} ) {
+								name: "IskljuceniButtonsPanel"
+								add( new FormComponent( "javax.swing.JButton" ) {
+									name: "IskljuceniAddButton"
+									"text": "Add"
+									"preferredSize": new java.awt.Dimension( 60, 23 )
+									"maximumSize": new java.awt.Dimension( 60, 23 )
+									"minimumSize": new java.awt.Dimension( 60, 23 )
+								} )
+								add( new FormComponent( "javax.swing.JButton" ) {
+									name: "IskljuceniRemButton"
+									"text": "Rem"
+									"maximumSize": new java.awt.Dimension( 60, 23 )
+									"minimumSize": new java.awt.Dimension( 60, 23 )
+									"preferredSize": new java.awt.Dimension( 60, 23 )
+								} )
+							}, new FormLayoutConstraints( class java.lang.String ) {
+								"value": "East"
+							} )
+						}, new FormLayoutConstraints( class java.lang.String ) {
+							"value": "Center"
+						} )
+					} )
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class javax.swing.BoxLayout ) ) {
+					name: "BottomRightPanel"
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "GetButton"
+						"text": "Get"
+					} )
+					add( new FormComponent( "javax.swing.JTextArea" ) {
+						name: "GetTextArea"
+						"text": "Some text to be determinend\nMore text\nAnd some more"
+					} )
+				} )
+			}, new FormLayoutConstraints( class java.lang.String ) {
+				"value": "Center"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 510, 335 )
+		} )
+	}
+}

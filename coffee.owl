@@ -1,0 +1,2014 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY owl2xml "http://www.w3.org/2006/12/owl2-xml#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY coffee "http://www.coffee.com/ontologies/coffee.owl#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.coffee.com/ontologies/coffee.owl#"
+     xml:base="http://www.coffee.com/ontologies/coffee.owl"
+     xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:coffee="http://www.coffee.com/ontologies/coffee.owl#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#">
+    <owl:Ontology rdf:about="">
+        <rdfs:comment
+            >A coffee ontology that describes various coffees based on their base ingredient.</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#imaBazu -->
+
+    <owl:ObjectProperty rdf:about="#imaBazu">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:range rdf:resource="#Baza"/>
+        <rdfs:domain rdf:resource="#Kafa"/>
+        <rdfs:subPropertyOf rdf:resource="#imaSastojak"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#imaDodatke -->
+
+    <owl:ObjectProperty rdf:about="#imaDodatke">
+        <rdf:type rdf:resource="&owl;InverseFunctionalProperty"/>
+        <rdfs:range rdf:resource="#Dodaci"/>
+        <rdfs:domain rdf:resource="#Kafa"/>
+        <rdfs:subPropertyOf rdf:resource="#imaSastojak"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#imaSastojak -->
+
+    <owl:ObjectProperty rdf:about="#imaSastojak"/>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#imaTemperaturu -->
+
+    <owl:ObjectProperty rdf:about="#imaTemperaturu">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:domain rdf:resource="#Kafa"/>
+        <rdfs:range rdf:resource="#Temperatura"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#imaZemljuPorekla -->
+
+    <owl:ObjectProperty rdf:about="#imaZemljuPorekla">
+        <rdfs:domain rdf:resource="#Kafa"/>
+        <rdfs:range rdf:resource="#Zemlja"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Banana -->
+
+    <owl:Class rdf:about="#Banana">
+        <rdfs:subClassOf rdf:resource="#Voce"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Baza -->
+
+    <owl:Class rdf:about="#Baza"/>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Biljke -->
+
+    <owl:Class rdf:about="#Biljke">
+        <rdfs:subClassOf rdf:resource="#Dodaci"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#BlackForestMocha -->
+
+    <owl:Class rdf:about="#BlackForestMocha">
+        <rdfs:subClassOf rdf:resource="#ImenovanaKafa"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaBazu"/>
+                <owl:someValuesFrom rdf:resource="#Moka"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#Cokolada"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#Visnja"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaTemperaturu"/>
+                <owl:someValuesFrom rdf:resource="#Topla"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#CafeFredo -->
+
+    <owl:Class rdf:about="#CafeFredo">
+        <rdfs:subClassOf rdf:resource="#ImenovanaKafa"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaBazu"/>
+                <owl:someValuesFrom rdf:resource="#Espresso"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaTemperaturu"/>
+                <owl:someValuesFrom rdf:resource="#Hladna"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#Vanila"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#CaffeLatte -->
+
+    <owl:Class rdf:about="#CaffeLatte">
+        <rdfs:subClassOf rdf:resource="#ImenovanaKafa"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaTemperaturu"/>
+                <owl:someValuesFrom rdf:resource="#Topla"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#VruceMleko"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaBazu"/>
+                <owl:someValuesFrom rdf:resource="#Espresso"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Cappuccino -->
+
+    <owl:Class rdf:about="#Cappuccino">
+        <rdfs:subClassOf rdf:resource="#ImenovanaKafa"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaTemperaturu"/>
+                <owl:someValuesFrom rdf:resource="#Topla"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#PenaOdMleka"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaBazu"/>
+                <owl:someValuesFrom rdf:resource="#Espresso"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#HladnoMleko"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#CaramelMocha -->
+
+    <owl:Class rdf:about="#CaramelMocha">
+        <rdfs:subClassOf rdf:resource="#ImenovanaKafa"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#Karamela"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaTemperaturu"/>
+                <owl:someValuesFrom rdf:resource="#Topla"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaBazu"/>
+                <owl:someValuesFrom rdf:resource="#Moka"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#CherryBrandyMocha -->
+
+    <owl:Class rdf:about="#CherryBrandyMocha">
+        <rdfs:subClassOf rdf:resource="#ImenovanaKafa"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaBazu"/>
+                <owl:someValuesFrom rdf:resource="#Moka"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaTemperaturu"/>
+                <owl:someValuesFrom rdf:resource="#Topla"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#LikerOdVisanja"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Cokolada -->
+
+    <owl:Class rdf:about="#Cokolada">
+        <rdfs:subClassOf rdf:resource="#Razno"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#DailyShot -->
+
+    <owl:Class rdf:about="#DailyShot">
+        <rdfs:subClassOf rdf:resource="#ImenovanaKafa"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaTemperaturu"/>
+                <owl:someValuesFrom rdf:resource="#Topla"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaBazu"/>
+                <owl:someValuesFrom rdf:resource="#Espresso"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#KondenzovanoMleko"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Djumbir -->
+
+    <owl:Class rdf:about="#Djumbir">
+        <rdfs:subClassOf rdf:resource="#Biljke"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Dodaci -->
+
+    <owl:Class rdf:about="#Dodaci"/>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#EspresoKafa -->
+
+    <owl:Class rdf:about="#EspresoKafa">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="#Kafa"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#imaBazu"/>
+                        <owl:someValuesFrom rdf:resource="#Espresso"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Espresso -->
+
+    <owl:Class rdf:about="#Espresso">
+        <rdfs:subClassOf rdf:resource="#Baza"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#EspressoConPanna -->
+
+    <owl:Class rdf:about="#EspressoConPanna">
+        <rdfs:subClassOf rdf:resource="#ImenovanaKafa"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaTemperaturu"/>
+                <owl:someValuesFrom rdf:resource="#Topla"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaBazu"/>
+                <owl:someValuesFrom rdf:resource="#Espresso"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#TecnaPavlaka"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#EspressoDoppio -->
+
+    <owl:Class rdf:about="#EspressoDoppio">
+        <rdfs:subClassOf rdf:resource="#ImenovanaKafa"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaTemperaturu"/>
+                <owl:someValuesFrom rdf:resource="#Topla"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaBazu"/>
+                <owl:someValuesFrom rdf:resource="#Espresso"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#EspressoMacchiato -->
+
+    <owl:Class rdf:about="#EspressoMacchiato">
+        <rdfs:subClassOf rdf:resource="#ImenovanaKafa"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaTemperaturu"/>
+                <owl:someValuesFrom rdf:resource="#Topla"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaBazu"/>
+                <owl:someValuesFrom rdf:resource="#Espresso"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#PenaOdMleka"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#EspressoRomano -->
+
+    <owl:Class rdf:about="#EspressoRomano">
+        <rdfs:subClassOf rdf:resource="#ImenovanaKafa"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#LimunovaKora"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaBazu"/>
+                <owl:someValuesFrom rdf:resource="#Espresso"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaTemperaturu"/>
+                <owl:someValuesFrom rdf:resource="#Topla"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Filter -->
+
+    <owl:Class rdf:about="#Filter">
+        <rdfs:subClassOf rdf:resource="#Baza"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#FilterKafa -->
+
+    <owl:Class rdf:about="#FilterKafa">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="#Kafa"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#imaBazu"/>
+                        <owl:someValuesFrom rdf:resource="#Filter"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#imaZemljuPorekla"/>
+                        <owl:someValuesFrom rdf:resource="#Zemlja"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#GingerbreadLatte -->
+
+    <owl:Class rdf:about="#GingerbreadLatte">
+        <rdfs:subClassOf rdf:resource="#ImenovanaKafa"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaBazu"/>
+                <owl:someValuesFrom rdf:resource="#Espresso"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#Djumbir"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaTemperaturu"/>
+                <owl:someValuesFrom rdf:resource="#Topla"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#HladnoMleko"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#TecnaPavlaka"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#GvaCaramelCoffee -->
+
+    <owl:Class rdf:about="#GvaCaramelCoffee">
+        <rdfs:subClassOf rdf:resource="#ImenovanaKafa"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#Karamela"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaZemljuPorekla"/>
+                <owl:hasValue rdf:resource="#Gvatemala"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaBazu"/>
+                <owl:someValuesFrom rdf:resource="#Filter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#TecnaPavlaka"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaTemperaturu"/>
+                <owl:someValuesFrom rdf:resource="#Topla"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#GvaCreamCoffee -->
+
+    <owl:Class rdf:about="#GvaCreamCoffee">
+        <rdfs:subClassOf rdf:resource="#ImenovanaKafa"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaZemljuPorekla"/>
+                <owl:hasValue rdf:resource="#Gvatemala"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaBazu"/>
+                <owl:someValuesFrom rdf:resource="#Filter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#Slag"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaTemperaturu"/>
+                <owl:someValuesFrom rdf:resource="#Topla"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#TecnaPavlaka"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#GvaFilterCoffee -->
+
+    <owl:Class rdf:about="#GvaFilterCoffee">
+        <rdfs:subClassOf rdf:resource="#ImenovanaKafa"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaTemperaturu"/>
+                <owl:someValuesFrom rdf:resource="#Topla"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaBazu"/>
+                <owl:someValuesFrom rdf:resource="#Filter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaZemljuPorekla"/>
+                <owl:hasValue rdf:resource="#Gvatemala"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#GvaIceCoffee -->
+
+    <owl:Class rdf:about="#GvaIceCoffee">
+        <rdfs:subClassOf rdf:resource="#ImenovanaKafa"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaBazu"/>
+                <owl:someValuesFrom rdf:resource="#Filter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#Sladoled"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaTemperaturu"/>
+                <owl:someValuesFrom rdf:resource="#Hladna"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#TecnaPavlaka"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#LikerOdBadema"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaZemljuPorekla"/>
+                <owl:hasValue rdf:resource="#Gvatemala"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#HladnoMleko"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#GvaIceFilter -->
+
+    <owl:Class rdf:about="#GvaIceFilter">
+        <rdfs:subClassOf rdf:resource="#ImenovanaKafa"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#LomljeniLed"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaTemperaturu"/>
+                <owl:someValuesFrom rdf:resource="#Hladna"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaBazu"/>
+                <owl:someValuesFrom rdf:resource="#Filter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaZemljuPorekla"/>
+                <owl:hasValue rdf:resource="#Gvatemala"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#HladnoMleko"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#GvaJamaicaIceCoffee -->
+
+    <owl:Class rdf:about="#GvaJamaicaIceCoffee">
+        <rdfs:subClassOf rdf:resource="#ImenovanaKafa"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaBazu"/>
+                <owl:someValuesFrom rdf:resource="#Filter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#Sladoled"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaZemljuPorekla"/>
+                <owl:hasValue rdf:resource="#Gvatemala"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaTemperaturu"/>
+                <owl:someValuesFrom rdf:resource="#Hladna"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#TecnaPavlaka"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#Rum"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#GvatemalaFilter -->
+
+    <owl:Class rdf:about="#GvatemalaFilter">
+        <rdfs:subClassOf rdf:resource="#Filter"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#GvatemalaKafa -->
+
+    <owl:Class rdf:about="#GvatemalaKafa">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="#Kafa"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#imaZemljuPorekla"/>
+                        <owl:hasValue rdf:resource="#Gvatemala"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Hladna -->
+
+    <owl:Class rdf:about="#Hladna">
+        <rdfs:subClassOf rdf:resource="#Temperatura"/>
+        <owl:disjointWith rdf:resource="#Topla"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#HladnaKafa -->
+
+    <owl:Class rdf:about="#HladnaKafa">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="#Kafa"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#imaTemperaturu"/>
+                        <owl:someValuesFrom rdf:resource="#Hladna"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#HladnoMleko -->
+
+    <owl:Class rdf:about="#HladnoMleko">
+        <rdfs:subClassOf rdf:resource="#Mleko"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#HonCaramelCoffee -->
+
+    <owl:Class rdf:about="#HonCaramelCoffee">
+        <rdfs:subClassOf rdf:resource="#ImenovanaKafa"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaBazu"/>
+                <owl:someValuesFrom rdf:resource="#Filter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaTemperaturu"/>
+                <owl:someValuesFrom rdf:resource="#Topla"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaZemljuPorekla"/>
+                <owl:hasValue rdf:resource="#Honduras"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#TecnaPavlaka"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#Karamela"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#HonCreamCoffee -->
+
+    <owl:Class rdf:about="#HonCreamCoffee">
+        <rdfs:subClassOf rdf:resource="#ImenovanaKafa"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaTemperaturu"/>
+                <owl:someValuesFrom rdf:resource="#Topla"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaZemljuPorekla"/>
+                <owl:hasValue rdf:resource="#Honduras"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaBazu"/>
+                <owl:someValuesFrom rdf:resource="#Filter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#Slag"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#TecnaPavlaka"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#HonFilterCoffee -->
+
+    <owl:Class rdf:about="#HonFilterCoffee">
+        <rdfs:subClassOf rdf:resource="#ImenovanaKafa"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaBazu"/>
+                <owl:someValuesFrom rdf:resource="#Filter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaZemljuPorekla"/>
+                <owl:hasValue rdf:resource="#Honduras"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaTemperaturu"/>
+                <owl:someValuesFrom rdf:resource="#Topla"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#HonIceCoffee -->
+
+    <owl:Class rdf:about="#HonIceCoffee">
+        <rdfs:subClassOf rdf:resource="#ImenovanaKafa"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaTemperaturu"/>
+                <owl:someValuesFrom rdf:resource="#Hladna"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#LikerOdBadema"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaZemljuPorekla"/>
+                <owl:hasValue rdf:resource="#Honduras"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#Sladoled"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#TecnaPavlaka"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#HladnoMleko"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaBazu"/>
+                <owl:someValuesFrom rdf:resource="#Filter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#HonIceFilter -->
+
+    <owl:Class rdf:about="#HonIceFilter">
+        <rdfs:subClassOf rdf:resource="#ImenovanaKafa"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#HladnoMleko"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaZemljuPorekla"/>
+                <owl:hasValue rdf:resource="#Honduras"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaTemperaturu"/>
+                <owl:someValuesFrom rdf:resource="#Hladna"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaBazu"/>
+                <owl:someValuesFrom rdf:resource="#Filter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#LomljeniLed"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#HonJamaicaIceCoffee -->
+
+    <owl:Class rdf:about="#HonJamaicaIceCoffee">
+        <rdfs:subClassOf rdf:resource="#ImenovanaKafa"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaTemperaturu"/>
+                <owl:someValuesFrom rdf:resource="#Hladna"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaBazu"/>
+                <owl:someValuesFrom rdf:resource="#Filter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#TecnaPavlaka"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#Sladoled"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaZemljuPorekla"/>
+                <owl:hasValue rdf:resource="#Honduras"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#Rum"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#HondurasFilter -->
+
+    <owl:Class rdf:about="#HondurasFilter">
+        <rdfs:subClassOf rdf:resource="#Filter"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#HondurasKafa -->
+
+    <owl:Class rdf:about="#HondurasKafa">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="#Kafa"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#imaZemljuPorekla"/>
+                        <owl:hasValue rdf:resource="#Honduras"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#IcedCaffeLatte -->
+
+    <owl:Class rdf:about="#IcedCaffeLatte">
+        <rdfs:subClassOf rdf:resource="#ImenovanaKafa"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#LomljeniLed"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#HladnoMleko"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaBazu"/>
+                <owl:someValuesFrom rdf:resource="#Espresso"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaTemperaturu"/>
+                <owl:someValuesFrom rdf:resource="#Hladna"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#IcedEspresso -->
+
+    <owl:Class rdf:about="#IcedEspresso">
+        <rdfs:subClassOf rdf:resource="#ImenovanaKafa"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaTemperaturu"/>
+                <owl:someValuesFrom rdf:resource="#Hladna"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#Cokolada"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaBazu"/>
+                <owl:someValuesFrom rdf:resource="#Espresso"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#TecnaPavlaka"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#HladnoMleko"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#IcedMocha -->
+
+    <owl:Class rdf:about="#IcedMocha">
+        <rdfs:subClassOf rdf:resource="#ImenovanaKafa"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#Cokolada"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#TecnaPavlaka"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#HladnoMleko"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaTemperaturu"/>
+                <owl:someValuesFrom rdf:resource="#Hladna"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaBazu"/>
+                <owl:someValuesFrom rdf:resource="#Moka"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#ImenovanaKafa -->
+
+    <owl:Class rdf:about="#ImenovanaKafa">
+        <rdfs:subClassOf rdf:resource="#Kafa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#IrishCoffee -->
+
+    <owl:Class rdf:about="#IrishCoffee">
+        <rdfs:subClassOf rdf:resource="#ImenovanaKafa"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#TecnaPavlaka"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#Viski"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaTemperaturu"/>
+                <owl:someValuesFrom rdf:resource="#Topla"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaBazu"/>
+                <owl:someValuesFrom rdf:resource="#Espresso"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Kafa -->
+
+    <owl:Class rdf:about="#Kafa">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaBazu"/>
+                <owl:someValuesFrom rdf:resource="#Baza"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Karamela -->
+
+    <owl:Class rdf:about="#Karamela">
+        <rdfs:subClassOf rdf:resource="#Razno"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#KolCaramelCoffee -->
+
+    <owl:Class rdf:about="#KolCaramelCoffee">
+        <rdfs:subClassOf rdf:resource="#ImenovanaKafa"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#TecnaPavlaka"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaTemperaturu"/>
+                <owl:someValuesFrom rdf:resource="#Topla"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaZemljuPorekla"/>
+                <owl:hasValue rdf:resource="#Kolumbija"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#Karamela"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaBazu"/>
+                <owl:someValuesFrom rdf:resource="#Filter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#KolCreamCoffee -->
+
+    <owl:Class rdf:about="#KolCreamCoffee">
+        <rdfs:subClassOf rdf:resource="#ImenovanaKafa"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaBazu"/>
+                <owl:someValuesFrom rdf:resource="#Filter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaZemljuPorekla"/>
+                <owl:hasValue rdf:resource="#Kolumbija"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#Slag"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#TecnaPavlaka"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaTemperaturu"/>
+                <owl:someValuesFrom rdf:resource="#Topla"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#KolFilterCoffee -->
+
+    <owl:Class rdf:about="#KolFilterCoffee">
+        <rdfs:subClassOf rdf:resource="#ImenovanaKafa"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaZemljuPorekla"/>
+                <owl:hasValue rdf:resource="#Kolumbija"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaTemperaturu"/>
+                <owl:someValuesFrom rdf:resource="#Topla"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaBazu"/>
+                <owl:someValuesFrom rdf:resource="#Filter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#KolIceCoffee -->
+
+    <owl:Class rdf:about="#KolIceCoffee">
+        <rdfs:subClassOf rdf:resource="#ImenovanaKafa"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaTemperaturu"/>
+                <owl:someValuesFrom rdf:resource="#Hladna"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#Sladoled"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#TecnaPavlaka"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#LikerOdBadema"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#HladnoMleko"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaZemljuPorekla"/>
+                <owl:hasValue rdf:resource="#Kolumbija"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaBazu"/>
+                <owl:someValuesFrom rdf:resource="#Filter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#KolIceFilter -->
+
+    <owl:Class rdf:about="#KolIceFilter">
+        <rdfs:subClassOf rdf:resource="#ImenovanaKafa"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#HladnoMleko"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaTemperaturu"/>
+                <owl:someValuesFrom rdf:resource="#Hladna"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaZemljuPorekla"/>
+                <owl:hasValue rdf:resource="#Kolumbija"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#LomljeniLed"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaBazu"/>
+                <owl:someValuesFrom rdf:resource="#Filter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#KolJamaicaIceCoffee -->
+
+    <owl:Class rdf:about="#KolJamaicaIceCoffee">
+        <rdfs:subClassOf rdf:resource="#ImenovanaKafa"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#Sladoled"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#TecnaPavlaka"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#Rum"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaZemljuPorekla"/>
+                <owl:hasValue rdf:resource="#Kolumbija"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaBazu"/>
+                <owl:someValuesFrom rdf:resource="#Filter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaTemperaturu"/>
+                <owl:someValuesFrom rdf:resource="#Hladna"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#KolumbijaFilter -->
+
+    <owl:Class rdf:about="#KolumbijaFilter">
+        <rdfs:subClassOf rdf:resource="#Filter"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#KolumbijaKafa -->
+
+    <owl:Class rdf:about="#KolumbijaKafa">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="#Kafa"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#imaZemljuPorekla"/>
+                        <owl:hasValue rdf:resource="#Kolumbija"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#KondenzovanoMleko -->
+
+    <owl:Class rdf:about="#KondenzovanoMleko">
+        <rdfs:subClassOf rdf:resource="#Mleko"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#LatteMacchiato -->
+
+    <owl:Class rdf:about="#LatteMacchiato">
+        <rdfs:subClassOf rdf:resource="#ImenovanaKafa"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#PenaOdMleka"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#VruceMleko"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaTemperaturu"/>
+                <owl:someValuesFrom rdf:resource="#Topla"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaBazu"/>
+                <owl:someValuesFrom rdf:resource="#Espresso"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#LikerOdBadema -->
+
+    <owl:Class rdf:about="#LikerOdBadema">
+        <rdfs:subClassOf rdf:resource="#Pice"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#LikerOdVisanja -->
+
+    <owl:Class rdf:about="#LikerOdVisanja">
+        <rdfs:subClassOf rdf:resource="#Pice"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#LimunovaKora -->
+
+    <owl:Class rdf:about="#LimunovaKora">
+        <rdfs:subClassOf rdf:resource="#Voce"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#LomljeniLed -->
+
+    <owl:Class rdf:about="#LomljeniLed">
+        <rdfs:subClassOf rdf:resource="#Razno"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Mleko -->
+
+    <owl:Class rdf:about="#Mleko">
+        <rdfs:subClassOf rdf:resource="#Dodaci"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Moka -->
+
+    <owl:Class rdf:about="#Moka">
+        <rdfs:subClassOf rdf:resource="#Baza"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#MokaKafa -->
+
+    <owl:Class rdf:about="#MokaKafa">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="#Kafa"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#imaBazu"/>
+                        <owl:someValuesFrom rdf:resource="#Moka"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#MonkeyMocha -->
+
+    <owl:Class rdf:about="#MonkeyMocha">
+        <rdfs:subClassOf rdf:resource="#ImenovanaKafa"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#Banana"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaTemperaturu"/>
+                <owl:someValuesFrom rdf:resource="#Topla"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaBazu"/>
+                <owl:someValuesFrom rdf:resource="#Moka"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#OrangeMocha -->
+
+    <owl:Class rdf:about="#OrangeMocha">
+        <rdfs:subClassOf rdf:resource="#ImenovanaKafa"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaBazu"/>
+                <owl:someValuesFrom rdf:resource="#Moka"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#Cokolada"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaTemperaturu"/>
+                <owl:someValuesFrom rdf:resource="#Topla"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Pavlaka -->
+
+    <owl:Class rdf:about="#Pavlaka">
+        <rdfs:subClassOf rdf:resource="#Dodaci"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#PenaOdMleka -->
+
+    <owl:Class rdf:about="#PenaOdMleka">
+        <rdfs:subClassOf rdf:resource="#Mleko"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Pepermint -->
+
+    <owl:Class rdf:about="#Pepermint">
+        <rdfs:subClassOf rdf:resource="#Biljke"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#PeppermintMocha -->
+
+    <owl:Class rdf:about="#PeppermintMocha">
+        <rdfs:subClassOf rdf:resource="#ImenovanaKafa"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaDodatke"/>
+                <owl:someValuesFrom rdf:resource="#Pepermint"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaTemperaturu"/>
+                <owl:someValuesFrom rdf:resource="#Topla"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaBazu"/>
+                <owl:someValuesFrom rdf:resource="#Moka"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Pice -->
+
+    <owl:Class rdf:about="#Pice">
+        <rdfs:subClassOf rdf:resource="#Dodaci"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#PlainEspresso -->
+
+    <owl:Class rdf:about="#PlainEspresso">
+        <rdfs:subClassOf rdf:resource="#ImenovanaKafa"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaBazu"/>
+                <owl:someValuesFrom rdf:resource="#Espresso"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#imaTemperaturu"/>
+                <owl:someValuesFrom rdf:resource="#Topla"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Razno -->
+
+    <owl:Class rdf:about="#Razno">
+        <rdfs:subClassOf rdf:resource="#Dodaci"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Rum -->
+
+    <owl:Class rdf:about="#Rum">
+        <rdfs:subClassOf rdf:resource="#Pice"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Sladoled -->
+
+    <owl:Class rdf:about="#Sladoled">
+        <rdfs:subClassOf rdf:resource="#Razno"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Slag -->
+
+    <owl:Class rdf:about="#Slag">
+        <rdfs:subClassOf rdf:resource="#Pavlaka"/>
+        <owl:disjointWith rdf:resource="#TecnaPavlaka"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#TecnaPavlaka -->
+
+    <owl:Class rdf:about="#TecnaPavlaka">
+        <rdfs:subClassOf rdf:resource="#Pavlaka"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Temperatura -->
+
+    <owl:Class rdf:about="#Temperatura">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="#Hladna"/>
+                    <rdf:Description rdf:about="#Topla"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Topla -->
+
+    <owl:Class rdf:about="#Topla">
+        <rdfs:subClassOf rdf:resource="#Temperatura"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#ToplaKafa -->
+
+    <owl:Class rdf:about="#ToplaKafa">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="#Kafa"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#imaTemperaturu"/>
+                        <owl:someValuesFrom rdf:resource="#Topla"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Vanila -->
+
+    <owl:Class rdf:about="#Vanila">
+        <rdfs:subClassOf rdf:resource="#Biljke"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Viski -->
+
+    <owl:Class rdf:about="#Viski">
+        <rdfs:subClassOf rdf:resource="#Pice"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Visnja -->
+
+    <owl:Class rdf:about="#Visnja">
+        <rdfs:subClassOf rdf:resource="#Voce"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Voce -->
+
+    <owl:Class rdf:about="#Voce">
+        <rdfs:subClassOf rdf:resource="#Dodaci"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#VruceMleko -->
+
+    <owl:Class rdf:about="#VruceMleko">
+        <rdfs:subClassOf rdf:resource="#Mleko"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Zemlja -->
+
+    <owl:Class rdf:about="#Zemlja">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="#Kolumbija"/>
+                    <rdf:Description rdf:about="#Gvatemala"/>
+                    <rdf:Description rdf:about="#Honduras"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <owl:Class rdf:about="&owl;Thing"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Gvatemala -->
+
+    <owl:Thing rdf:about="#Gvatemala"/>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Honduras -->
+
+    <owl:Thing rdf:about="#Honduras"/>
+    
+
+
+    <!-- http://www.coffee.com/ontologies/coffee.owl#Kolumbija -->
+
+    <owl:Thing rdf:about="#Kolumbija"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="#GvatemalaFilter"/>
+            <rdf:Description rdf:about="#HondurasFilter"/>
+            <rdf:Description rdf:about="#KolumbijaFilter"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="#LikerOdBadema"/>
+            <rdf:Description rdf:about="#LikerOdVisanja"/>
+            <rdf:Description rdf:about="#Rum"/>
+            <rdf:Description rdf:about="#Viski"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="#Cokolada"/>
+            <rdf:Description rdf:about="#Karamela"/>
+            <rdf:Description rdf:about="#LomljeniLed"/>
+            <rdf:Description rdf:about="#Sladoled"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="#HladnoMleko"/>
+            <rdf:Description rdf:about="#KondenzovanoMleko"/>
+            <rdf:Description rdf:about="#PenaOdMleka"/>
+            <rdf:Description rdf:about="#VruceMleko"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="#EspresoKafa"/>
+            <rdf:Description rdf:about="#FilterKafa"/>
+            <rdf:Description rdf:about="#MokaKafa"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="#Biljke"/>
+            <rdf:Description rdf:about="#Mleko"/>
+            <rdf:Description rdf:about="#Pavlaka"/>
+            <rdf:Description rdf:about="#Pice"/>
+            <rdf:Description rdf:about="#Razno"/>
+            <rdf:Description rdf:about="#Voce"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="#Banana"/>
+            <rdf:Description rdf:about="#LimunovaKora"/>
+            <rdf:Description rdf:about="#Visnja"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="#Baza"/>
+            <rdf:Description rdf:about="#Dodaci"/>
+            <rdf:Description rdf:about="#Kafa"/>
+            <rdf:Description rdf:about="#Temperatura"/>
+            <rdf:Description rdf:about="#Zemlja"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="#Espresso"/>
+            <rdf:Description rdf:about="#Filter"/>
+            <rdf:Description rdf:about="#Moka"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 2.2.1.1138) http://owlapi.sourceforge.net -->
+

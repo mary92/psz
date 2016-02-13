@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoffeeFinderPrefs>
+    <OntologyLocation url="file:/D:/workspace%20mars/CoffeeFinder/coffee_new.owl"></OntologyLocation>
+	<CoffeeClass name="NamedCoffee"/>
+	<ColdCoffeeClass name="ColdCoffee"/>
+	<EspressoCoffeeClass name="EspressoCoffee"/>
+	<FilterCoffeeClass name="FilterCoffee"/>
+	<ColombiaCoffeeClass name="ColombiaCoffee"/>
+	<HondurasCoffeeClass name="HondurasCoffee"/>
+	<GuatemalaCoffeeClass name="GuatemalaCoffee"/>
+	<HotCoffeeClass name="HotCoffee"/>
+	<MochaCoffeeClass name="MochaCoffee"/>
+	<ExtrasClass name="Extras"/>
+	<BaseClass name="Base"/>
+	<TemperatureClass name="Temperatura"/>
+	<BaseProperty name="hasBase"/>
+	<ExtrasProperty name="hasExtras"/>
+	<TemperatureProperty name="hasTemperature"/>
+</CoffeeFinderPrefs>
