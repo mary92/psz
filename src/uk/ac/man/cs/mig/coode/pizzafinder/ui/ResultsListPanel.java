@@ -34,7 +34,7 @@ import java.util.Set;
 @SuppressWarnings("all")
 public class ResultsListPanel extends JPanel implements Selectable {
 
-	private JList list;
+	private JList GetList;
 	private String title;
 	private CoffeeChoiceModel choiceModel;
 
@@ -62,7 +62,7 @@ public class ResultsListPanel extends JPanel implements Selectable {
 								final TemperatureListPanel  tempListPanel,
 								final Selectable selectable,
 	                            final CoffeeChoiceModel choiceModel) {
-		this.title = "Results:";
+		this.title = "Rezultati:";
 		
 		this.ontology = ontology;
 		this.baseListPanel = baseListPanel;
@@ -75,18 +75,28 @@ public class ResultsListPanel extends JPanel implements Selectable {
 	
 	protected void createUI() {
 		getAction = getGetAction();
-		JPanel panel = new JPanel(new BorderLayout(7, 7));
-		{
-			panel.add(new JButton(getAction), BorderLayout.WEST);
-			
-			list = new JList(new DefaultListModel());
-			list.setLayoutOrientation(JList.HORIZONTAL_WRAP);
-			list.setCellRenderer(new OWLClassListCellRenderer());
-			panel.add(new JScrollPane(list));
-	
-			setLayout(new BorderLayout(7, 7));
-		}
-		add(panel);
+		//======== BottomRightPanel ========				
+		JPanel BottomRightPanel = new JPanel();
+		BottomRightPanel.setLayout(new BoxLayout(BottomRightPanel, BoxLayout.X_AXIS));
+
+		// ---- GetButton ----
+		JButton GetButton = new JButton(getAction);
+		GetButton.setText("Get");
+		BottomRightPanel.add(GetButton);
+
+		// ---- GetList ----
+		GetList = new JList(new DefaultListModel());
+		GetList.setLayoutOrientation(JList.HORIZONTAL_WRAP);
+		GetList.setCellRenderer(new OWLClassListCellRenderer());
+		JScrollPane GetScrollPane = new JScrollPane();
+		
+		//======== GetScrollPane ========
+		GetScrollPane.setViewportView(GetList);
+		
+		BottomRightPanel.add(GetScrollPane);
+		setLayout(new BorderLayout(7, 7));
+		
+		add(BottomRightPanel);
 		setBorder(BorderFactory.createCompoundBorder(BorderFactory.createTitledBorder(title),
 		                                             BorderFactory.createEmptyBorder(7, 7, 7, 7)));
 		getAction.setEnabled(true);
@@ -105,7 +115,7 @@ public class ResultsListPanel extends JPanel implements Selectable {
 	}
 
 	protected void updateInterface(Collection c) {
-		DefaultListModel model = (DefaultListModel)list.getModel();
+		DefaultListModel model = (DefaultListModel)GetList.getModel();
 		model.removeAllElements();
 		Iterator it = c.iterator();
 		while(it.hasNext()) {
@@ -144,7 +154,7 @@ public class ResultsListPanel extends JPanel implements Selectable {
 
 
 	public Object getSelection() {
-		return list.getSelectedValue();
+		return GetList.getSelectedValue();
 	}
 
 	public void setSelection(Object obj) {

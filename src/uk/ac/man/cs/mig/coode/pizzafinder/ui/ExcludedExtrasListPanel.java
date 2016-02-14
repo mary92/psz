@@ -41,7 +41,7 @@ public class ExcludedExtrasListPanel extends ExtrasListPanel {
 
 	public ExcludedExtrasListPanel(final Selectable selectable,
 	                               final CoffeeChoiceModel choiceModel) {
-		super("Excluded extras:", selectable, choiceModel);
+		super("Iskljuceni dodaci:", selectable, choiceModel);
 		this.selectable = selectable;
 		this.choiceModel = choiceModel;
 		createUI();

@@ -16,7 +16,8 @@ public class CoffeeMain extends JFrame {
 //./coffee.owl
 	//  <OntologyLocation url="file:/D:/workspace%20mars/CoffeeFinder/coffee_new.owl"></OntologyLocation>
 	public static void main(String [] args){
-		new CoffeeMain().setVisible(true);;
+		new CoffeeMain().setVisible(true);
+		
 	}
 	private void initComponents() {
 		// JFormDesigner - Component initialization - DO NOT MODIFY  //GEN-BEGIN:initComponents
@@ -53,13 +54,15 @@ public class CoffeeMain extends JFrame {
 		IskljuceniPanel = new JPanel();
 		IskljuceniLabel = new JLabel();
 		IskljuceniTextPanel = new JPanel();
-		IskljuceniTextArea = new JTextArea();
+		IskljuceniScrollPane = new JScrollPane();
+		IskljuceniList = new JList();
 		IskljuceniButtonsPanel = new JPanel();
 		IskljuceniAddButton = new JButton();
 		IskljuceniRemButton = new JButton();
 		BottomRightPanel = new JPanel();
 		GetButton = new JButton();
-		GetTextArea = new JTextArea();
+		GetScrollPane = new JScrollPane();
+		GetList = new JList();
 
 		//======== this ========
 		setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
@@ -213,7 +216,12 @@ public class CoffeeMain extends JFrame {
 					//======== IskljuceniTextPanel ========
 					{
 						IskljuceniTextPanel.setLayout(new BorderLayout());
-						IskljuceniTextPanel.add(IskljuceniTextArea, BorderLayout.CENTER);
+
+						//======== IskljuceniScrollPane ========
+						{
+							IskljuceniScrollPane.setViewportView(IskljuceniList);
+						}
+						IskljuceniTextPanel.add(IskljuceniScrollPane, BorderLayout.CENTER);
 
 						//======== IskljuceniButtonsPanel ========
 						{
@@ -249,9 +257,11 @@ public class CoffeeMain extends JFrame {
 				GetButton.setText("Get");
 				BottomRightPanel.add(GetButton);
 
-				//---- GetTextArea ----
-				GetTextArea.setText("Some text to be determinend\nMore text\nAnd some more");
-				BottomRightPanel.add(GetTextArea);
+				//======== GetScrollPane ========
+				{
+					GetScrollPane.setViewportView(GetList);
+				}
+				BottomRightPanel.add(GetScrollPane);
 			}
 			RightPanel.add(BottomRightPanel);
 		}
@@ -295,12 +305,14 @@ public class CoffeeMain extends JFrame {
 	private JPanel IskljuceniPanel;
 	private JLabel IskljuceniLabel;
 	private JPanel IskljuceniTextPanel;
-	private JTextArea IskljuceniTextArea;
+	private JScrollPane IskljuceniScrollPane;
+	private JList IskljuceniList;
 	private JPanel IskljuceniButtonsPanel;
 	private JButton IskljuceniAddButton;
 	private JButton IskljuceniRemButton;
 	private JPanel BottomRightPanel;
 	private JButton GetButton;
-	private JTextArea GetTextArea;
+	private JScrollPane GetScrollPane;
+	private JList GetList;
 	// JFormDesigner - End of variables declaration  //GEN-END:variables
 }

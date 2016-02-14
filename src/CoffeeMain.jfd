@@ -147,8 +147,11 @@ new FormModel {
 						} )
 						add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.BorderLayout ) ) {
 							name: "IskljuceniTextPanel"
-							add( new FormComponent( "javax.swing.JTextArea" ) {
-								name: "IskljuceniTextArea"
+							add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+								name: "IskljuceniScrollPane"
+								add( new FormComponent( "javax.swing.JList" ) {
+									name: "IskljuceniList"
+								} )
 							}, new FormLayoutConstraints( class java.lang.String ) {
 								"value": "Center"
 							} )
@@ -184,9 +187,11 @@ new FormModel {
 						name: "GetButton"
 						"text": "Get"
 					} )
-					add( new FormComponent( "javax.swing.JTextArea" ) {
-						name: "GetTextArea"
-						"text": "Some text to be determinend\nMore text\nAnd some more"
+					add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+						name: "GetScrollPane"
+						add( new FormComponent( "javax.swing.JList" ) {
+							name: "GetList"
+						} )
 					} )
 				} )
 			}, new FormLayoutConstraints( class java.lang.String ) {

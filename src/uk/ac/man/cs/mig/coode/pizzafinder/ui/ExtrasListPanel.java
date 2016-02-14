@@ -54,23 +54,41 @@ public abstract class ExtrasListPanel extends JPanel implements Selectable {
 		addAction = getAddAction();
 		removeAction = getRemoveAction();
 		JPanel panel = new JPanel();
-		panel.setLayout(new BoxLayout(panel,BoxLayout.X_AXIS));
+		panel.setLayout(new BorderLayout(7, 7));
+		// panel.setLayout(new BoxLayout(panel,BoxLayout.X_AXIS));
 		{
 			list = new JList(new DefaultListModel());
 			list.setLayoutOrientation(JList.HORIZONTAL_WRAP);
 			list.setCellRenderer(new OWLClassListCellRenderer());
-			panel.add(new JScrollPane(list));
 			
-			panel.add(Box.createHorizontalStrut(7));
+			//======== scrollPane ========
+			JScrollPane scrollPane = new JScrollPane();
+			scrollPane.setViewportView(list);
+			panel.add(scrollPane, BorderLayout.CENTER);			
+			//panel.add(Box.createHorizontalStrut(7));
 			
+			//======== buttonPanel ========
 			JPanel buttonPanel = new JPanel();
 			buttonPanel.setLayout(new BoxLayout(buttonPanel,BoxLayout.Y_AXIS));
+		
+			JButton AddButton = new JButton(addAction);
+			JButton RemButton = new JButton(removeAction);
 			
-			buttonPanel.add(new JButton(addAction));
-			buttonPanel.add(Box.createVerticalStrut(7));
-			buttonPanel.add(new JButton(removeAction));
+			//---- AddButton ----
+			AddButton.setText("Add");
+			AddButton.setPreferredSize(new Dimension(60, 23));
+			AddButton.setMaximumSize(new Dimension(60, 23));
+			AddButton.setMinimumSize(new Dimension(60, 23));
+			buttonPanel.add(AddButton);
+
+			//---- RemButton ----
+			RemButton.setText("Rem");
+			RemButton.setMaximumSize(new Dimension(60, 23));
+			RemButton.setMinimumSize(new Dimension(60, 23));
+			RemButton.setPreferredSize(new Dimension(60, 23));
+			buttonPanel.add(RemButton);
 			
-			panel.add(buttonPanel);
+			panel.add(buttonPanel, BorderLayout.EAST);
 			setLayout(new BorderLayout(7, 7));
 		}
 		add(panel);

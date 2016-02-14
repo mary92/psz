@@ -5,6 +5,7 @@ import uk.ac.man.cs.mig.coode.pizzafinder.model.CoffeeOntology;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
+import java.net.URL;
 import java.util.Collection;
 
 /**
@@ -58,7 +59,6 @@ public class CoffeeApplication extends JFrame {
 
 	protected void setupMainPanel() {
 		mainPanel = new JPanel(new BorderLayout(7, 7));
-		mainPanel.add(new BannerPanel(), BorderLayout.NORTH);
         getContentPane().add(mainPanel);
         
         mainPanel.setBorder(BorderFactory.createEmptyBorder(12, 12, 12, 12));
@@ -76,7 +76,7 @@ public class CoffeeApplication extends JFrame {
 	protected void setupMenuBar() {
 		JMenuBar menuBar = new JMenuBar();
 		setJMenuBar(menuBar);
-		JMenu menu = new JMenu("Coffee Finder");
+		JMenu menu = new JMenu("Help");
 		menuBar.add(menu);
 		JMenuItem menuItem = new JMenuItem(aboutAction);
 		menu.add(menuItem);
@@ -89,6 +89,11 @@ public class CoffeeApplication extends JFrame {
 		getContentPane().setLayout(new BorderLayout());
 		
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		URL url = getClass().getResource("image/coffee_logo.png");
+		ImageIcon icon = new ImageIcon(url);
+		setIconImage(icon.getImage());
+		setTitle("Coffee");
 	}
 
 	public void showCoffeesPanel() {
